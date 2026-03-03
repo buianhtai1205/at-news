@@ -1,0 +1,20 @@
+[
+  {
+    "id": "user_admin",
+    "name": "Admin",
+    "email": "admin@atnews.com",
+    "passwordHash": "$2b$10$BVGPos6KjV2PW4nm//kel.dp80Aq94yEDV1a967SUqASjv5R6glvq",
+    "role": "ADMIN",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "user_001",
+    "name": "Nguyen Van A",
+    "email": "user@atnews.com",
+    "passwordHash": "$2b$10$BVGPos6KjV2PW4nm//kel.dp80Aq94yEDV1a967SUqASjv5R6glvq",
+    "role": "USER",
+    "createdAt": "2026-01-15T08:30:00.000Z",
+    "updatedAt": "2026-01-15T08:30:00.000Z"
+  }
+]

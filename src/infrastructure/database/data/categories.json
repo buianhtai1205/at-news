@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cat_tech",
+    "name": "Technology",
+    "slug": "technology",
+    "description": "Latest tech news and innovations",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_econ",
+    "name": "Economy",
+    "slug": "economy",
+    "description": "Financial markets and economic updates",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_edu",
+    "name": "Education",
+    "slug": "education",
+    "description": "Education trends and learning resources",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_soc",
+    "name": "Society",
+    "slug": "society",
+    "description": "Social issues and cultural news",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_global",
+    "name": "Global News",
+    "slug": "global-news",
+    "description": "International headlines and world events",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "cat_life",
+    "name": "Lifestyle",
+    "slug": "lifestyle",
+    "description": "Health, travel, and lifestyle tips",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "art_001",
+    "slug": "future-of-ai-2026",
+    "title": "The Future of Artificial Intelligence in 2026",
+    "authorId": "user_001",
+    "categoryId": "cat_tech",
+    "status": "PUBLISHED",
+    "coverImageUrl": "https://picsum.photos/seed/ai2026/1200/600",
+    "content": [
+      { "en": "Artificial Intelligence is evolving at an unprecedented pace.", "vi": "Trí tuệ nhân tạo đang phát triển với tốc độ chưa từng có." },
+      { "en": "In 2026, AI systems can reason, plan, and collaborate with humans more effectively than ever.", "vi": "Vào năm 2026, các hệ thống AI có thể suy luận, lập kế hoạch và cộng tác với con người hiệu quả hơn bao giờ hết." },
+      { "en": "Major technology companies are investing billions into AI research and development.", "vi": "Các công ty công nghệ lớn đang đầu tư hàng tỷ đô la vào nghiên cứu và phát triển AI." },
+      { "en": "Experts predict that AI will transform healthcare, education, and transportation.", "vi": "Các chuyên gia dự đoán rằng AI sẽ biến đổi chăm sóc sức khỏe, giáo dục và giao thông vận tải." },
+      { "en": "However, concerns about AI safety and ethical use continue to grow.", "vi": "Tuy nhiên, những lo ngại về an toàn AI và sử dụng có đạo đức tiếp tục gia tăng." },
+      { "en": "Governments worldwide are implementing new regulations for AI technologies.", "vi": "Các chính phủ trên toàn thế giới đang triển khai các quy định mới cho công nghệ AI." },
+      { "en": "The job market is adapting, with new roles emerging in AI management and oversight.", "vi": "Thị trường việc làm đang thích ứng, với các vai trò mới xuất hiện trong quản lý và giám sát AI." },
+      { "en": "AI-powered tools are becoming essential in everyday work and life.", "vi": "Các công cụ hỗ trợ bởi AI đang trở nên thiết yếu trong công việc và cuộc sống hàng ngày." }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-02-15T10:00:00.000Z",
+    "updatedAt": "2026-02-16T08:00:00.000Z"
+  },
+  {
+    "id": "art_002",
+    "slug": "global-markets-rally",
+    "title": "Global Markets Rally as Inflation Eases",
+    "authorId": "user_001",
+    "categoryId": "cat_econ",
+    "status": "PUBLISHED",
+    "coverImageUrl": "https://picsum.photos/seed/markets/1200/600",
+    "content": [
+      { "en": "Global stock markets surged this week as new data showed inflation declining.", "vi": "Thị trường chứng khoán toàn cầu tăng mạnh trong tuần này khi dữ liệu mới cho thấy lạm phát đang giảm." },
+      { "en": "The S&P 500 reached a new all-time high, driven by technology and healthcare sectors.", "vi": "Chỉ số S&P 500 đạt mức cao nhất mọi thời đại mới, được thúc đẩy bởi các ngành công nghệ và chăm sóc sức khỏe." },
+      { "en": "Central banks across Asia and Europe are signaling potential rate cuts.", "vi": "Các ngân hàng trung ương ở châu Á và châu Âu đang phát tín hiệu có thể cắt giảm lãi suất." },
+      { "en": "Emerging markets are also benefiting from the improved economic outlook.", "vi": "Các thị trường mới nổi cũng đang được hưởng lợi từ triển vọng kinh tế cải thiện." },
+      { "en": "Analysts remain cautiously optimistic about the rest of the year.", "vi": "Các nhà phân tích vẫn lạc quan thận trọng về phần còn lại của năm." },
+      { "en": "Consumer spending is recovering as prices stabilize.", "vi": "Chi tiêu tiêu dùng đang phục hồi khi giá cả ổn định." }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-02-20T14:00:00.000Z",
+    "updatedAt": "2026-02-21T09:00:00.000Z"
+  },
+  {
+    "id": "art_003",
+    "slug": "rise-of-remote-work",
+    "title": "The Rise of Remote Work: A New Normal",
+    "authorId": "user_admin",
+    "categoryId": "cat_soc",
+    "status": "PUBLISHED",
+    "coverImageUrl": "https://picsum.photos/seed/remote/1200/600",
+    "content": [
+      { "en": "Remote work has become a permanent fixture in the modern workplace.", "vi": "Làm việc từ xa đã trở thành một phần không thể thiếu trong nơi làm việc hiện đại." },
+      { "en": "Companies report increased productivity and employee satisfaction.", "vi": "Các công ty báo cáo năng suất và sự hài lòng của nhân viên tăng lên." },
+      { "en": "Digital nomads are reshaping how we think about work-life balance.", "vi": "Dân du mục kỹ thuật số đang thay đổi cách chúng ta suy nghĩ về cân bằng công việc-cuộc sống." },
+      { "en": "New coworking spaces are emerging in smaller cities and rural areas.", "vi": "Các không gian làm việc chung mới đang xuất hiện ở các thành phố nhỏ và vùng nông thôn." },
+      { "en": "Technology enables seamless collaboration across time zones.", "vi": "Công nghệ cho phép cộng tác liền mạch xuyên múi giờ." },
+      { "en": "The shift has significant implications for urban planning and real estate.", "vi": "Sự thay đổi này có ý nghĩa quan trọng đối với quy hoạch đô thị và bất động sản." }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-02-25T11:00:00.000Z",
+    "updatedAt": "2026-02-26T07:00:00.000Z"
+  },
+  {
+    "id": "art_004",
+    "slug": "vietnam-education-reform",
+    "title": "Vietnam's Education Reform: Progress and Challenges",
+    "authorId": "user_001",
+    "categoryId": "cat_edu",
+    "status": "PENDING",
+    "coverImageUrl": "https://picsum.photos/seed/education/1200/600",
+    "content": [
+      { "en": "Vietnam is implementing major education reforms to prepare students for the 21st century.", "vi": "Việt Nam đang thực hiện các cải cách giáo dục lớn để chuẩn bị cho học sinh thế kỷ 21." },
+      { "en": "The new curriculum emphasizes critical thinking and problem-solving skills.", "vi": "Chương trình giảng dạy mới nhấn mạnh tư duy phản biện và kỹ năng giải quyết vấn đề." },
+      { "en": "English language education is being expanded at all levels.", "vi": "Giáo dục ngôn ngữ tiếng Anh đang được mở rộng ở tất cả các cấp." },
+      { "en": "Teachers are receiving additional training to adapt to modern teaching methods.", "vi": "Giáo viên đang được đào tạo thêm để thích ứng với phương pháp giảng dạy hiện đại." },
+      { "en": "Rural and urban education gaps still pose significant challenges.", "vi": "Khoảng cách giáo dục nông thôn và thành thị vẫn là thách thức đáng kể." }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-03-01T09:00:00.000Z",
+    "updatedAt": "2026-03-01T09:00:00.000Z"
+  },
+  {
+    "id": "art_005",
+    "slug": "healthy-lifestyle-tips",
+    "title": "10 Simple Tips for a Healthier Lifestyle",
+    "authorId": "user_001",
+    "categoryId": "cat_life",
+    "status": "REJECTED",
+    "coverImageUrl": "https://picsum.photos/seed/health/1200/600",
+    "content": [
+      { "en": "Maintaining a healthy lifestyle doesn't have to be complicated.", "vi": "Duy trì lối sống lành mạnh không nhất thiết phải phức tạp." },
+      { "en": "Start by drinking enough water throughout the day.", "vi": "Bắt đầu bằng việc uống đủ nước trong suốt cả ngày." },
+      { "en": "Regular exercise, even just 30 minutes daily, makes a big difference.", "vi": "Tập thể dục thường xuyên, dù chỉ 30 phút mỗi ngày, cũng tạo ra sự khác biệt lớn." },
+      { "en": "Getting enough sleep is crucial for physical and mental health.", "vi": "Ngủ đủ giấc là rất quan trọng cho sức khỏe thể chất và tinh thần." }
+    ],
+    "rejectReason": "Article needs more detailed content and credible sources. Please expand each tip with scientific backing.",
+    "createdAt": "2026-02-28T15:00:00.000Z",
+    "updatedAt": "2026-03-01T10:00:00.000Z"
+  }
+]
