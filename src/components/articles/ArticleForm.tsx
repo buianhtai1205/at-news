@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Plus, Trash2, Save, Loader2 } from "lucide-react";
+import { Plus, Trash2, Save, Loader2, Link, Sparkles } from "lucide-react";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 
 interface BilingualPair {
@@ -38,6 +38,44 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  // ─── Auto-generate from URL ──────────────────────────────
+  const [sourceUrl, setSourceUrl] = useState("");
+  const [generating, setGenerating] = useState(false);
+  const [generateError, setGenerateError] = useState("");
+
+  const handleGenerate = async () => {
+    if (!sourceUrl.trim()) return;
+
+    setGenerating(true);
+    setGenerateError("");
+
+    try {
+      const res = await fetch("/api/generate-bilingual", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ url: sourceUrl.trim() }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || data.detail || "Failed to generate content");
+      }
+
+      const pairs: BilingualPair[] = data.pairs;
+      if (!pairs || pairs.length === 0) {
+        throw new Error("No bilingual pairs were generated");
+      }
+
+      // Replace existing content with generated pairs
+      setContent(pairs);
+    } catch (err: unknown) {
+      setGenerateError(err instanceof Error ? err.message : "Generation failed");
+    } finally {
+      setGenerating(false);
+    }
+  };
 
   useEffect(() => {
     fetch("/api/categories")
@@ -138,6 +176,56 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
             className="w-full px-4 py-3 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-indigo-500"
           />
         </div>
+      </div>
+
+      {/* Auto-Generate from URL */}
+      <div className="p-4 bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-950/40 dark:to-purple-950/40 border border-indigo-200 dark:border-indigo-800 rounded-xl space-y-3">
+        <label className="flex items-center gap-2 text-sm font-medium text-indigo-700 dark:text-indigo-300">
+          <Sparkles className="w-4 h-4" />
+          Auto-Generate Bilingual Content from URL
+        </label>
+
+        <div className="flex flex-col sm:flex-row gap-2">
+          <div className="relative flex-1">
+            <Link className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-400" />
+            <input
+              type="url"
+              value={sourceUrl}
+              onChange={(e) => setSourceUrl(e.target.value)}
+              placeholder="https://example.com/article..."
+              disabled={generating}
+              className="w-full pl-10 pr-4 py-2.5 rounded-lg border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm disabled:opacity-50"
+            />
+          </div>
+          <button
+            type="button"
+            onClick={handleGenerate}
+            disabled={generating || !sourceUrl.trim()}
+            className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-lg font-medium text-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
+          >
+            {generating ? (
+              <>
+                <Loader2 className="w-4 h-4 animate-spin" />
+                Generating...
+              </>
+            ) : (
+              <>
+                <Sparkles className="w-4 h-4" />
+                Generate from URL
+              </>
+            )}
+          </button>
+        </div>
+
+        {generateError && (
+          <p className="text-sm text-red-600 dark:text-red-400">{generateError}</p>
+        )}
+
+        {generating && (
+          <p className="text-xs text-indigo-600 dark:text-indigo-400 animate-pulse">
+            Scraping article &amp; translating with AI — this may take 10-30 seconds...
+          </p>
+        )}
       </div>
 
       {/* Bilingual Content */}

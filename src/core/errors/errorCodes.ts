@@ -59,6 +59,19 @@ export const CATEGORY_ALREADY_EXISTS = () =>
 export const CATEGORY_HAS_ARTICLES = () =>
   new AppError("E00042", "Cannot delete category that has articles", 400);
 
+// ─── Content Generation Errors (E00060–E00069) ──────────────
+export const INVALID_URL = (detail?: string) =>
+  new AppError("E00060", "Invalid or unreachable URL", 400, detail);
+
+export const SCRAPE_FAILED = (detail?: string) =>
+  new AppError("E00061", "Failed to extract content from URL", 422, detail);
+
+export const AI_GENERATION_FAILED = (detail?: string) =>
+  new AppError("E00062", "AI content generation failed", 502, detail);
+
+export const CONTENT_TOO_SHORT = (detail?: string) =>
+  new AppError("E00063", "Extracted content is too short to generate bilingual pairs", 422, detail);
+
 // ─── System Errors (E00050–E00059) ───────────────────────────
 export const INTERNAL_ERROR = (detail?: string) =>
   new AppError("E00050", "Internal server error", 500, detail);

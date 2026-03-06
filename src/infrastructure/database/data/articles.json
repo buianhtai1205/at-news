@@ -8,14 +8,38 @@
     "status": "PUBLISHED",
     "coverImageUrl": "https://picsum.photos/seed/ai2026/1200/600",
     "content": [
-      { "en": "Artificial Intelligence is evolving at an unprecedented pace.", "vi": "Trí tuệ nhân tạo đang phát triển với tốc độ chưa từng có." },
-      { "en": "In 2026, AI systems can reason, plan, and collaborate with humans more effectively than ever.", "vi": "Vào năm 2026, các hệ thống AI có thể suy luận, lập kế hoạch và cộng tác với con người hiệu quả hơn bao giờ hết." },
-      { "en": "Major technology companies are investing billions into AI research and development.", "vi": "Các công ty công nghệ lớn đang đầu tư hàng tỷ đô la vào nghiên cứu và phát triển AI." },
-      { "en": "Experts predict that AI will transform healthcare, education, and transportation.", "vi": "Các chuyên gia dự đoán rằng AI sẽ biến đổi chăm sóc sức khỏe, giáo dục và giao thông vận tải." },
-      { "en": "However, concerns about AI safety and ethical use continue to grow.", "vi": "Tuy nhiên, những lo ngại về an toàn AI và sử dụng có đạo đức tiếp tục gia tăng." },
-      { "en": "Governments worldwide are implementing new regulations for AI technologies.", "vi": "Các chính phủ trên toàn thế giới đang triển khai các quy định mới cho công nghệ AI." },
-      { "en": "The job market is adapting, with new roles emerging in AI management and oversight.", "vi": "Thị trường việc làm đang thích ứng, với các vai trò mới xuất hiện trong quản lý và giám sát AI." },
-      { "en": "AI-powered tools are becoming essential in everyday work and life.", "vi": "Các công cụ hỗ trợ bởi AI đang trở nên thiết yếu trong công việc và cuộc sống hàng ngày." }
+      {
+        "en": "Artificial Intelligence is evolving at an unprecedented pace.",
+        "vi": "Trí tuệ nhân tạo đang phát triển với tốc độ chưa từng có."
+      },
+      {
+        "en": "In 2026, AI systems can reason, plan, and collaborate with humans more effectively than ever.",
+        "vi": "Vào năm 2026, các hệ thống AI có thể suy luận, lập kế hoạch và cộng tác với con người hiệu quả hơn bao giờ hết."
+      },
+      {
+        "en": "Major technology companies are investing billions into AI research and development.",
+        "vi": "Các công ty công nghệ lớn đang đầu tư hàng tỷ đô la vào nghiên cứu và phát triển AI."
+      },
+      {
+        "en": "Experts predict that AI will transform healthcare, education, and transportation.",
+        "vi": "Các chuyên gia dự đoán rằng AI sẽ biến đổi chăm sóc sức khỏe, giáo dục và giao thông vận tải."
+      },
+      {
+        "en": "However, concerns about AI safety and ethical use continue to grow.",
+        "vi": "Tuy nhiên, những lo ngại về an toàn AI và sử dụng có đạo đức tiếp tục gia tăng."
+      },
+      {
+        "en": "Governments worldwide are implementing new regulations for AI technologies.",
+        "vi": "Các chính phủ trên toàn thế giới đang triển khai các quy định mới cho công nghệ AI."
+      },
+      {
+        "en": "The job market is adapting, with new roles emerging in AI management and oversight.",
+        "vi": "Thị trường việc làm đang thích ứng, với các vai trò mới xuất hiện trong quản lý và giám sát AI."
+      },
+      {
+        "en": "AI-powered tools are becoming essential in everyday work and life.",
+        "vi": "Các công cụ hỗ trợ bởi AI đang trở nên thiết yếu trong công việc và cuộc sống hàng ngày."
+      }
     ],
     "rejectReason": null,
     "createdAt": "2026-02-15T10:00:00.000Z",
@@ -30,12 +54,30 @@
     "status": "PUBLISHED",
     "coverImageUrl": "https://picsum.photos/seed/markets/1200/600",
     "content": [
-      { "en": "Global stock markets surged this week as new data showed inflation declining.", "vi": "Thị trường chứng khoán toàn cầu tăng mạnh trong tuần này khi dữ liệu mới cho thấy lạm phát đang giảm." },
-      { "en": "The S&P 500 reached a new all-time high, driven by technology and healthcare sectors.", "vi": "Chỉ số S&P 500 đạt mức cao nhất mọi thời đại mới, được thúc đẩy bởi các ngành công nghệ và chăm sóc sức khỏe." },
-      { "en": "Central banks across Asia and Europe are signaling potential rate cuts.", "vi": "Các ngân hàng trung ương ở châu Á và châu Âu đang phát tín hiệu có thể cắt giảm lãi suất." },
-      { "en": "Emerging markets are also benefiting from the improved economic outlook.", "vi": "Các thị trường mới nổi cũng đang được hưởng lợi từ triển vọng kinh tế cải thiện." },
-      { "en": "Analysts remain cautiously optimistic about the rest of the year.", "vi": "Các nhà phân tích vẫn lạc quan thận trọng về phần còn lại của năm." },
-      { "en": "Consumer spending is recovering as prices stabilize.", "vi": "Chi tiêu tiêu dùng đang phục hồi khi giá cả ổn định." }
+      {
+        "en": "Global stock markets surged this week as new data showed inflation declining.",
+        "vi": "Thị trường chứng khoán toàn cầu tăng mạnh trong tuần này khi dữ liệu mới cho thấy lạm phát đang giảm."
+      },
+      {
+        "en": "The S&P 500 reached a new all-time high, driven by technology and healthcare sectors.",
+        "vi": "Chỉ số S&P 500 đạt mức cao nhất mọi thời đại mới, được thúc đẩy bởi các ngành công nghệ và chăm sóc sức khỏe."
+      },
+      {
+        "en": "Central banks across Asia and Europe are signaling potential rate cuts.",
+        "vi": "Các ngân hàng trung ương ở châu Á và châu Âu đang phát tín hiệu có thể cắt giảm lãi suất."
+      },
+      {
+        "en": "Emerging markets are also benefiting from the improved economic outlook.",
+        "vi": "Các thị trường mới nổi cũng đang được hưởng lợi từ triển vọng kinh tế cải thiện."
+      },
+      {
+        "en": "Analysts remain cautiously optimistic about the rest of the year.",
+        "vi": "Các nhà phân tích vẫn lạc quan thận trọng về phần còn lại của năm."
+      },
+      {
+        "en": "Consumer spending is recovering as prices stabilize.",
+        "vi": "Chi tiêu tiêu dùng đang phục hồi khi giá cả ổn định."
+      }
     ],
     "rejectReason": null,
     "createdAt": "2026-02-20T14:00:00.000Z",
@@ -50,12 +92,30 @@
     "status": "PUBLISHED",
     "coverImageUrl": "https://picsum.photos/seed/remote/1200/600",
     "content": [
-      { "en": "Remote work has become a permanent fixture in the modern workplace.", "vi": "Làm việc từ xa đã trở thành một phần không thể thiếu trong nơi làm việc hiện đại." },
-      { "en": "Companies report increased productivity and employee satisfaction.", "vi": "Các công ty báo cáo năng suất và sự hài lòng của nhân viên tăng lên." },
-      { "en": "Digital nomads are reshaping how we think about work-life balance.", "vi": "Dân du mục kỹ thuật số đang thay đổi cách chúng ta suy nghĩ về cân bằng công việc-cuộc sống." },
-      { "en": "New coworking spaces are emerging in smaller cities and rural areas.", "vi": "Các không gian làm việc chung mới đang xuất hiện ở các thành phố nhỏ và vùng nông thôn." },
-      { "en": "Technology enables seamless collaboration across time zones.", "vi": "Công nghệ cho phép cộng tác liền mạch xuyên múi giờ." },
-      { "en": "The shift has significant implications for urban planning and real estate.", "vi": "Sự thay đổi này có ý nghĩa quan trọng đối với quy hoạch đô thị và bất động sản." }
+      {
+        "en": "Remote work has become a permanent fixture in the modern workplace.",
+        "vi": "Làm việc từ xa đã trở thành một phần không thể thiếu trong nơi làm việc hiện đại."
+      },
+      {
+        "en": "Companies report increased productivity and employee satisfaction.",
+        "vi": "Các công ty báo cáo năng suất và sự hài lòng của nhân viên tăng lên."
+      },
+      {
+        "en": "Digital nomads are reshaping how we think about work-life balance.",
+        "vi": "Dân du mục kỹ thuật số đang thay đổi cách chúng ta suy nghĩ về cân bằng công việc-cuộc sống."
+      },
+      {
+        "en": "New coworking spaces are emerging in smaller cities and rural areas.",
+        "vi": "Các không gian làm việc chung mới đang xuất hiện ở các thành phố nhỏ và vùng nông thôn."
+      },
+      {
+        "en": "Technology enables seamless collaboration across time zones.",
+        "vi": "Công nghệ cho phép cộng tác liền mạch xuyên múi giờ."
+      },
+      {
+        "en": "The shift has significant implications for urban planning and real estate.",
+        "vi": "Sự thay đổi này có ý nghĩa quan trọng đối với quy hoạch đô thị và bất động sản."
+      }
     ],
     "rejectReason": null,
     "createdAt": "2026-02-25T11:00:00.000Z",
@@ -70,11 +130,26 @@
     "status": "PENDING",
     "coverImageUrl": "https://picsum.photos/seed/education/1200/600",
     "content": [
-      { "en": "Vietnam is implementing major education reforms to prepare students for the 21st century.", "vi": "Việt Nam đang thực hiện các cải cách giáo dục lớn để chuẩn bị cho học sinh thế kỷ 21." },
-      { "en": "The new curriculum emphasizes critical thinking and problem-solving skills.", "vi": "Chương trình giảng dạy mới nhấn mạnh tư duy phản biện và kỹ năng giải quyết vấn đề." },
-      { "en": "English language education is being expanded at all levels.", "vi": "Giáo dục ngôn ngữ tiếng Anh đang được mở rộng ở tất cả các cấp." },
-      { "en": "Teachers are receiving additional training to adapt to modern teaching methods.", "vi": "Giáo viên đang được đào tạo thêm để thích ứng với phương pháp giảng dạy hiện đại." },
-      { "en": "Rural and urban education gaps still pose significant challenges.", "vi": "Khoảng cách giáo dục nông thôn và thành thị vẫn là thách thức đáng kể." }
+      {
+        "en": "Vietnam is implementing major education reforms to prepare students for the 21st century.",
+        "vi": "Việt Nam đang thực hiện các cải cách giáo dục lớn để chuẩn bị cho học sinh thế kỷ 21."
+      },
+      {
+        "en": "The new curriculum emphasizes critical thinking and problem-solving skills.",
+        "vi": "Chương trình giảng dạy mới nhấn mạnh tư duy phản biện và kỹ năng giải quyết vấn đề."
+      },
+      {
+        "en": "English language education is being expanded at all levels.",
+        "vi": "Giáo dục ngôn ngữ tiếng Anh đang được mở rộng ở tất cả các cấp."
+      },
+      {
+        "en": "Teachers are receiving additional training to adapt to modern teaching methods.",
+        "vi": "Giáo viên đang được đào tạo thêm để thích ứng với phương pháp giảng dạy hiện đại."
+      },
+      {
+        "en": "Rural and urban education gaps still pose significant challenges.",
+        "vi": "Khoảng cách giáo dục nông thôn và thành thị vẫn là thách thức đáng kể."
+      }
     ],
     "rejectReason": null,
     "createdAt": "2026-03-01T09:00:00.000Z",
@@ -89,13 +164,251 @@
     "status": "REJECTED",
     "coverImageUrl": "https://picsum.photos/seed/health/1200/600",
     "content": [
-      { "en": "Maintaining a healthy lifestyle doesn't have to be complicated.", "vi": "Duy trì lối sống lành mạnh không nhất thiết phải phức tạp." },
-      { "en": "Start by drinking enough water throughout the day.", "vi": "Bắt đầu bằng việc uống đủ nước trong suốt cả ngày." },
-      { "en": "Regular exercise, even just 30 minutes daily, makes a big difference.", "vi": "Tập thể dục thường xuyên, dù chỉ 30 phút mỗi ngày, cũng tạo ra sự khác biệt lớn." },
-      { "en": "Getting enough sleep is crucial for physical and mental health.", "vi": "Ngủ đủ giấc là rất quan trọng cho sức khỏe thể chất và tinh thần." }
+      {
+        "en": "Maintaining a healthy lifestyle doesn't have to be complicated.",
+        "vi": "Duy trì lối sống lành mạnh không nhất thiết phải phức tạp."
+      },
+      {
+        "en": "Start by drinking enough water throughout the day.",
+        "vi": "Bắt đầu bằng việc uống đủ nước trong suốt cả ngày."
+      },
+      {
+        "en": "Regular exercise, even just 30 minutes daily, makes a big difference.",
+        "vi": "Tập thể dục thường xuyên, dù chỉ 30 phút mỗi ngày, cũng tạo ra sự khác biệt lớn."
+      },
+      {
+        "en": "Getting enough sleep is crucial for physical and mental health.",
+        "vi": "Ngủ đủ giấc là rất quan trọng cho sức khỏe thể chất và tinh thần."
+      }
     ],
     "rejectReason": "Article needs more detailed content and credible sources. Please expand each tip with scientific backing.",
     "createdAt": "2026-02-28T15:00:00.000Z",
     "updatedAt": "2026-03-01T10:00:00.000Z"
+  },
+  {
+    "id": "art_cbece4a2",
+    "slug": "every-day-feels-like-a-month-iranians-describe-life-under-us-israeli-strikes-2e54b1",
+    "title": "'Every day feels like a month': Iranians describe life under US-Israeli strikes",
+    "authorId": "user_admin",
+    "categoryId": "cat_global",
+    "status": "PUBLISHED",
+    "coverImageUrl": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/5b29/live/d97a7270-17eb-11f1-801d-ed3cff6bf876.jpg.webp",
+    "content": [
+      {
+        "en": "13 hours ago, Faren Taghizadeh, BBC Persian, and EPA reported on the situation.",
+        "vi": "13 giờ trước, Faren Taghizadeh, BBC Persian và EPA đã đưa tin về tình hình."
+      },
+      {
+        "en": "\"The number of explosions, the destruction, what is happening - it's unbelievable,\" says Salar, whose name has been changed.",
+        "vi": "Salar, người đã được đổi tên, nói: \"Số vụ nổ, sự tàn phá, những gì đang xảy ra – thật không thể tin được.\""
+      },
+      {
+        "en": "Iran's capital, Tehran, is under heavy attack since strikes began on 28 February, as the US and Israel target military and political sites in a bid to weaken the Islamic regime.",
+        "vi": "Thủ đô Tehran của Iran đang bị tấn công dữ dội kể từ khi các cuộc không kích bắt đầu vào ngày 28 tháng 2, khi Mỹ và Israel nhắm vào các địa điểm quân sự và chính trị nhằm làm suy yếu chế độ Hồi giáo."
+      },
+      {
+        "en": "However, other areas have been hit as a consequence of the strikes.",
+        "vi": "Tuy nhiên, các khu vực khác cũng bị ảnh hưởng do các cuộc tấn công."
+      },
+      {
+        "en": "Iranian officials said more than 160 people, including children, were killed when a girls' school was hit in the city of Minab on Saturday.",
+        "vi": "Các quan chức Iran cho biết hơn 160 người, bao gồm cả trẻ em, đã thiệt mạng khi một trường nữ sinh bị trúng đạn ở thành phố Minab vào thứ Bảy."
+      },
+      {
+        "en": "The White House says the US is investigating the incident but does not target civilians.",
+        "vi": "Nhà Trắng cho biết Mỹ đang điều tra vụ việc nhưng không nhắm mục tiêu vào dân thường."
+      },
+      {
+        "en": "While some Iranians say the ongoing attacks have left them fearing for their families, others characterise the regime as fearful and express hope for the country's future.",
+        "vi": "Trong khi một số người Iran nói rằng các cuộc tấn công đang diễn ra khiến họ lo sợ cho gia đình, những người khác lại mô tả chế độ này là đáng sợ và bày tỏ hy vọng vào tương lai của đất nước."
+      },
+      {
+        "en": "\"Each day has felt like a month,\" Salar says. \"The volume of attacks is so high.\"",
+        "vi": "Salar nói: \"Mỗi ngày trôi qua cứ như một tháng vậy. Mức độ tấn công quá cao.\""
+      },
+      {
+        "en": "He said a recent air strike left his whole house shaking and described having to leave his windows open so the glass wouldn't shatter.",
+        "vi": "Anh kể rằng một cuộc không kích gần đây đã khiến cả căn nhà rung chuyển và anh phải để cửa sổ mở để kính không bị vỡ."
+      },
+      {
+        "en": "International news organisations are often refused visas to Iran, which severely limits their ability to gather information about what is going on inside the country.",
+        "vi": "Các tổ chức tin tức quốc tế thường bị từ chối cấp thị thực vào Iran, điều này hạn chế nghiêm trọng khả năng thu thập thông tin về những gì đang diễn ra bên trong đất nước."
+      },
+      {
+        "en": "Internet blackouts make the situation even harder.",
+        "vi": "Việc cắt mạng internet càng khiến tình hình trở nên khó khăn hơn."
+      },
+      {
+        "en": "\"There are checkpoints everywhere. They're scared of their own shadows,\" says one 25-year old student in Tehran.",
+        "vi": "Một sinh viên 25 tuổi ở Tehran nói: \"Có các trạm kiểm soát ở khắp mọi nơi. Họ sợ cả bóng của chính mình.\""
+      },
+      {
+        "en": "\"We're waiting for the grand moment, the final moment, when we all go out and we will be victorious.\"",
+        "vi": "\"Chúng tôi đang chờ đợi khoảnh khắc vĩ đại, khoảnh khắc cuối cùng, khi tất cả chúng tôi sẽ ra ngoài và chúng tôi sẽ chiến thắng.\""
+      },
+      {
+        "en": "The price of staples like eggs and potatoes has also skyrocketed, he said, and the queues for petrol and bread \"are unbelievable\".",
+        "vi": "Anh cho biết giá các mặt hàng thiết yếu như trứng và khoai tây cũng đã tăng vọt, và hàng đợi mua xăng và bánh mì \"thật không thể tin được\"."
+      },
+      {
+        "en": "Another resident of the capital tells the BBC that most shops are closed and some cash machines out of service, though supermarkets and bakeries remain open.",
+        "vi": "Một cư dân khác của thủ đô nói với BBC rằng hầu hết các cửa hàng đều đóng cửa và một số máy rút tiền không hoạt động, mặc dù các siêu thị và tiệm bánh vẫn mở cửa."
+      },
+      {
+        "en": "Tehran feels \"empty\" and anyone leaving their home must have an \"urgent reason\", she says.",
+        "vi": "Cô nói rằng Tehran cảm thấy \"trống rỗng\" và bất cứ ai rời khỏi nhà đều phải có \"lý do khẩn cấp\"."
+      },
+      {
+        "en": "\"On the first day, people were chanting and everyone seemed happy. But now there are police forces around.\"",
+        "vi": "\"Vào ngày đầu tiên, mọi người hô vang khẩu hiệu và ai cũng có vẻ vui vẻ. Nhưng bây giờ thì có lực lượng cảnh sát ở khắp nơi.\""
+      },
+      {
+        "en": "Salar described threats from security forces about speaking out against the country's regime.",
+        "vi": "Salar mô tả những lời đe dọa từ lực lượng an ninh về việc lên tiếng chống lại chế độ của đất nước."
+      },
+      {
+        "en": "While getting access to independent information has been hard, Salar says Iranian security forces have been making their demands clear.",
+        "vi": "Mặc dù việc tiếp cận thông tin độc lập rất khó khăn, Salar cho biết lực lượng an ninh Iran đã đưa ra những yêu cầu rõ ràng của họ."
+      },
+      {
+        "en": "\"Every day they send SMS messages warning that if we go outside, they will deal with us harshly,\" he says.",
+        "vi": "Anh nói: \"Mỗi ngày họ gửi tin nhắn SMS cảnh báo rằng nếu chúng tôi ra ngoài, họ sẽ xử lý chúng tôi một cách khắc nghiệt.\""
+      },
+      {
+        "en": "\"A message came saying that if anyone among you goes out and protests 'we consider you Israeli collaborators'.\"",
+        "vi": "\"Một tin nhắn đến nói rằng nếu bất kỳ ai trong số các bạn ra ngoài và biểu tình 'chúng tôi coi các bạn là cộng tác viên của Israel'.\""
+      },
+      {
+        "en": "He believes the tone of the message suggested that anyone who disobeyed would be dealt with forcefully, or even killed.",
+        "vi": "Anh tin rằng giọng điệu của tin nhắn cho thấy bất kỳ ai không tuân lệnh sẽ bị xử lý mạnh tay, hoặc thậm chí bị giết."
+      },
+      {
+        "en": "Getty Images reports that Tehran has been under near-constant bombardment since Saturday.",
+        "vi": "Getty Images đưa tin rằng Tehran đã bị bắn phá gần như liên tục kể từ thứ Bảy."
+      },
+      {
+        "en": "BBC Persian also spoke to Kaveh, whose name has also been changed, who lives in Zanjan, a city around 275km (170 miles) north-east of Tehran, which has also been targeted.",
+        "vi": "BBC Persian cũng nói chuyện với Kaveh, người cũng đã được đổi tên, sống ở Zanjan, một thành phố cách Tehran khoảng 275km (170 dặm) về phía đông bắc, cũng đã bị nhắm mục tiêu."
+      },
+      {
+        "en": "\"In the first three days, our city was heavily bombed,\" he says. \"We live in an area where fighter jets constantly pass overhead.\"",
+        "vi": "Anh nói: \"Trong ba ngày đầu tiên, thành phố của chúng tôi bị đánh bom dữ dội. Chúng tôi sống trong một khu vực mà máy bay chiến đấu liên tục bay qua đầu.\""
+      },
+      {
+        "en": "He adds that, following the outbreak of war, the sky had been constantly cloudy from the columns of smoke rising from the sites of air strikes - an image he describes as \"simultaneously beautiful and horrifying\".",
+        "vi": "Anh nói thêm rằng, sau khi chiến tranh bùng nổ, bầu trời liên tục bị bao phủ bởi những cột khói bốc lên từ các địa điểm không kích – một hình ảnh mà anh mô tả là \"vừa đẹp vừa kinh hoàng\"."
+      },
+      {
+        "en": "Salar says he sent his parents north, though he wasn't sure which cities would be safe.",
+        "vi": "Salar nói rằng anh đã gửi cha mẹ mình về phía bắc, mặc dù anh không chắc thành phố nào sẽ an toàn."
+      },
+      {
+        "en": "Their house is in the Shariati neighbourhood of Tehran, where there are many military facilities that have been targeted.",
+        "vi": "Nhà của họ nằm ở khu phố Shariati của Tehran, nơi có nhiều cơ sở quân sự đã bị nhắm mục tiêu."
+      },
+      {
+        "en": "\"My mother was in very bad shape - she was very frightened,\" he says, adding that the current strikes are worse than any she experienced during the eight-year Iran-Iraq war in the 1980s.",
+        "vi": "Anh nói: \"Mẹ tôi rất tệ - bà rất sợ hãi,\" và nói thêm rằng các cuộc tấn công hiện tại còn tồi tệ hơn bất kỳ cuộc tấn công nào bà từng trải qua trong cuộc chiến tranh Iran-Iraq kéo dài tám năm vào những năm 1980."
+      },
+      {
+        "en": "More people continue to leave Tehran as each day passes, he adds, but it is not an option for everyone.",
+        "vi": "Anh nói thêm rằng ngày càng có nhiều người rời Tehran mỗi ngày, nhưng đó không phải là lựa chọn cho tất cả mọi người."
+      },
+      {
+        "en": "\"My friend's grandmother is ill and they can't move her.\"",
+        "vi": "\"Bà của bạn tôi bị ốm và họ không thể di chuyển bà ấy.\""
+      },
+      {
+        "en": "The internet blackouts have also made it extremely difficult for Iranians to contact their loved ones.",
+        "vi": "Việc cắt mạng internet cũng khiến người Iran cực kỳ khó khăn trong việc liên lạc với người thân."
+      },
+      {
+        "en": "Kaveh says that, alongside survival, his biggest concerns have been trying to maintain some contact with family and friends, and getting access to reliable news.",
+        "vi": "Kaveh nói rằng, bên cạnh việc sống sót, mối quan tâm lớn nhất của anh là cố gắng duy trì liên lạc với gia đình và bạn bè, và tiếp cận tin tức đáng tin cậy."
+      },
+      {
+        "en": "His internet connection cut off around midday on the first day of the attacks, he recalls, and he was not able to get back online for two days.",
+        "vi": "Anh nhớ lại, kết nối internet của anh bị cắt vào khoảng giữa trưa ngày đầu tiên của các cuộc tấn công, và anh không thể truy cập lại mạng trong hai ngày."
+      },
+      {
+        "en": "Both Kaveh and Salar are using Virtual Private Networks (VPNs), which allow them to access internet sites that are blocked by the Iranian government, but this is no easy feat.",
+        "vi": "Cả Kaveh và Salar đều đang sử dụng Mạng riêng ảo (VPN), cho phép họ truy cập các trang web bị chính phủ Iran chặn, nhưng đây không phải là một việc dễ dàng."
+      },
+      {
+        "en": "When he does get online, Kaveh tries to help \"friends outside Iran who have no news from their families - to get updates or pass along messages\".",
+        "vi": "Khi truy cập được mạng, Kaveh cố gắng giúp đỡ \"những người bạn bên ngoài Iran không có tin tức gì từ gia đình họ - để nhận thông tin cập nhật hoặc chuyển tin nhắn\"."
+      },
+      {
+        "en": "The regime appears to have increased its security presence on the streets of Tehran.",
+        "vi": "Chế độ này dường như đã tăng cường sự hiện diện an ninh trên các đường phố Tehran."
+      },
+      {
+        "en": "Due to the tight security situation in Iran, it is not possible to gauge the overall reaction to death of the supreme leader.",
+        "vi": "Do tình hình an ninh chặt chẽ ở Iran, không thể đánh giá phản ứng chung về cái chết của lãnh tụ tối cao."
+      },
+      {
+        "en": "While some took to the streets to celebrate, others took part in public displays of mourning led by government authorities.",
+        "vi": "Trong khi một số người xuống đường ăn mừng, những người khác tham gia vào các buổi lễ tang công khai do chính quyền dẫn đầu."
+      },
+      {
+        "en": "Kaveh found the news of Khamenei's killing difficult to believe at first.",
+        "vi": "Kaveh ban đầu khó tin vào tin tức về cái chết của Khamenei."
+      },
+      {
+        "en": "\"I had always imagined that moment would feel like happiness, but it didn't,\" he says.",
+        "vi": "Anh nói: \"Tôi luôn tưởng tượng khoảnh khắc đó sẽ mang lại hạnh phúc, nhưng không phải vậy.\""
+      },
+      {
+        "en": "\"Almost all the years of my life and the lives of millions like me were destroyed and thousands lost their lives - and yet he himself was removed from the scene in a single moment, [which] made me truly angry.\"",
+        "vi": "\"Gần như tất cả những năm tháng cuộc đời tôi và cuộc đời của hàng triệu người như tôi đã bị hủy hoại và hàng ngàn người đã mất mạng – vậy mà ông ta lại bị loại khỏi cuộc chơi chỉ trong một khoảnh khắc, điều đó thực sự khiến tôi tức giận.\""
+      },
+      {
+        "en": "Saleh says he didn't expect the celebrations on the street to news of the supreme leader's death.",
+        "vi": "Saleh nói rằng anh không mong đợi những lễ kỷ niệm trên đường phố khi có tin về cái chết của lãnh tụ tối cao."
+      },
+      {
+        "en": "\"The city atmosphere after the attack was very security-heavy. It still is.\"",
+        "vi": "\"Không khí thành phố sau cuộc tấn công rất nặng nề về an ninh. Vẫn còn như vậy.\""
+      },
+      {
+        "en": "Neither of the men know what the war will mean for them, their families or their country.",
+        "vi": "Cả hai người đàn ông đều không biết cuộc chiến sẽ có ý nghĩa gì đối với họ, gia đình họ hay đất nước họ."
+      },
+      {
+        "en": "\"I doubt any of us will ever be the same as before,\" Salar says, adding that many people are severely stressed.",
+        "vi": "Salar nói: \"Tôi nghi ngờ không ai trong chúng ta sẽ còn như trước nữa,\" và nói thêm rằng nhiều người đang bị căng thẳng nghiêm trọng."
+      },
+      {
+        "en": "\"Those abroad, especially monarchists,\" he says - referring to the supporters of the son of Iran's former royal family who have supported the US and Israeli military action - \"really don't know what we are experiencing\".",
+        "vi": "Anh nói: \"Những người ở nước ngoài, đặc biệt là những người theo chế độ quân chủ\" – ám chỉ những người ủng hộ con trai của cựu hoàng gia Iran đã ủng hộ hành động quân sự của Mỹ và Israel – \"thực sự không biết chúng tôi đang trải qua điều gì\"."
+      },
+      {
+        "en": "He adds: \"I hope they never have to.\"",
+        "vi": "Anh nói thêm: \"Tôi hy vọng họ không bao giờ phải trải qua điều đó.\""
+      },
+      {
+        "en": "Kaveh says he feels the war \"won't end as quickly as we thought\".",
+        "vi": "Kaveh nói rằng anh cảm thấy cuộc chiến \"sẽ không kết thúc nhanh như chúng ta nghĩ\"."
+      },
+      {
+        "en": "\"But even so, my hope hasn't decreased. If anything, it grows stronger each day.\"",
+        "vi": "\"Nhưng dù vậy, hy vọng của tôi không hề giảm sút. Thậm chí, nó còn mạnh mẽ hơn mỗi ngày.\""
+      },
+      {
+        "en": "\"I don't know what will happen after this 'operation',\" he says, but adds that, without it, \"something worse would definitely have happened\".",
+        "vi": "Anh nói: \"Tôi không biết điều gì sẽ xảy ra sau 'chiến dịch' này,\" nhưng nói thêm rằng, nếu không có nó, \"chắc chắn điều gì đó tồi tệ hơn đã xảy ra rồi\"."
+      },
+      {
+        "en": "\"This way, at least there is still a chance for life and for tomorrow.\"",
+        "vi": "\"Bằng cách này, ít nhất vẫn còn cơ hội cho cuộc sống và cho ngày mai.\""
+      },
+      {
+        "en": "Additional reporting by Alex Boyd, Ghoncheh Habibiazad, Caroline Hawley and Tom McArthur.",
+        "vi": "Thông tin bổ sung do Alex Boyd, Ghoncheh Habibiazad, Caroline Hawley và Tom McArthur thực hiện."
+      }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-03-05T09:28:31.434Z",
+    "updatedAt": "2026-03-05T09:29:02.786Z"
   }
 ]
