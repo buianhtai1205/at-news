@@ -1,6 +1,7 @@
 import { SupabaseArticleRepository } from "@/src/infrastructure/repositories/SupabaseArticleRepository";
 import { SupabaseUserRepository } from "@/src/infrastructure/repositories/SupabaseUserRepository";
 import { SupabaseCategoryRepository } from "@/src/infrastructure/repositories/SupabaseCategoryRepository";
+import { SupabaseProfileRepository } from "@/src/infrastructure/repositories/SupabaseProfileRepository";
 import { AuthService } from "@/src/core/services/AuthService";
 import { ArticleService } from "@/src/core/services/ArticleService";
 import { CategoryService } from "@/src/core/services/CategoryService";
@@ -9,6 +10,7 @@ import { CategoryService } from "@/src/core/services/CategoryService";
 const userRepo = new SupabaseUserRepository();
 const articleRepo = new SupabaseArticleRepository();
 const categoryRepo = new SupabaseCategoryRepository();
+const profileRepo = new SupabaseProfileRepository();
 
 // Service singletons
 const authService = new AuthService(userRepo);
@@ -25,4 +27,8 @@ export function getArticleService() {
 
 export function getCategoryService() {
   return categoryService;
+}
+
+export function getProfileRepo() {
+  return profileRepo;
 }

@@ -39,6 +39,7 @@ export default async function ArticlesPage() {
           coverImageUrl: a.coverImageUrl,
           contentLength: a.content.length,
           createdAt: a.createdAt,
+          isPremium: a.isPremium,
         }))}
         categories={categories.map((c) => ({ id: c.id, name: c.name }))}
       />

@@ -1,8 +1,11 @@
 import { BilingualReader } from "@/src/components/articles/BilingualReader";
-import { ArrowLeft, Clock, Tag, User } from "lucide-react";
+import { PaywallOverlay } from "@/src/components/articles/PaywallOverlay";
+import { ArrowLeft, Clock, Tag, User, Crown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { getArticleService } from "@/src/infrastructure/container";
+import { getProfileRepo } from "@/src/infrastructure/container";
+import { getAuthUser } from "@/src/infrastructure/auth/middleware";
 import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
@@ -24,6 +27,34 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   if (!article || article.status !== "APPROVED") {
     notFound();
   }
+
+  // ─── Server-side paywall check ─────────────────────────────
+  const authUser = await getAuthUser();
+  let isSubscribed = false;
+
+  if (authUser) {
+    const profileRepo = getProfileRepo();
+    const profile = await profileRepo.findByUserId(authUser.sub);
+    isSubscribed = profile?.isSubscribed ?? false;
+
+    // Record premium view & credit creator (only for subscribed users)
+    if (isSubscribed && article.isPremium) {
+      try {
+        await profileRepo.recordPremiumView(article.id, authUser.sub);
+      } catch {
+        // Non-critical — don't block page render
+      }
+    }
+  }
+
+  const showPaywall = article.isPremium && !isSubscribed;
+  const freeContentLimit = article.premiumStartIndex ?? 3;
+  const visibleContent = showPaywall
+    ? article.content.slice(0, freeContentLimit)
+    : article.content;
+  const lockedContent = showPaywall
+    ? article.content.slice(freeContentLimit)
+    : [];
 
   const readTime = Math.max(1, Math.ceil(article.content.length / 3));
   const date = new Date(article.createdAt).toLocaleDateString("en-US", {
@@ -55,6 +86,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             <Clock className="w-3 h-3" />
             {readTime} min read
           </span>
+          {article.isPremium && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-amber-600 dark:text-amber-400 bg-amber-50 dark:bg-amber-950 px-3 py-1.5 rounded-full">
+              <Crown className="w-3 h-3" />
+              Premium
+            </span>
+          )}
         </div>
 
         <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-6 text-balance">
@@ -87,8 +124,17 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         </div>
       )}
 
-      {/* Bilingual Reader */}
-      <BilingualReader content={article.content} />
+      {/* Bilingual Reader — visible content */}
+      <BilingualReader content={visibleContent} />
+
+      {/* Paywall overlay for locked content */}
+      {showPaywall && lockedContent.length > 0 && (
+        <PaywallOverlay
+          lockedCount={lockedContent.length}
+          totalCount={article.content.length}
+          isLoggedIn={!!authUser}
+        />
+      )}
     </article>
   );
 }

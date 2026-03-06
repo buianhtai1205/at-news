@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Globe, Menu, X, PenSquare, LayoutDashboard } from "lucide-react";
+import { Globe, Menu, X, PenSquare, LayoutDashboard, Crown } from "lucide-react";
 import { ThemeToggle } from "@/src/components/ui/ThemeToggle";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 
@@ -26,6 +26,10 @@ export function Header() {
           </Link>
           <Link href="/categories" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
             Categories
+          </Link>
+          <Link href="/pricing" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors flex items-center gap-1">
+            <Crown className="w-3.5 h-3.5 text-amber-500" />
+            Pricing
           </Link>
           {user?.role === "ADMIN" && (
             <Link href="/admin" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
@@ -57,6 +61,13 @@ export function Header() {
               >
                 <LayoutDashboard className="w-4 h-4" />
                 My Articles
+              </Link>
+              <Link
+                href="/dashboard"
+                className="flex items-center gap-1.5 text-sm font-medium text-amber-600 dark:text-amber-400 hover:text-amber-700 dark:hover:text-amber-300 transition-colors"
+              >
+                <Crown className="w-4 h-4" />
+                Earnings
               </Link>
               <div className="flex items-center gap-3 pl-3 border-l border-zinc-200 dark:border-zinc-700">
                 <span className="text-sm text-zinc-500 dark:text-zinc-400">{user.name}</span>
@@ -107,6 +118,10 @@ export function Header() {
           <Link href="/categories" className="block text-sm font-medium py-2" onClick={() => setMobileOpen(false)}>
             Categories
           </Link>
+          <Link href="/pricing" className="block text-sm font-medium py-2 flex items-center gap-1" onClick={() => setMobileOpen(false)}>
+            <Crown className="w-3.5 h-3.5 text-amber-500" />
+            Pricing
+          </Link>
           {user?.role === "ADMIN" && (
             <Link href="/admin" className="block text-sm font-medium py-2" onClick={() => setMobileOpen(false)}>
               Admin Dashboard
@@ -128,6 +143,13 @@ export function Header() {
                 onClick={() => setMobileOpen(false)}
               >
                 My Articles
+              </Link>
+              <Link
+                href="/dashboard"
+                className="block text-sm font-medium py-2 text-amber-600 dark:text-amber-400"
+                onClick={() => setMobileOpen(false)}
+              >
+                Earnings
               </Link>
               <div className="flex items-center justify-between py-2">
                 <span className="text-sm text-zinc-500">{user.name} ({user.role})</span>

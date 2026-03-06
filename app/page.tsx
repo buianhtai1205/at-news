@@ -103,6 +103,7 @@ export default async function Home() {
                   coverImageUrl={article.coverImageUrl}
                   contentLength={article.content.length}
                   createdAt={article.createdAt}
+                  isPremium={article.isPremium}
                 />
               ))}
             </div>

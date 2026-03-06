@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Clock, Tag } from "lucide-react";
+import { Clock, Tag, Crown } from "lucide-react";
 
 interface ArticleCardProps {
   slug: string;
@@ -11,6 +11,7 @@ interface ArticleCardProps {
   coverImageUrl?: string;
   contentLength: number;
   createdAt: string;
+  isPremium?: boolean;
 }
 
 export function ArticleCard({
@@ -21,6 +22,7 @@ export function ArticleCard({
   coverImageUrl,
   contentLength,
   createdAt,
+  isPremium,
 }: ArticleCardProps) {
   const readTime = Math.max(1, Math.ceil(contentLength / 3));
   const date = new Date(createdAt).toLocaleDateString("en-US", {
@@ -47,6 +49,12 @@ export function ArticleCard({
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-indigo-300 dark:text-indigo-700">
             AT
+          </div>
+        )}
+        {isPremium && (
+          <div className="absolute top-3 right-3 flex items-center gap-1 bg-amber-500 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-lg">
+            <Crown className="w-3 h-3" />
+            Premium
           </div>
         )}
       </div>

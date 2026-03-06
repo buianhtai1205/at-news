@@ -16,6 +16,8 @@ interface ArticleRow {
   cover_image_url: string | null;
   content: unknown; // JSONB — comes back as parsed JSON
   rejection_reason: string | null;
+  is_premium: boolean;
+  premium_start_index: number;
   created_at: string;
   updated_at: string;
 }
@@ -31,6 +33,8 @@ function toEntity(row: ArticleRow): Article {
     coverImageUrl: row.cover_image_url ?? undefined,
     content: row.content as Article["content"],
     rejectionReason: row.rejection_reason,
+    isPremium: row.is_premium ?? false,
+    premiumStartIndex: row.premium_start_index ?? 3,
     createdAt: row.created_at,
     updatedAt: row.updated_at,
   };
@@ -45,8 +49,10 @@ function toRow(article: Partial<Article>): Record<string, unknown> {
   if (article.categoryId !== undefined) row.category_id = article.categoryId;
   if (article.status !== undefined) row.status = article.status;
   if (article.coverImageUrl !== undefined) row.cover_image_url = article.coverImageUrl || null;
-  if (article.content !== undefined) row.content = article.content; // JSONB accepts JS objects/arrays directly
+  if (article.content !== undefined) row.content = article.content;
   if (article.rejectionReason !== undefined) row.rejection_reason = article.rejectionReason;
+  if (article.isPremium !== undefined) row.is_premium = article.isPremium;
+  if (article.premiumStartIndex !== undefined) row.premium_start_index = article.premiumStartIndex;
   if (article.createdAt !== undefined) row.created_at = article.createdAt;
   if (article.updatedAt !== undefined) row.updated_at = article.updatedAt;
   return row;

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Plus, Trash2, Save, Loader2, Link, Sparkles, FileUp, Send } from "lucide-react";
+import { Plus, Trash2, Save, Loader2, Link, Sparkles, FileUp, Send, Crown } from "lucide-react";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 import { ImportContentModal } from "./ImportContentModal";
 
@@ -25,6 +25,8 @@ interface ArticleFormProps {
     coverImageUrl?: string;
     content: BilingualPair[];
     status?: string;
+    isPremium?: boolean;
+    premiumStartIndex?: number;
   };
 }
 
@@ -40,6 +42,10 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
   const [categories, setCategories] = useState<Category[]>([]);
   const [loadingStatus, setLoadingStatus] = useState<"DRAFT" | "APPLIED" | null>(null);
   const [error, setError] = useState("");
+
+  // ─── Premium settings ─────────────────────────────────────
+  const [isPremium, setIsPremium] = useState(initialData?.isPremium ?? false);
+  const [premiumStartIndex, setPremiumStartIndex] = useState(initialData?.premiumStartIndex ?? 3);
 
   // ─── Auto-generate from URL ──────────────────────────────
   const [sourceUrl, setSourceUrl] = useState("");
@@ -107,7 +113,7 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
     setError("");
 
     try {
-      const body = { title, categoryId, coverImageUrl, content, status: targetStatus };
+      const body = { title, categoryId, coverImageUrl, content, status: targetStatus, isPremium, premiumStartIndex };
       const url = mode === "edit" ? `/api/articles/${initialData?.id}` : "/api/articles";
       const method = mode === "edit" ? "PUT" : "POST";
 
@@ -261,6 +267,48 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
           >
             <Plus className="w-4 h-4" /> Add Sentence
           </button>
+        </div>
+
+        {/* Premium Article Settings */}
+        <div className="mb-6 p-4 bg-gradient-to-r from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border border-amber-200 dark:border-amber-800 rounded-xl space-y-4">
+          <div className="flex items-center justify-between">
+            <label className="flex items-center gap-2 text-sm font-medium text-amber-700 dark:text-amber-300">
+              <Crown className="w-4 h-4" />
+              Make this a Premium Article
+            </label>
+            <button
+              type="button"
+              onClick={() => setIsPremium(!isPremium)}
+              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
+                isPremium ? "bg-amber-500" : "bg-zinc-300 dark:bg-zinc-600"
+              }`}
+            >
+              <span
+                className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                  isPremium ? "translate-x-6" : "translate-x-1"
+                }`}
+              />
+            </button>
+          </div>
+
+          {isPremium && (
+            <div className="flex items-center gap-3">
+              <label className="text-sm text-amber-600 dark:text-amber-400 whitespace-nowrap">
+                Free preview: first
+              </label>
+              <input
+                type="number"
+                min={1}
+                max={Math.max(1, content.length)}
+                value={premiumStartIndex}
+                onChange={(e) => setPremiumStartIndex(Math.max(1, parseInt(e.target.value) || 1))}
+                className="w-20 px-3 py-1.5 rounded-lg border border-amber-300 dark:border-amber-700 bg-white dark:bg-zinc-800 text-center text-sm focus:outline-none focus:ring-2 focus:ring-amber-500"
+              />
+              <span className="text-sm text-amber-600 dark:text-amber-400">
+                sentences (of {content.length})
+              </span>
+            </div>
+          )}
         </div>
 
         <div className="space-y-4">

@@ -11,6 +11,8 @@ export const CreateArticleDTO = z.object({
   coverImageUrl: z.string().url("Must be a valid URL").optional().or(z.literal("")),
   content: z.array(BilingualSentenceSchema).min(1, "At least one bilingual sentence is required"),
   status: z.enum(["DRAFT", "APPLIED"]).optional().default("DRAFT"),
+  isPremium: z.boolean().optional().default(false),
+  premiumStartIndex: z.number().int().min(1).optional().default(3),
 });
 
 export const UpdateArticleDTO = z.object({
@@ -19,6 +21,8 @@ export const UpdateArticleDTO = z.object({
   coverImageUrl: z.string().url().optional().or(z.literal("")),
   content: z.array(BilingualSentenceSchema).min(1).optional(),
   status: z.enum(["DRAFT", "APPLIED"]).optional(),
+  isPremium: z.boolean().optional(),
+  premiumStartIndex: z.number().int().min(1).optional(),
 });
 
 export const RejectArticleDTO = z.object({

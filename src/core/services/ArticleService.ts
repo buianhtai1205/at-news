@@ -76,6 +76,8 @@ export class ArticleService {
       coverImageUrl: input.coverImageUrl || undefined,
       content: input.content,
       rejectionReason: null,
+      isPremium: input.isPremium ?? false,
+      premiumStartIndex: input.premiumStartIndex ?? 3,
       createdAt: now,
       updatedAt: now,
     };

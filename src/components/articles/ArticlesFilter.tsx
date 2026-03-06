@@ -15,6 +15,7 @@ interface ArticleItem {
   coverImageUrl?: string;
   contentLength: number;
   createdAt: string;
+  isPremium?: boolean;
 }
 
 interface ArticlesFilterProps {

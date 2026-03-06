@@ -13,6 +13,8 @@ interface ArticleData {
   coverImageUrl?: string;
   content: { en: string; vi: string }[];
   status: string;
+  isPremium?: boolean;
+  premiumStartIndex?: number;
 }
 
 function CreateArticleContent() {
@@ -56,6 +58,8 @@ function CreateArticleContent() {
           coverImageUrl: a.coverImageUrl ?? "",
           content: a.content,
           status: a.status,
+          isPremium: a.isPremium ?? false,
+          premiumStartIndex: a.premiumStartIndex ?? 3,
         });
       })
       .catch((err) => setLoadError(err.message))

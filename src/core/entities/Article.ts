@@ -15,6 +15,8 @@ export interface Article {
   coverImageUrl?: string;
   content: BilingualSentence[];
   rejectionReason?: string | null;
+  isPremium: boolean;
+  premiumStartIndex: number;
   createdAt: string;
   updatedAt: string;
 }
