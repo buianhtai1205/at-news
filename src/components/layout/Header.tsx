@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Globe, Menu, X, PenSquare } from "lucide-react";
+import { Globe, Menu, X, PenSquare, LayoutDashboard } from "lucide-react";
 import { ThemeToggle } from "@/src/components/ui/ThemeToggle";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 
@@ -29,7 +29,12 @@ export function Header() {
           </Link>
           {user?.role === "ADMIN" && (
             <Link href="/admin" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
-              Dashboard
+              Admin
+            </Link>
+          )}
+          {user && (
+            <Link href="/dashboard/articles" className="hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+              My Articles
             </Link>
           )}
         </nav>
@@ -45,6 +50,13 @@ export function Header() {
               >
                 <PenSquare className="w-4 h-4" />
                 Write
+              </Link>
+              <Link
+                href="/dashboard/articles"
+                className="flex items-center gap-1.5 text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors"
+              >
+                <LayoutDashboard className="w-4 h-4" />
+                My Articles
               </Link>
               <div className="flex items-center gap-3 pl-3 border-l border-zinc-200 dark:border-zinc-700">
                 <span className="text-sm text-zinc-500 dark:text-zinc-400">{user.name}</span>
@@ -97,7 +109,7 @@ export function Header() {
           </Link>
           {user?.role === "ADMIN" && (
             <Link href="/admin" className="block text-sm font-medium py-2" onClick={() => setMobileOpen(false)}>
-              Dashboard
+              Admin Dashboard
             </Link>
           )}
           <hr className="border-zinc-200 dark:border-zinc-800" />
@@ -109,6 +121,13 @@ export function Header() {
                 onClick={() => setMobileOpen(false)}
               >
                 Write Article
+              </Link>
+              <Link
+                href="/dashboard/articles"
+                className="block text-sm font-medium py-2"
+                onClick={() => setMobileOpen(false)}
+              >
+                My Articles
               </Link>
               <div className="flex items-center justify-between py-2">
                 <span className="text-sm text-zinc-500">{user.name} ({user.role})</span>

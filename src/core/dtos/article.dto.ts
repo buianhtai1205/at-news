@@ -10,6 +10,7 @@ export const CreateArticleDTO = z.object({
   categoryId: z.string().min(1, "Category is required"),
   coverImageUrl: z.string().url("Must be a valid URL").optional().or(z.literal("")),
   content: z.array(BilingualSentenceSchema).min(1, "At least one bilingual sentence is required"),
+  status: z.enum(["DRAFT", "APPLIED"]).optional().default("DRAFT"),
 });
 
 export const UpdateArticleDTO = z.object({
@@ -17,6 +18,7 @@ export const UpdateArticleDTO = z.object({
   categoryId: z.string().min(1).optional(),
   coverImageUrl: z.string().url().optional().or(z.literal("")),
   content: z.array(BilingualSentenceSchema).min(1).optional(),
+  status: z.enum(["DRAFT", "APPLIED"]).optional(),
 });
 
 export const RejectArticleDTO = z.object({

@@ -21,7 +21,7 @@ interface Article {
   categoryId: string;
   status: string;
   content: { en: string; vi: string }[];
-  rejectReason?: string | null;
+  rejectionReason?: string | null;
   createdAt: string;
   updatedAt: string;
 }
@@ -31,7 +31,7 @@ export default function AdminPage() {
   const router = useRouter();
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<string>("PENDING");
+  const [activeTab, setActiveTab] = useState<string>("APPLIED");
   const [rejectId, setRejectId] = useState<string | null>(null);
   const [rejectReason, setRejectReason] = useState("");
   const [actionLoading, setActionLoading] = useState<string | null>(null);
@@ -121,7 +121,7 @@ export default function AdminPage() {
     );
   }
 
-  const tabs = ["PENDING", "PUBLISHED", "REJECTED"];
+  const tabs = ["APPLIED", "APPROVED", "REJECTED", "DRAFT"];
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-5xl">
@@ -144,10 +144,11 @@ export default function AdminPage() {
                 : "border-transparent text-zinc-500 hover:text-zinc-900 dark:hover:text-zinc-100"
             }`}
           >
-            {tab === "PENDING" && <Clock className="w-4 h-4 inline mr-1.5" />}
-            {tab === "PUBLISHED" && <Check className="w-4 h-4 inline mr-1.5" />}
+            {tab === "APPLIED" && <Clock className="w-4 h-4 inline mr-1.5" />}
+            {tab === "APPROVED" && <Check className="w-4 h-4 inline mr-1.5" />}
             {tab === "REJECTED" && <AlertCircle className="w-4 h-4 inline mr-1.5" />}
-            {tab.charAt(0) + tab.slice(1).toLowerCase()}
+            {tab === "DRAFT" && <FileText className="w-4 h-4 inline mr-1.5" />}
+            {tab === "APPLIED" ? "Pending Review" : tab.charAt(0) + tab.slice(1).toLowerCase()}
           </button>
         ))}
       </div>
@@ -177,15 +178,15 @@ export default function AdminPage() {
                     <span>•</span>
                     <span>{new Date(article.createdAt).toLocaleDateString()}</span>
                   </div>
-                  {article.rejectReason && (
+                  {article.rejectionReason && (
                     <div className="mt-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950 px-3 py-2 rounded-lg">
-                      Rejection reason: {article.rejectReason}
+                      Rejection reason: {article.rejectionReason}
                     </div>
                   )}
                 </div>
 
                 <div className="flex items-center gap-2 shrink-0">
-                  {activeTab === "PENDING" && (
+                  {activeTab === "APPLIED" && (
                     <>
                       <button
                         onClick={() => handleApprove(article.id)}

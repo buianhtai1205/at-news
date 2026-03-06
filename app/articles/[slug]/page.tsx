@@ -21,7 +21,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     notFound();
   }
 
-  if (!article || article.status !== "PUBLISHED") {
+  if (!article || article.status !== "APPROVED") {
     notFound();
   }
 

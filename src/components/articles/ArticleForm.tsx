@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Plus, Trash2, Save, Loader2, Link, Sparkles, FileUp } from "lucide-react";
+import { Plus, Trash2, Save, Loader2, Link, Sparkles, FileUp, Send } from "lucide-react";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 import { ImportContentModal } from "./ImportContentModal";
 
@@ -24,6 +24,7 @@ interface ArticleFormProps {
     categoryId: string;
     coverImageUrl?: string;
     content: BilingualPair[];
+    status?: string;
   };
 }
 
@@ -37,7 +38,7 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
     initialData?.content ?? [{ en: "", vi: "" }]
   );
   const [categories, setCategories] = useState<Category[]>([]);
-  const [loading, setLoading] = useState(false);
+  const [loadingStatus, setLoadingStatus] = useState<"DRAFT" | "APPLIED" | null>(null);
   const [error, setError] = useState("");
 
   // ─── Auto-generate from URL ──────────────────────────────
@@ -99,15 +100,14 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
     setContent(updated);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSave = async (targetStatus: "DRAFT" | "APPLIED") => {
     if (!user) return;
 
-    setLoading(true);
+    setLoadingStatus(targetStatus);
     setError("");
 
     try {
-      const body = { title, categoryId, coverImageUrl, content };
+      const body = { title, categoryId, coverImageUrl, content, status: targetStatus };
       const url = mode === "edit" ? `/api/articles/${initialData?.id}` : "/api/articles";
       const method = mode === "edit" ? "PUT" : "POST";
 
@@ -122,14 +122,15 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
         throw new Error(data.message || data.detail || "Failed to save article");
       }
 
-      const data = await res.json();
-      router.push(`/articles/${data.article.slug}`);
+      router.push("/dashboard/articles");
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Something went wrong");
     } finally {
-      setLoading(false);
+      setLoadingStatus(null);
     }
   };
+
+  const handleSubmit = (e: React.FormEvent) => e.preventDefault();
 
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
@@ -302,18 +303,35 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
       </div>
 
       {/* Submit */}
-      <div className="flex justify-end pt-4">
+      <div className="flex flex-col sm:flex-row justify-end gap-3 pt-4">
+        {/* Save Draft */}
         <button
-          type="submit"
-          disabled={loading}
-          className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-medium transition-colors disabled:opacity-50"
+          type="button"
+          onClick={() => handleSave("DRAFT")}
+          disabled={loadingStatus !== null}
+          className="flex items-center justify-center gap-2 border border-zinc-300 dark:border-zinc-600 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 px-6 py-3 rounded-xl font-medium transition-colors disabled:opacity-50"
         >
-          {loading ? (
+          {loadingStatus === "DRAFT" ? (
             <Loader2 className="w-4 h-4 animate-spin" />
           ) : (
             <Save className="w-4 h-4" />
           )}
-          {mode === "create" ? "Submit for Review" : "Update Article"}
+          Save Draft
+        </button>
+
+        {/* Submit for Review */}
+        <button
+          type="button"
+          onClick={() => handleSave("APPLIED")}
+          disabled={loadingStatus !== null}
+          className="flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-medium transition-colors disabled:opacity-50"
+        >
+          {loadingStatus === "APPLIED" ? (
+            <Loader2 className="w-4 h-4 animate-spin" />
+          ) : (
+            <Send className="w-4 h-4" />
+          )}
+          {mode === "create" ? "Submit for Review" : "Re-submit for Review"}
         </button>
       </div>
 

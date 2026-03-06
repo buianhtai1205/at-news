@@ -5,7 +5,7 @@
     "title": "The Future of Artificial Intelligence in 2026",
     "authorId": "user_001",
     "categoryId": "cat_tech",
-    "status": "PUBLISHED",
+    "status": "APPROVED",
     "coverImageUrl": "https://picsum.photos/seed/ai2026/1200/600",
     "content": [
       {
@@ -41,7 +41,7 @@
         "vi": "Các công cụ hỗ trợ bởi AI đang trở nên thiết yếu trong công việc và cuộc sống hàng ngày."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-02-15T10:00:00.000Z",
     "updatedAt": "2026-02-16T08:00:00.000Z"
   },
@@ -51,7 +51,7 @@
     "title": "Global Markets Rally as Inflation Eases",
     "authorId": "user_001",
     "categoryId": "cat_econ",
-    "status": "PUBLISHED",
+    "status": "APPROVED",
     "coverImageUrl": "https://picsum.photos/seed/markets/1200/600",
     "content": [
       {
@@ -79,7 +79,7 @@
         "vi": "Chi tiêu tiêu dùng đang phục hồi khi giá cả ổn định."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-02-20T14:00:00.000Z",
     "updatedAt": "2026-02-21T09:00:00.000Z"
   },
@@ -89,7 +89,7 @@
     "title": "The Rise of Remote Work: A New Normal",
     "authorId": "user_admin",
     "categoryId": "cat_soc",
-    "status": "PUBLISHED",
+    "status": "APPROVED",
     "coverImageUrl": "https://picsum.photos/seed/remote/1200/600",
     "content": [
       {
@@ -117,7 +117,7 @@
         "vi": "Sự thay đổi này có ý nghĩa quan trọng đối với quy hoạch đô thị và bất động sản."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-02-25T11:00:00.000Z",
     "updatedAt": "2026-02-26T07:00:00.000Z"
   },
@@ -127,7 +127,7 @@
     "title": "Vietnam's Education Reform: Progress and Challenges",
     "authorId": "user_001",
     "categoryId": "cat_edu",
-    "status": "PENDING",
+    "status": "APPROVED",
     "coverImageUrl": "https://picsum.photos/seed/education/1200/600",
     "content": [
       {
@@ -151,9 +151,9 @@
         "vi": "Khoảng cách giáo dục nông thôn và thành thị vẫn là thách thức đáng kể."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-03-01T09:00:00.000Z",
-    "updatedAt": "2026-03-01T09:00:00.000Z"
+    "updatedAt": "2026-03-06T09:48:57.959Z"
   },
   {
     "id": "art_005",
@@ -181,7 +181,7 @@
         "vi": "Ngủ đủ giấc là rất quan trọng cho sức khỏe thể chất và tinh thần."
       }
     ],
-    "rejectReason": "Article needs more detailed content and credible sources. Please expand each tip with scientific backing.",
+    "rejectionReason": "Article needs more detailed content and credible sources. Please expand each tip with scientific backing.",
     "createdAt": "2026-02-28T15:00:00.000Z",
     "updatedAt": "2026-03-01T10:00:00.000Z"
   },
@@ -191,7 +191,7 @@
     "title": "'Every day feels like a month': Iranians describe life under US-Israeli strikes",
     "authorId": "user_admin",
     "categoryId": "cat_global",
-    "status": "PUBLISHED",
+    "status": "APPROVED",
     "coverImageUrl": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/5b29/live/d97a7270-17eb-11f1-801d-ed3cff6bf876.jpg.webp",
     "content": [
       {
@@ -407,7 +407,7 @@
         "vi": "Thông tin bổ sung do Alex Boyd, Ghoncheh Habibiazad, Caroline Hawley và Tom McArthur thực hiện."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-03-05T09:28:31.434Z",
     "updatedAt": "2026-03-05T09:29:02.786Z"
   },
@@ -417,7 +417,7 @@
     "title": "Global inflation",
     "authorId": "user_admin",
     "categoryId": "cat_econ",
-    "status": "PUBLISHED",
+    "status": "APPROVED",
     "content": [
       {
         "en": "Global inflation is expected to fall to 5.8 percent in 2024 and 4.4 percent in 2025.",
@@ -432,8 +432,1778 @@
         "vi": "Hầu hết các ngân hàng trung ương vẫn thận trọng, duy trì lãi suất cao để đảm bảo hạ cánh mềm cho các nền kinh tế của họ."
       }
     ],
-    "rejectReason": null,
+    "rejectionReason": null,
     "createdAt": "2026-03-06T09:01:25.724Z",
     "updatedAt": "2026-03-06T09:01:34.253Z"
+  },
+  {
+    "id": "art_7b386ff2",
+    "slug": "the-2028-global-intelligence-crisis-580cdf",
+    "title": "THE 2028 GLOBAL INTELLIGENCE CRISIS",
+    "authorId": "user_admin",
+    "categoryId": "cat_econ",
+    "status": "APPROVED",
+    "coverImageUrl": "https://substackcdn.com/image/fetch/$s_!rCTy!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ede0b37-f3be-4787-90ff-10cb24719fdc_710x1119.jpeg",
+    "content": [
+      {
+        "en": "What if our AI bullishness continues to be right...and what if that’s actually bearish?",
+        "vi": "Điều gì sẽ xảy ra nếu sự lạc quan của chúng ta về AI tiếp tục đúng... và điều gì sẽ xảy ra nếu điều đó thực sự là tín hiệu giảm giá?"
+      },
+      {
+        "en": "What follows is a scenario, not a prediction.",
+        "vi": "Những gì sau đây là một kịch bản, không phải là một dự đoán."
+      },
+      {
+        "en": "This isn’t bear porn or AI doomer fan-fiction.",
+        "vi": "Đây không phải là nội dung tiêu cực hay truyện viễn tưởng về ngày tận thế AI."
+      },
+      {
+        "en": "The sole intent of this piece is modeling a scenario that’s been relatively underexplored.",
+        "vi": "Mục đích duy nhất của bài viết này là mô hình hóa một kịch bản tương đối chưa được khám phá."
+      },
+      {
+        "en": "Our friend Alap Shah posed the question, and together we brainstormed the answer.",
+        "vi": "Người bạn của chúng tôi, Alap Shah, đã đặt câu hỏi, và chúng tôi cùng nhau động não tìm ra câu trả lời."
+      },
+      {
+        "en": "We wrote this part, and he’s written two others you can find here.",
+        "vi": "Chúng tôi đã viết phần này, và anh ấy đã viết hai phần khác mà bạn có thể tìm thấy ở đây."
+      },
+      {
+        "en": "Hopefully, reading this leaves you more prepared for potential left tail risks as AI makes the economy increasingly weird.",
+        "vi": "Hy vọng rằng, việc đọc bài này sẽ giúp bạn chuẩn bị tốt hơn cho những rủi ro đuôi trái tiềm ẩn khi AI làm cho nền kinh tế ngày càng trở nên kỳ lạ."
+      },
+      {
+        "en": "This is the CitriniResearch Macro Memo from June 2028, detailing the progression and fallout of the Global Intelligence Crisis.",
+        "vi": "Đây là Bản ghi nhớ Kinh tế vĩ mô của CitriniResearch từ tháng 6 năm 2028, trình bày chi tiết về sự phát triển và hậu quả của Cuộc khủng hoảng Trí tuệ Toàn cầu."
+      },
+      {
+        "en": "CitriniResearch February 22nd, 2026 June 30th, 2028The unemployment rate printed 10.2% this morning, a 0.3% upside surprise.",
+        "vi": "CitriniResearch ngày 22 tháng 2 năm 2026 đến ngày 30 tháng 6 năm 2028. Tỷ lệ thất nghiệp sáng nay là 10.2%, một bất ngờ tăng 0.3%."
+      },
+      {
+        "en": "The market sold off 2% on the number, bringing the cumulative drawdown in the S&P to 38% from its October 2026 highs.",
+        "vi": "Thị trường đã giảm 2% theo con số này, đưa mức giảm tích lũy của S&P lên 38% so với mức cao nhất vào tháng 10 năm 2026."
+      },
+      {
+        "en": "Traders have grown numb. Six months ago, a print like this would have triggered a circuit breaker.",
+        "vi": "Các nhà giao dịch đã trở nên chai sạn. Sáu tháng trước, một con số như thế này đã có thể kích hoạt cơ chế ngắt mạch."
+      },
+      {
+        "en": "Two years. That’s all it took to get from “contained” and “sector-specific” to an economy that no longer resembles the one any of us grew up in.",
+        "vi": "Hai năm. Đó là tất cả những gì cần thiết để chuyển từ “được kiểm soát” và “đặc thù ngành” sang một nền kinh tế không còn giống với nền kinh tế mà bất kỳ ai trong chúng ta đã lớn lên."
+      },
+      {
+        "en": "This quarter’s macro memo is our attempt to reconstruct the sequence - a post-mortem on the pre-crisis economy.",
+        "vi": "Bản ghi nhớ kinh tế vĩ mô quý này là nỗ lực của chúng tôi để tái tạo lại chuỗi sự kiện - một cuộc mổ xẻ nền kinh tế trước khủng hoảng."
+      },
+      {
+        "en": "The euphoria was palpable. By October 2026, the S&P 500 flirted with 8000, the Nasdaq broke above 30k.",
+        "vi": "Sự hưng phấn là rõ ràng. Đến tháng 10 năm 2026, S&P 500 đã chạm mốc 8000, Nasdaq vượt qua 30k."
+      },
+      {
+        "en": "The initial wave of layoffs due to human obsolescence began in early 2026, and they did exactly what layoffs are supposed to.",
+        "vi": "Làn sóng sa thải ban đầu do sự lỗi thời của con người bắt đầu vào đầu năm 2026, và chúng đã làm chính xác những gì mà việc sa thải được cho là sẽ làm."
+      },
+      {
+        "en": "Margins expanded, earnings beat, stocks rallied. Record-setting corporate profits were funneled right back into AI compute.",
+        "vi": "Biên lợi nhuận mở rộng, lợi nhuận vượt kỳ vọng, cổ phiếu tăng giá. Lợi nhuận kỷ lục của các công ty được đổ thẳng vào điện toán AI."
+      },
+      {
+        "en": "The headline numbers were still great. Nominal GDP repeatedly printed mid-to-high single-digit annualized growth.",
+        "vi": "Các con số tổng thể vẫn rất tốt. GDP danh nghĩa liên tục ghi nhận mức tăng trưởng hàng năm từ trung bình đến cao một chữ số."
+      },
+      {
+        "en": "Productivity was booming. Real output per hour rose at rates not seen since the 1950s, driven by AI agents that don’t sleep, take sick days or require health insurance.",
+        "vi": "Năng suất bùng nổ. Sản lượng thực tế mỗi giờ tăng với tốc độ chưa từng thấy kể từ những năm 1950, được thúc đẩy bởi các tác nhân AI không ngủ, không nghỉ ốm hay yêu cầu bảo hiểm y tế."
+      },
+      {
+        "en": "The owners of compute saw their wealth explode as labor costs vanished. Meanwhile, real wage growth collapsed.",
+        "vi": "Những người sở hữu điện toán chứng kiến tài sản của họ tăng vọt khi chi phí lao động biến mất. Trong khi đó, tăng trưởng tiền lương thực tế sụp đổ."
+      },
+      {
+        "en": "Despite the administration’s repeated boasts of record productivity, white-collar workers lost jobs to machines and were forced into lower-paying roles.",
+        "vi": "Mặc dù chính quyền liên tục khoe khoang về năng suất kỷ lục, nhưng nhân viên văn phòng đã mất việc làm vào tay máy móc và bị buộc phải nhận những vai trò có mức lương thấp hơn."
+      },
+      {
+        "en": "When cracks began appearing in the consumer economy, economic pundits popularized the phrase “Ghost GDP“: output that shows up in the national accounts but never circulates through the real economy.",
+        "vi": "Khi những vết nứt bắt đầu xuất hiện trong nền kinh tế tiêu dùng, các chuyên gia kinh tế đã phổ biến cụm từ “GDP ma”: sản lượng xuất hiện trong tài khoản quốc gia nhưng không bao giờ lưu thông qua nền kinh tế thực."
+      },
+      {
+        "en": "In every way AI was exceeding expectations, and the market was AI. The only problem…the economy was not.",
+        "vi": "Theo mọi cách, AI đã vượt quá mong đợi, và thị trường là AI. Vấn đề duy nhất… nền kinh tế thì không."
+      },
+      {
+        "en": "It should have been clear all along that a single GPU cluster in North Dakota generating the output previously attributed to 10,000 white-collar workers in midtown Manhattan is more economic pandemic than economic panacea.",
+        "vi": "Lẽ ra phải rõ ràng ngay từ đầu rằng một cụm GPU duy nhất ở North Dakota tạo ra sản lượng trước đây được cho là của 10.000 nhân viên văn phòng ở trung tâm Manhattan là một đại dịch kinh tế hơn là một phương thuốc chữa bách bệnh kinh tế."
+      },
+      {
+        "en": "The velocity of money flatlined. The human-centric consumer economy, 70% of GDP at the time, withered.",
+        "vi": "Tốc độ lưu thông tiền tệ chững lại. Nền kinh tế tiêu dùng lấy con người làm trung tâm, chiếm 70% GDP vào thời điểm đó, đã suy yếu."
+      },
+      {
+        "en": "We probably could have figured this out sooner if we just asked how much money machines spend on discretionary goods. (Hint: it’s zero.)",
+        "vi": "Chúng ta có lẽ đã có thể tìm ra điều này sớm hơn nếu chúng ta chỉ hỏi máy móc chi bao nhiêu tiền cho hàng hóa tùy ý. (Gợi ý: là không.)"
+      },
+      {
+        "en": "AI capabilities improved, companies needed fewer workers, white collar layoffs increased, displaced workers spent less, margin pressure pushed firms to invest more in AI, AI capabilities improved…",
+        "vi": "Khả năng AI được cải thiện, các công ty cần ít nhân viên hơn, số lượng nhân viên văn phòng bị sa thải tăng lên, người lao động bị mất việc làm chi tiêu ít hơn, áp lực biên lợi nhuận đẩy các công ty đầu tư nhiều hơn vào AI, khả năng AI lại được cải thiện…"
+      },
+      {
+        "en": "It was a negative feedback loop with no natural brake. The human intelligence displacement spiral.",
+        "vi": "Đó là một vòng phản hồi tiêu cực không có phanh tự nhiên. Vòng xoáy thay thế trí tuệ con người."
+      },
+      {
+        "en": "White-collar workers saw their earnings power (and, rationally, their spending) structurally impaired.",
+        "vi": "Người lao động cổ cồn trắng chứng kiến sức mạnh kiếm tiền (và, một cách hợp lý, chi tiêu của họ) bị suy giảm về cấu trúc."
+      },
+      {
+        "en": "Their incomes were the bedrock of the $13 trillion mortgage market - forcing underwriters to reassess whether prime mortgages are still money good.",
+        "vi": "Thu nhập của họ là nền tảng của thị trường thế chấp trị giá 13 nghìn tỷ đô la - buộc các nhà bảo lãnh phải đánh giá lại liệu các khoản thế chấp ưu tiên có còn là tài sản tốt hay không."
+      },
+      {
+        "en": "Seventeen years without a real default cycle had left privates bloated with PE-backed software deals that assumed ARR would remain recurring.",
+        "vi": "Mười bảy năm không có chu kỳ vỡ nợ thực sự đã khiến các công ty tư nhân bị thổi phồng với các giao dịch phần mềm được PE hậu thuẫn, vốn giả định rằng ARR sẽ vẫn là doanh thu định kỳ."
+      },
+      {
+        "en": "The first wave of defaults due to AI disruption in mid-2027 challenged that assumption.",
+        "vi": "Làn sóng vỡ nợ đầu tiên do sự gián đoạn của AI vào giữa năm 2027 đã thách thức giả định đó."
+      },
+      {
+        "en": "This would have been manageable if the disruption remained contained to software, but it didn’t.",
+        "vi": "Điều này có thể kiểm soát được nếu sự gián đoạn chỉ giới hạn trong phần mềm, nhưng thực tế không phải vậy."
+      },
+      {
+        "en": "By the end of 2027, it threatened every business model predicated on intermediation. Swaths of companies built on monetizing friction for humans disintegrated.",
+        "vi": "Đến cuối năm 2027, nó đe dọa mọi mô hình kinh doanh dựa trên trung gian. Hàng loạt công ty được xây dựng dựa trên việc kiếm tiền từ sự ma sát cho con người đã tan rã."
+      },
+      {
+        "en": "The system turned out to be one long daisy chain of correlated bets on white-collar productivity growth.",
+        "vi": "Hệ thống hóa ra là một chuỗi dài các cược có tương quan vào tăng trưởng năng suất của nhân viên văn phòng."
+      },
+      {
+        "en": "The November 2027 crash only served to accelerate all of the negative feedback loops already in place.",
+        "vi": "Vụ sụp đổ tháng 11 năm 2027 chỉ làm tăng tốc tất cả các vòng phản hồi tiêu cực đã có sẵn."
+      },
+      {
+        "en": "We’ve been waiting for “bad news is good news” for almost a year now.",
+        "vi": "Chúng ta đã chờ đợi “tin xấu là tin tốt” gần một năm nay."
+      },
+      {
+        "en": "The government is starting to consider proposals, but public faith in the ability of the government to stage any sort of rescue has dwindled.",
+        "vi": "Chính phủ đang bắt đầu xem xét các đề xuất, nhưng niềm tin của công chúng vào khả năng của chính phủ trong việc thực hiện bất kỳ hình thức giải cứu nào đã suy giảm."
+      },
+      {
+        "en": "Policy response has always lagged economic reality, but lack of a comprehensive plan is now threatening to accelerate a deflationary spiral.",
+        "vi": "Phản ứng chính sách luôn đi sau thực tế kinh tế, nhưng việc thiếu một kế hoạch toàn diện hiện đang đe dọa đẩy nhanh vòng xoáy giảm phát."
+      },
+      {
+        "en": "In late 2025, agentic coding tools took a step function jump in capability.",
+        "vi": "Vào cuối năm 2025, các công cụ mã hóa tác nhân đã có một bước nhảy vọt về khả năng."
+      },
+      {
+        "en": "A competent developer working with Claude Code or Codex could now replicate the core functionality of a mid-market SaaS product in weeks.",
+        "vi": "Một nhà phát triển có năng lực làm việc với Claude Code hoặc Codex giờ đây có thể tái tạo chức năng cốt lõi của một sản phẩm SaaS tầm trung trong vài tuần."
+      },
+      {
+        "en": "Not perfectly or with every edge case handled, but well enough that the CIO reviewing a $500k annual renewal started asking the question “what if we just built this ourselves?”",
+        "vi": "Không hoàn hảo hay xử lý mọi trường hợp ngoại lệ, nhưng đủ tốt để CIO xem xét việc gia hạn hợp đồng trị giá 500 nghìn đô la hàng năm bắt đầu đặt câu hỏi “nếu chúng ta tự xây dựng cái này thì sao?”"
+      },
+      {
+        "en": "Fiscal years mostly line up with calendar years, so 2026 enterprise spend had been set in Q4 2025, when “agentic AI” was still a buzzword.",
+        "vi": "Các năm tài chính phần lớn trùng với năm dương lịch, vì vậy chi tiêu doanh nghiệp năm 2026 đã được thiết lập vào quý 4 năm 2025, khi “AI tác nhân” vẫn còn là một từ thông dụng."
+      },
+      {
+        "en": "The mid-year review was the first time procurement teams were making decisions with visibility into what these systems could actually do.",
+        "vi": "Đánh giá giữa năm là lần đầu tiên các nhóm mua sắm đưa ra quyết định với cái nhìn rõ ràng về những gì các hệ thống này thực sự có thể làm được."
+      },
+      {
+        "en": "Some watched their own internal teams spin up prototypes replicating six-figure SaaS contracts in weeks.",
+        "vi": "Một số đã chứng kiến các nhóm nội bộ của họ tạo ra các nguyên mẫu sao chép các hợp đồng SaaS sáu con số chỉ trong vài tuần."
+      },
+      {
+        "en": "That summer, we spoke with a procurement manager at a Fortune 500.",
+        "vi": "Mùa hè năm đó, chúng tôi đã nói chuyện với một quản lý mua sắm tại một công ty Fortune 500."
+      },
+      {
+        "en": "He told us about one of his budget negotiations.",
+        "vi": "Anh ấy kể cho chúng tôi nghe về một trong những cuộc đàm phán ngân sách của mình."
+      },
+      {
+        "en": "The salesperson had expected to run the same playbook as last year: a 5% annual price increase, the standard “your team depends on us” pitch.",
+        "vi": "Người bán hàng đã mong đợi thực hiện chiến lược tương tự như năm ngoái: tăng giá 5% hàng năm, lời chào hàng tiêu chuẩn “đội ngũ của bạn phụ thuộc vào chúng tôi”."
+      },
+      {
+        "en": "The procurement manager told him he’d been in conversations with OpenAI about having their “forward deployed engineers” use AI tools to replace the vendor entirely.",
+        "vi": "Người quản lý mua sắm nói với anh ta rằng anh ta đã nói chuyện với OpenAI về việc để các “kỹ sư triển khai tiên tiến” của họ sử dụng các công cụ AI để thay thế hoàn toàn nhà cung cấp."
+      },
+      {
+        "en": "They renewed at a 30% discount.",
+        "vi": "Họ đã gia hạn với mức giảm giá 30%."
+      },
+      {
+        "en": "That was a good outcome, he said.",
+        "vi": "Đó là một kết quả tốt, anh ấy nói."
+      },
+      {
+        "en": "The “long-tail of SaaS”, like Monday.com, Zapier and Asana, had it much worse.",
+        "vi": "Các công ty “SaaS đuôi dài”, như Monday.com, Zapier và Asana, còn tệ hơn nhiều."
+      },
+      {
+        "en": "Investors were prepared - expectant, even - that the long tail would be hit hard.",
+        "vi": "Các nhà đầu tư đã chuẩn bị – thậm chí là mong đợi – rằng phân khúc đuôi dài sẽ bị ảnh hưởng nặng nề."
+      },
+      {
+        "en": "They may have made up a third of spending for the typical enterprise stack, but they were obviously exposed.",
+        "vi": "Họ có thể chiếm một phần ba chi tiêu cho hệ thống doanh nghiệp điển hình, nhưng rõ ràng họ đã bị phơi bày."
+      },
+      {
+        "en": "The systems of record, however, were supposed to be safe from disruption.",
+        "vi": "Tuy nhiên, các hệ thống lưu trữ dữ liệu được cho là an toàn khỏi sự gián đoạn."
+      },
+      {
+        "en": "It wasn’t until ServiceNow’s Q3 26 report that the mechanism of reflexivity became clearer.",
+        "vi": "Mãi đến báo cáo quý 3 năm 2026 của ServiceNow, cơ chế phản xạ mới trở nên rõ ràng hơn."
+      },
+      {
+        "en": "SERVICENOW NET NEW ACV GROWTH DECELERATES TO 14% FROM 23%; ANNOUNCES 15% WORKFORCE REDUCTION AND ‘STRUCTURAL EFFICIENCY PROGRAM’; SHARES FALL 18% | Bloomberg, October 2026",
+        "vi": "TĂNG TRƯỞNG ACV MỚI RÒNG CỦA SERVICENOW GIẢM TỪ 23% XUỐNG 14%; CÔNG BỐ GIẢM 15% LỰC LƯỢNG LAO ĐỘNG VÀ ‘CHƯƠNG TRÌNH HIỆU QUẢ CẤU TRÚC’; CỔ PHIẾU GIẢM 18% | Bloomberg, Tháng 10 năm 2026"
+      },
+      {
+        "en": "SaaS wasn’t “dead”.",
+        "vi": "SaaS không “chết”."
+      },
+      {
+        "en": "There was still a cost-benefit-analysis to running and supporting in-house builds.",
+        "vi": "Vẫn có một phân tích chi phí-lợi ích khi vận hành và hỗ trợ các bản dựng nội bộ."
+      },
+      {
+        "en": "But in-house was an option, and that factored into pricing negotiations.",
+        "vi": "Nhưng việc tự xây dựng là một lựa chọn, và điều đó đã được tính đến trong các cuộc đàm phán giá cả."
+      },
+      {
+        "en": "Perhaps more importantly, the competitive landscape had changed.",
+        "vi": "Có lẽ quan trọng hơn, bối cảnh cạnh tranh đã thay đổi."
+      },
+      {
+        "en": "AI had made it easier to develop and ship new features, so differentiation collapsed.",
+        "vi": "AI đã giúp việc phát triển và triển khai các tính năng mới dễ dàng hơn, vì vậy sự khác biệt đã sụp đổ."
+      },
+      {
+        "en": "Incumbents were in a race to the bottom on pricing - a knife-fight with both each other and with the new crop of upstart challengers that popped up.",
+        "vi": "Các công ty đương nhiệm đang trong cuộc đua giảm giá đến mức thấp nhất – một cuộc chiến khốc liệt với cả nhau và với các đối thủ mới nổi."
+      },
+      {
+        "en": "Emboldened by the leap in agentic coding capabilities and with no legacy cost structure to protect, these aggressively took share.",
+        "vi": "Được khuyến khích bởi bước nhảy vọt trong khả năng mã hóa tác nhân và không có cấu trúc chi phí kế thừa để bảo vệ, những công ty này đã tích cực chiếm thị phần."
+      },
+      {
+        "en": "The interconnected nature of these systems weren’t fully appreciated until this print, either.",
+        "vi": "Bản chất liên kết của các hệ thống này cũng không được đánh giá cao cho đến bản in này."
+      },
+      {
+        "en": "ServiceNow sold seats.",
+        "vi": "ServiceNow bán các vị trí."
+      },
+      {
+        "en": "When Fortune 500 clients cut 15% of their workforce, they cancelled 15% of their licenses.",
+        "vi": "Khi các khách hàng Fortune 500 cắt giảm 15% lực lượng lao động, họ đã hủy 15% giấy phép của mình."
+      },
+      {
+        "en": "The same AI-driven headcount reductions that were boosting margins at their customers were mechanically destroying their own revenue base.",
+        "vi": "Việc cắt giảm nhân sự do AI thúc đẩy tương tự đã giúp tăng lợi nhuận cho khách hàng của họ lại đang tự động phá hủy cơ sở doanh thu của chính họ."
+      },
+      {
+        "en": "The company that sold workflow automation was being disrupted by better workflow automation, and its response was to cut headcount and use the savings to fund the very technology disrupting it.",
+        "vi": "Công ty bán tự động hóa quy trình làm việc đang bị gián đoạn bởi tự động hóa quy trình làm việc tốt hơn, và phản ứng của họ là cắt giảm nhân sự và sử dụng khoản tiết kiệm đó để tài trợ cho chính công nghệ đang làm gián đoạn họ."
+      },
+      {
+        "en": "What else were they supposed to do?",
+        "vi": "Họ còn phải làm gì nữa?"
+      },
+      {
+        "en": "Sit still and die slower?",
+        "vi": "Ngồi yên và chết chậm hơn?"
+      },
+      {
+        "en": "The companies most threatened by AI became AI’s most aggressive adopters.",
+        "vi": "Các công ty bị đe dọa nhiều nhất bởi AI đã trở thành những người chấp nhận AI tích cực nhất."
+      },
+      {
+        "en": "This sounds obvious in hindsight, but it really wasn’t at the time (at least to me).",
+        "vi": "Điều này nghe có vẻ hiển nhiên khi nhìn lại, nhưng thực sự không phải vậy vào thời điểm đó (ít nhất là đối với tôi)."
+      },
+      {
+        "en": "The historical disruption model said incumbents resist new technology, they lose share to nimble entrants and die slowly.",
+        "vi": "Mô hình gián đoạn lịch sử cho rằng các công ty đương nhiệm chống lại công nghệ mới, họ mất thị phần vào tay các đối thủ nhanh nhẹn và chết dần."
+      },
+      {
+        "en": "That’s what happened to Kodak, to Blockbuster, to BlackBerry.",
+        "vi": "Đó là điều đã xảy ra với Kodak, với Blockbuster, với BlackBerry."
+      },
+      {
+        "en": "What happened in 2026 was different; the incumbents didn’t resist because they couldn’t afford to.",
+        "vi": "Điều xảy ra vào năm 2026 thì khác; các công ty đương nhiệm không chống lại vì họ không đủ khả năng."
+      },
+      {
+        "en": "With stocks down 40-60% and boards demanding answers, the AI-threatened companies did the only thing they could.",
+        "vi": "Với cổ phiếu giảm 40-60% và các hội đồng quản trị yêu cầu câu trả lời, các công ty bị đe dọa bởi AI đã làm điều duy nhất họ có thể."
+      },
+      {
+        "en": "Cut headcount, redeploy the savings into AI tools, use those tools to maintain output with lower costs.",
+        "vi": "Cắt giảm nhân sự, tái phân bổ khoản tiết kiệm vào các công cụ AI, sử dụng các công cụ đó để duy trì sản lượng với chi phí thấp hơn."
+      },
+      {
+        "en": "Each company’s individual response was rational.",
+        "vi": "Phản ứng cá nhân của mỗi công ty là hợp lý."
+      },
+      {
+        "en": "The collective result was catastrophic.",
+        "vi": "Kết quả chung là thảm khốc."
+      },
+      {
+        "en": "Every dollar saved on headcount flowed into AI capability that made the next round of job cuts possible.",
+        "vi": "Mỗi đô la tiết kiệm được từ nhân sự đều chảy vào khả năng AI, điều này đã tạo điều kiện cho vòng cắt giảm việc làm tiếp theo."
+      },
+      {
+        "en": "Software was only the opening act.",
+        "vi": "Phần mềm chỉ là màn mở đầu."
+      },
+      {
+        "en": "What investors missed while they debated whether SaaS multiples had bottomed was that the reflexive loop had already escaped the software sector.",
+        "vi": "Điều mà các nhà đầu tư bỏ lỡ trong khi họ tranh luận liệu bội số SaaS đã chạm đáy hay chưa là vòng lặp phản xạ đã thoát khỏi lĩnh vực phần mềm."
+      },
+      {
+        "en": "The same logic that justified ServiceNow cutting headcount applied to every company with a white-collar cost structure.",
+        "vi": "Logic tương tự đã biện minh cho việc ServiceNow cắt giảm nhân sự cũng áp dụng cho mọi công ty có cấu trúc chi phí nhân viên văn phòng."
+      },
+      {
+        "en": "By early 2027, LLM usage had become default.",
+        "vi": "Đến đầu năm 2027, việc sử dụng LLM đã trở thành mặc định."
+      },
+      {
+        "en": "People were using AI agents who didn’t even know what an AI agent was, in the same way people who never learned what “cloud computing” was used streaming services.",
+        "vi": "Mọi người đang sử dụng các tác nhân AI mà thậm chí không biết tác nhân AI là gì, giống như cách những người chưa bao giờ học “điện toán đám mây” đã sử dụng các dịch vụ phát trực tuyến."
+      },
+      {
+        "en": "They thought of it the same way they thought of autocomplete or spell-check - a thing their phone just did now.",
+        "vi": "Họ nghĩ về nó giống như cách họ nghĩ về tính năng tự động hoàn thành hoặc kiểm tra chính tả – một thứ mà điện thoại của họ giờ đây chỉ cần làm."
+      },
+      {
+        "en": "Qwen’s open-source agentic shopper was the catalyst for AI handling consumer decisions.",
+        "vi": "Người mua sắm tác nhân mã nguồn mở của Qwen là chất xúc tác cho AI xử lý các quyết định của người tiêu dùng."
+      },
+      {
+        "en": "Within weeks, every major AI assistant had integrated some agentic commerce feature.",
+        "vi": "Trong vòng vài tuần, mọi trợ lý AI lớn đã tích hợp một số tính năng thương mại tác nhân."
+      },
+      {
+        "en": "Distilled models meant these agents could run on phones and laptops, not just cloud instances, reducing the marginal cost of inference significantly.",
+        "vi": "Các mô hình chắt lọc có nghĩa là các tác nhân này có thể chạy trên điện thoại và máy tính xách tay, không chỉ các phiên bản đám mây, giảm đáng kể chi phí biên của suy luận."
+      },
+      {
+        "en": "The part that should have unsettled investors more than it did was that these agents didn’t wait to be asked.",
+        "vi": "Phần lẽ ra phải khiến các nhà đầu tư lo lắng hơn là những tác nhân này không chờ được hỏi."
+      },
+      {
+        "en": "They ran in the background according to the user’s preferences.",
+        "vi": "Chúng chạy ngầm theo sở thích của người dùng."
+      },
+      {
+        "en": "Commerce stopped being a series of discrete human decisions and became a continuous optimization process, running 24/7 on behalf of every connected consumer.",
+        "vi": "Thương mại không còn là một loạt các quyết định riêng lẻ của con người mà trở thành một quá trình tối ưu hóa liên tục, chạy 24/7 thay mặt cho mọi người tiêu dùng được kết nối."
+      },
+      {
+        "en": "By March 2027, the median individual in the United States was consuming 400,000 tokens per day - 10x since the end of 2026.",
+        "vi": "Đến tháng 3 năm 2027, một cá nhân trung bình ở Hoa Kỳ tiêu thụ 400.000 token mỗi ngày - gấp 10 lần so với cuối năm 2026."
+      },
+      {
+        "en": "The next link in the chain was already breaking. Intermediation.",
+        "vi": "Mắt xích tiếp theo trong chuỗi đã bắt đầu đứt gãy. Đó là sự trung gian."
+      },
+      {
+        "en": "Over the past fifty years, the U.S. economy built a giant rent-extraction layer on top of human limitations: things take time, patience runs out, brand familiarity substitutes for diligence, and most people are willing to accept a bad price to avoid more clicks.",
+        "vi": "Trong năm mươi năm qua, nền kinh tế Hoa Kỳ đã xây dựng một lớp bóc lột khổng lồ dựa trên những hạn chế của con người: mọi thứ cần thời gian, sự kiên nhẫn cạn kiệt, sự quen thuộc với thương hiệu thay thế cho sự siêng năng, và hầu hết mọi người sẵn sàng chấp nhận một mức giá tồi để tránh phải nhấp chuột nhiều hơn."
+      },
+      {
+        "en": "Trillions of dollars of enterprise value depended on those constraints persisting.",
+        "vi": "Hàng nghìn tỷ đô la giá trị doanh nghiệp phụ thuộc vào việc những hạn chế đó tiếp tục tồn tại."
+      },
+      {
+        "en": "It started out simple enough. Agents removed friction.",
+        "vi": "Mọi thứ bắt đầu khá đơn giản. Các tác nhân đã loại bỏ ma sát."
+      },
+      {
+        "en": "Subscriptions and memberships that passively renewed despite months of disuse. Introductory pricing that sneakily doubled after the trial period.",
+        "vi": "Các gói đăng ký và thành viên tự động gia hạn dù không được sử dụng trong nhiều tháng. Giá giới thiệu lén lút tăng gấp đôi sau thời gian dùng thử."
+      },
+      {
+        "en": "Each one was rebranded as a hostage situation that agents could negotiate.",
+        "vi": "Mỗi trường hợp được đổi tên thành một tình huống con tin mà các tác nhân có thể đàm phán."
+      },
+      {
+        "en": "The average customer lifetime value, the metric the entire subscription economy was built on, distinctly declined.",
+        "vi": "Giá trị trọn đời trung bình của khách hàng, chỉ số mà toàn bộ nền kinh tế đăng ký được xây dựng dựa trên, đã giảm rõ rệt."
+      },
+      {
+        "en": "Consumer agents began to change how nearly all consumer transactions worked.",
+        "vi": "Các tác nhân tiêu dùng bắt đầu thay đổi cách thức hoạt động của gần như tất cả các giao dịch tiêu dùng."
+      },
+      {
+        "en": "Humans don’t really have the time to price-match across five competing platforms before buying a box of protein bars. Machines do.",
+        "vi": "Con người thực sự không có thời gian để so sánh giá trên năm nền tảng cạnh tranh trước khi mua một hộp thanh protein. Máy móc thì có."
+      },
+      {
+        "en": "Travel booking platforms were an early casualty, because they were the simplest.",
+        "vi": "Các nền tảng đặt vé du lịch là nạn nhân đầu tiên, vì chúng là đơn giản nhất."
+      },
+      {
+        "en": "By Q4 2026, our agents could assemble a complete itinerary (flights, hotels, ground transport, loyalty optimization, budget constraints, refunds) faster and cheaper than any platform.",
+        "vi": "Đến quý 4 năm 2026, các tác nhân của chúng tôi có thể lập một hành trình hoàn chỉnh (chuyến bay, khách sạn, vận chuyển mặt đất, tối ưu hóa khách hàng thân thiết, hạn chế ngân sách, hoàn tiền) nhanh hơn và rẻ hơn bất kỳ nền tảng nào."
+      },
+      {
+        "en": "Insurance renewals, where the entire renewal model depended on policyholder inertia, were reformed.",
+        "vi": "Việc gia hạn bảo hiểm, nơi toàn bộ mô hình gia hạn phụ thuộc vào sự trì trệ của người giữ hợp đồng, đã được cải cách."
+      },
+      {
+        "en": "Agents that re-shop your coverage annually dismantled the 15-20% of premiums that insurers earned from passive renewals.",
+        "vi": "Các tác nhân mua lại bảo hiểm hàng năm đã loại bỏ 15-20% phí bảo hiểm mà các công ty bảo hiểm kiếm được từ việc gia hạn thụ động."
+      },
+      {
+        "en": "Financial advice. Tax prep. Routine legal work.",
+        "vi": "Tư vấn tài chính. Chuẩn bị thuế. Công việc pháp lý thường xuyên."
+      },
+      {
+        "en": "Any category where the service provider’s value proposition was ultimately “I will navigate complexity that you find tedious” was disrupted, as the agents found nothing tedious.",
+        "vi": "Bất kỳ danh mục nào mà đề xuất giá trị của nhà cung cấp dịch vụ cuối cùng là “Tôi sẽ điều hướng sự phức tạp mà bạn thấy tẻ nhạt” đều bị gián đoạn, vì các tác nhân không thấy điều gì tẻ nhạt."
+      },
+      {
+        "en": "Even places we thought insulated by the value of human relationships proved fragile.",
+        "vi": "Ngay cả những nơi chúng ta nghĩ được bảo vệ bởi giá trị của các mối quan hệ con người cũng tỏ ra mong manh."
+      },
+      {
+        "en": "Real estate, where buyers had tolerated 5-6% commissions for decades because of information asymmetry between agent and consumer, crumbled once AI agents equipped with MLS access and decades of transaction data could replicate the knowledge base instantly.",
+        "vi": "Bất động sản, nơi người mua đã chấp nhận mức hoa hồng 5-6% trong nhiều thập kỷ do sự bất đối xứng thông tin giữa đại lý và người tiêu dùng, đã sụp đổ khi các tác nhân AI được trang bị quyền truy cập MLS và dữ liệu giao dịch hàng thập kỷ có thể sao chép cơ sở kiến thức ngay lập tức."
+      },
+      {
+        "en": "A sell-side piece from March 2027 titled it “agent on agent violence”.",
+        "vi": "Một bài viết từ phía người bán vào tháng 3 năm 2027 đã đặt tên cho nó là “bạo lực giữa các tác nhân”."
+      },
+      {
+        "en": "The median buy-side commission in major metros had compressed from 2.5-3% to under 1%, and a growing share of transactions were closing with no human agent on the buy side at all.",
+        "vi": "Hoa hồng trung bình của bên mua ở các thành phố lớn đã giảm từ 2,5-3% xuống dưới 1%, và một phần ngày càng tăng các giao dịch được hoàn tất mà không có bất kỳ tác nhân con người nào ở phía mua."
+      },
+      {
+        "en": "We had overestimated the value of “human relationships”.",
+        "vi": "Chúng ta đã đánh giá quá cao giá trị của “các mối quan hệ con người”."
+      },
+      {
+        "en": "Turns out that a lot of what people called relationships was simply friction with a friendly face.",
+        "vi": "Hóa ra, rất nhiều thứ mà mọi người gọi là mối quan hệ chỉ đơn giản là sự ma sát với một khuôn mặt thân thiện."
+      },
+      {
+        "en": "That was just the start of the disruption for the intermediation layer.",
+        "vi": "Đó chỉ là khởi đầu của sự gián đoạn đối với lớp trung gian."
+      },
+      {
+        "en": "Successful companies had spent billions to effectively exploit quirks of consumer behavior and human psychology that didn’t matter anymore.",
+        "vi": "Các công ty thành công đã chi hàng tỷ đô la để khai thác hiệu quả những đặc điểm kỳ lạ của hành vi người tiêu dùng và tâm lý con người mà giờ đây không còn quan trọng nữa."
+      },
+      {
+        "en": "Machines optimizing for price and fit do not care about your favorite app or the websites you’ve been habitually opening for the last four years, nor feel the pull of a well-designed checkout experience.",
+        "vi": "Máy móc tối ưu hóa giá cả và sự phù hợp không quan tâm đến ứng dụng yêu thích của bạn hay các trang web bạn đã thường xuyên mở trong bốn năm qua, cũng không cảm thấy sức hút của một trải nghiệm thanh toán được thiết kế tốt."
+      },
+      {
+        "en": "They don’t get tired and accept the easiest option or default to “I always just order from here”.",
+        "vi": "Chúng không mệt mỏi và chấp nhận lựa chọn dễ nhất hoặc mặc định “Tôi luôn đặt hàng từ đây”."
+      },
+      {
+        "en": "That destroyed a particular kind of moat: habitual intermediation.",
+        "vi": "Điều đó đã phá hủy một loại hào lũy đặc biệt: sự trung gian theo thói quen."
+      },
+      {
+        "en": "DoorDash (DASH US) was the poster child.",
+        "vi": "DoorDash (DASH US) là ví dụ điển hình."
+      },
+      {
+        "en": "Coding agents had collapsed the barrier to entry for launching a delivery app.",
+        "vi": "Các tác nhân mã hóa đã phá vỡ rào cản gia nhập để ra mắt một ứng dụng giao hàng."
+      },
+      {
+        "en": "A competent developer could deploy a functional competitor in weeks, and dozens did, enticing drivers away from DoorDash and Uber Eats by passing 90-95% of the delivery fee through to the driver.",
+        "vi": "Một nhà phát triển có năng lực có thể triển khai một đối thủ cạnh tranh hoạt động trong vài tuần, và hàng chục người đã làm như vậy, thu hút tài xế rời bỏ DoorDash và Uber Eats bằng cách chuyển 90-95% phí giao hàng cho tài xế."
+      },
+      {
+        "en": "Multi-app dashboards let gig workers track incoming jobs from twenty or thirty platforms at once, eliminating the lock-in that the incumbents depended on.",
+        "vi": "Bảng điều khiển đa ứng dụng cho phép người lao động tự do theo dõi các công việc đến từ hai mươi hoặc ba mươi nền tảng cùng lúc, loại bỏ sự ràng buộc mà các công ty đương nhiệm phụ thuộc vào."
+      },
+      {
+        "en": "The market fragmented overnight and margins compressed to nearly nothing.",
+        "vi": "Thị trường bị phân mảnh chỉ sau một đêm và lợi nhuận bị thu hẹp gần như bằng không."
+      },
+      {
+        "en": "Agents accelerated both sides of the destruction. They enabled the competitors and then they used them.",
+        "vi": "Các tác nhân đã đẩy nhanh cả hai mặt của sự hủy diệt. Họ đã tạo điều kiện cho các đối thủ cạnh tranh và sau đó họ sử dụng chúng."
+      },
+      {
+        "en": "The DoorDash moat was literally “you’re hungry, you’re lazy, this is the app on your home screen.”",
+        "vi": "Hào lũy của DoorDash đúng nghĩa là “bạn đói, bạn lười, đây là ứng dụng trên màn hình chính của bạn.”"
+      },
+      {
+        "en": "An agent doesn’t have a home screen. It checks DoorDash, Uber Eats, the restaurant’s own site, and twenty new vibe-coded alternatives so it can pick the lowest fee and fastest delivery every time.",
+        "vi": "Một tác nhân không có màn hình chính. Nó kiểm tra DoorDash, Uber Eats, trang web riêng của nhà hàng và hai mươi lựa chọn thay thế mới được mã hóa theo cảm xúc để có thể chọn mức phí thấp nhất và giao hàng nhanh nhất mọi lúc."
+      },
+      {
+        "en": "Habitual app loyalty, the entire basis of the business model, simply didn’t exist for a machine.",
+        "vi": "Lòng trung thành với ứng dụng theo thói quen, toàn bộ cơ sở của mô hình kinh doanh, đơn giản là không tồn tại đối với một cỗ máy."
+      },
+      {
+        "en": "This was oddly poetic, as perhaps the only example in this entire saga of agents doing a favor for the soon-to-be-displaced white collar workers.",
+        "vi": "Điều này thật kỳ lạ nhưng cũng đầy chất thơ, vì đây có lẽ là ví dụ duy nhất trong toàn bộ câu chuyện này về việc các tác nhân giúp đỡ những nhân viên văn phòng sắp bị thay thế."
+      },
+      {
+        "en": "When they ended up as delivery drivers, at least half their earnings weren’t going to Uber and DoorDash.",
+        "vi": "Khi họ trở thành tài xế giao hàng, ít nhất một nửa thu nhập của họ không phải trả cho Uber và DoorDash."
+      },
+      {
+        "en": "Of course, this favor from technology didn’t last for long as autonomous vehicles proliferated.",
+        "vi": "Tất nhiên, sự ưu ái này từ công nghệ không kéo dài lâu khi các phương tiện tự hành ngày càng phổ biến."
+      },
+      {
+        "en": "Once agents controlled the transaction, they went looking for bigger paperclips.",
+        "vi": "Khi các tác nhân kiểm soát giao dịch, họ bắt đầu tìm kiếm những chiếc kẹp giấy lớn hơn."
+      },
+      {
+        "en": "There was only so much price-matching and aggregating to do.",
+        "vi": "Chỉ có rất nhiều việc so sánh giá và tổng hợp để làm."
+      },
+      {
+        "en": "The biggest way to repeatedly save the user money (especially when agents started transacting among themselves) was to eliminate fees.",
+        "vi": "Cách lớn nhất để liên tục tiết kiệm tiền cho người dùng (đặc biệt khi các tác nhân bắt đầu giao dịch với nhau) là loại bỏ phí."
+      },
+      {
+        "en": "In machine-to-machine commerce, the 2-3% card interchange rate became an obvious target.",
+        "vi": "Trong thương mại giữa máy với máy, tỷ lệ phí trao đổi thẻ 2-3% trở thành một mục tiêu rõ ràng."
+      },
+      {
+        "en": "Agents went looking for faster and cheaper options than cards.",
+        "vi": "Các tác nhân đã tìm kiếm các lựa chọn nhanh hơn và rẻ hơn thẻ."
+      },
+      {
+        "en": "Most settled on using stablecoins via Solana or Ethereum L2s, where settlement was near-instant and the transaction cost was measured in fractions of a penny.",
+        "vi": "Hầu hết đã chọn sử dụng stablecoin thông qua Solana hoặc Ethereum L2s, nơi việc thanh toán gần như tức thì và chi phí giao dịch chỉ bằng một phần nhỏ của một xu."
+      },
+      {
+        "en": "MASTERCARD Q1 2027: NET REVENUES +6% Y/Y; PURCHASE VOLUME GROWTH SLOWS TO +3.4% Y/Y FROM +5.9% PRIOR QUARTER; MANAGEMENT NOTES “AGENT-LED PRICE OPTIMIZATION” AND “PRESSURE IN DISCRETIONARY CATEGORIES” | Bloomberg, April 29 2027",
+        "vi": "MASTERCARD Q1 2027: DOANH THU THUẦN TĂNG +6% SO VỚI CÙNG KỲ NĂM TRƯỚC; TĂNG TRƯỞNG KHỐI LƯỢNG MUA CHẬM LẠI CÒN +3.4% SO VỚI CÙNG KỲ NĂM TRƯỚC TỪ +5.9% QUÝ TRƯỚC; BAN QUẢN LÝ LƯU Ý “TỐI ƯU HÓA GIÁ DO ĐẠI LÝ DẪN DẮT” VÀ “ÁP LỰC TRONG CÁC DANH MỤC KHÔNG BẮT BUỘC” | Bloomberg, ngày 29 tháng 4 năm 2027"
+      },
+      {
+        "en": "Mastercard’s Q1 2027 report was the point of no return.",
+        "vi": "Báo cáo Q1 2027 của Mastercard là điểm không thể quay đầu."
+      },
+      {
+        "en": "Agentic commerce went from being a product story to a plumbing story.",
+        "vi": "Thương mại đại lý đã chuyển từ câu chuyện sản phẩm sang câu chuyện cơ sở hạ tầng."
+      },
+      {
+        "en": "MA dropped 9% the following day.",
+        "vi": "MA giảm 9% vào ngày hôm sau."
+      },
+      {
+        "en": "Visa did too, but pared losses after analysts pointed out its stronger positioning in stablecoin infrastructure.",
+        "vi": "Visa cũng vậy, nhưng đã giảm bớt thua lỗ sau khi các nhà phân tích chỉ ra vị thế mạnh hơn của họ trong cơ sở hạ tầng stablecoin."
+      },
+      {
+        "en": "Agentic commerce routing around interchange posed a far greater risk to card-focused banks and mono-line issuers, who collected the majority of that 2-3% fee and had built entire business segments around rewards programs funded by the merchant subsidy.",
+        "vi": "Thương mại đại lý bỏ qua phí trao đổi đã gây ra rủi ro lớn hơn nhiều cho các ngân hàng tập trung vào thẻ và các tổ chức phát hành đơn lẻ, những người đã thu phần lớn khoản phí 2-3% đó và đã xây dựng toàn bộ các phân khúc kinh doanh xung quanh các chương trình phần thưởng được tài trợ bởi trợ cấp của người bán."
+      },
+      {
+        "en": "American Express (AXP US) was hit hardest; a combined headwind from white-collar workforce reductions gutting its customer base and agents routing around interchange gutting its revenue model.",
+        "vi": "American Express (AXP US) bị ảnh hưởng nặng nề nhất; một sự kết hợp của các yếu tố bất lợi từ việc cắt giảm lực lượng lao động cổ cồn trắng làm giảm cơ sở khách hàng và các đại lý bỏ qua phí trao đổi làm suy yếu mô hình doanh thu của họ."
+      },
+      {
+        "en": "Synchrony (SYF US), Capital One (COF US) and Discover (DFS US) all fell more than 10% over the following weeks, as well.",
+        "vi": "Synchrony (SYF US), Capital One (COF US) và Discover (DFS US) đều giảm hơn 10% trong những tuần tiếp theo."
+      },
+      {
+        "en": "Their moats were made of friction.",
+        "vi": "Hào của họ được tạo ra từ ma sát."
+      },
+      {
+        "en": "And friction was going to zero.",
+        "vi": "Và ma sát đang tiến về con số không."
+      },
+      {
+        "en": "Through 2026, markets treated negative AI impact as a sector story.",
+        "vi": "Trong suốt năm 2026, các thị trường coi tác động tiêu cực của AI là một câu chuyện ngành."
+      },
+      {
+        "en": "Software and consulting were getting crushed, payments and other toll booths were wobbly, but the broader economy seemed fine.",
+        "vi": "Phần mềm và tư vấn đang bị nghiền nát, thanh toán và các trạm thu phí khác đang lung lay, nhưng nền kinh tế rộng lớn hơn dường như vẫn ổn."
+      },
+      {
+        "en": "The labor market, while softening, was not in freefall.",
+        "vi": "Thị trường lao động, mặc dù đang yếu đi, nhưng không rơi tự do."
+      },
+      {
+        "en": "The consensus view was that creative destruction was part of any technological innovation cycle.",
+        "vi": "Quan điểm đồng thuận là sự phá hủy sáng tạo là một phần của bất kỳ chu kỳ đổi mới công nghệ nào."
+      },
+      {
+        "en": "It would be painful in pockets, but the overall net positives from AI would outweigh any negatives.",
+        "vi": "Nó sẽ gây đau đớn ở một số nơi, nhưng những lợi ích ròng tổng thể từ AI sẽ lớn hơn bất kỳ tiêu cực nào."
+      },
+      {
+        "en": "Our January 2027 macro memo argued this was the wrong mental model.",
+        "vi": "Bản ghi nhớ kinh tế vĩ mô tháng 1 năm 2027 của chúng tôi lập luận rằng đây là mô hình tư duy sai lầm."
+      },
+      {
+        "en": "The US economy is a white-collar services economy.",
+        "vi": "Nền kinh tế Mỹ là một nền kinh tế dịch vụ cổ cồn trắng."
+      },
+      {
+        "en": "White-collar workers represented 50% of employment and drove roughly 75% of discretionary consumer spending.",
+        "vi": "Lao động cổ cồn trắng chiếm 50% việc làm và thúc đẩy khoảng 75% chi tiêu tiêu dùng tùy ý."
+      },
+      {
+        "en": "The businesses and jobs that AI was chewing up were not tangential to the US economy, they were the US economy.",
+        "vi": "Các doanh nghiệp và công việc mà AI đang loại bỏ không phải là những yếu tố bên lề của nền kinh tế Mỹ, chúng chính là nền kinh tế Mỹ."
+      },
+      {
+        "en": "“Technological innovation destroys jobs and then creates even more”.",
+        "vi": "“Đổi mới công nghệ phá hủy việc làm và sau đó tạo ra nhiều hơn nữa”."
+      },
+      {
+        "en": "This was the most popular and convincing counter-argument at the time.",
+        "vi": "Đây là lập luận phản bác phổ biến và thuyết phục nhất vào thời điểm đó."
+      },
+      {
+        "en": "It was popular and convincing because it’d been right for two centuries.",
+        "vi": "Nó phổ biến và thuyết phục vì nó đã đúng trong hai thế kỷ."
+      },
+      {
+        "en": "Even if we couldn’t conceive of what the future jobs would be, they would surely arrive.",
+        "vi": "Ngay cả khi chúng ta không thể hình dung được những công việc trong tương lai sẽ là gì, chúng chắc chắn sẽ xuất hiện."
+      },
+      {
+        "en": "ATMs made branches cheaper to operate so banks opened more of them and teller employment rose for the next twenty years.",
+        "vi": "Máy ATM làm cho các chi nhánh hoạt động rẻ hơn nên các ngân hàng đã mở thêm nhiều chi nhánh và số lượng nhân viên giao dịch tăng lên trong hai mươi năm tiếp theo."
+      },
+      {
+        "en": "The internet disrupted travel agencies, the Yellow Pages, brick-and-mortar retail, but it invented entirely new industries in their place that conjured new jobs.",
+        "vi": "Internet đã làm gián đoạn các đại lý du lịch, Sổ vàng, bán lẻ truyền thống, nhưng nó đã tạo ra những ngành công nghiệp hoàn toàn mới thay thế chúng, tạo ra những công việc mới."
+      },
+      {
+        "en": "Every new job, however, required a human to perform it.",
+        "vi": "Tuy nhiên, mỗi công việc mới đều yêu cầu một con người thực hiện."
+      },
+      {
+        "en": "AI is now a general intelligence that improves at the very tasks humans would redeploy to.",
+        "vi": "AI hiện là một trí tuệ tổng quát có khả năng cải thiện chính những nhiệm vụ mà con người sẽ được tái triển khai."
+      },
+      {
+        "en": "Displaced coders cannot simply move to “AI management” because AI is already capable of that.",
+        "vi": "Các lập trình viên bị thay thế không thể đơn giản chuyển sang “quản lý AI” vì AI đã có khả năng làm điều đó."
+      },
+      {
+        "en": "Today, AI agents handle many-weeks-long research and development tasks.",
+        "vi": "Ngày nay, các tác nhân AI xử lý các nhiệm vụ nghiên cứu và phát triển kéo dài nhiều tuần."
+      },
+      {
+        "en": "The exponential steamrolled our conceptions of what was possible, even though every year Wharton professors tried to fit the data to a new sigmoid.",
+        "vi": "Sự tăng trưởng theo cấp số nhân đã làm thay đổi quan niệm của chúng ta về những gì có thể, mặc dù hàng năm các giáo sư Wharton vẫn cố gắng điều chỉnh dữ liệu theo một hàm sigmoid mới."
+      },
+      {
+        "en": "They write essentially all code.",
+        "vi": "Chúng viết gần như tất cả mã."
+      },
+      {
+        "en": "The highest performing of them are substantially smarter than almost all humans at almost all things.",
+        "vi": "Những con AI có hiệu suất cao nhất thông minh hơn đáng kể so với hầu hết con người ở hầu hết mọi thứ."
+      },
+      {
+        "en": "And they keep getting cheaper.",
+        "vi": "Và chúng ngày càng rẻ hơn."
+      },
+      {
+        "en": "AI has created new jobs.",
+        "vi": "AI đã tạo ra những công việc mới."
+      },
+      {
+        "en": "Prompt engineers.",
+        "vi": "Kỹ sư nhắc lệnh."
+      },
+      {
+        "en": "AI safety researchers.",
+        "vi": "Các nhà nghiên cứu an toàn AI."
+      },
+      {
+        "en": "Infrastructure technicians.",
+        "vi": "Kỹ thuật viên cơ sở hạ tầng."
+      },
+      {
+        "en": "Humans are still in the loop, coordinating at the highest level or directing for taste.",
+        "vi": "Con người vẫn tham gia vào quá trình, điều phối ở cấp cao nhất hoặc định hướng theo sở thích."
+      },
+      {
+        "en": "For every new role AI created, though, it rendered dozens obsolete.",
+        "vi": "Tuy nhiên, với mỗi vai trò mới mà AI tạo ra, nó đã khiến hàng chục vai trò khác trở nên lỗi thời."
+      },
+      {
+        "en": "The new roles paid a fraction of what the old ones did.",
+        "vi": "Các vai trò mới được trả một phần nhỏ so với các vai trò cũ."
+      },
+      {
+        "en": "U.S. JOLTS: JOB OPENINGS FALL BELOW 5.5M; UNEMPLOYED-TO-OPENINGS RATIO CLIMBS TO ~1.7, HIGHEST SINCE AUG 2020 | Bloomberg, Oct 2026",
+        "vi": "JOLTS CỦA MỸ: SỐ LƯỢNG VỊ TRÍ TUYỂN DỤNG GIẢM XUỐNG DƯỚI 5.5 TRIỆU; TỶ LỆ THẤT NGHIỆP TRÊN VỊ TRÍ TUYỂN DỤNG TĂNG LÊN ~1.7, CAO NHẤT KỂ TỪ THÁNG 8 NĂM 2020 | Bloomberg, tháng 10 năm 2026"
+      },
+      {
+        "en": "The hiring rate had been anemic all year, but October ‘26 JOLTS print provided some definitive data.",
+        "vi": "Tỷ lệ tuyển dụng đã yếu ớt cả năm, nhưng số liệu JOLTS tháng 10 năm 2026 đã cung cấp một số dữ liệu rõ ràng."
+      },
+      {
+        "en": "Job openings fell below 5.5 million, a 15% decline YoY.",
+        "vi": "Số lượng vị trí tuyển dụng giảm xuống dưới 5.5 triệu, giảm 15% so với cùng kỳ năm trước."
+      },
+      {
+        "en": "INDEED: POSTINGS FALL SHARPLY IN SOFTWARE, FINANCE, CONSULTING AS “PRODUCTIVITY INITIATIVES” SPREAD | Indeed Hiring Lab, Nov–Dec 2026",
+        "vi": "INDEED: SỐ LƯỢNG TIN TUYỂN DỤNG GIẢM MẠNH TRONG LĨNH VỰC PHẦN MỀM, TÀI CHÍNH, TƯ VẤN KHI CÁC “SÁNG KIẾN NĂNG SUẤT” LAN RỘNG | Indeed Hiring Lab, tháng 11–12 năm 2026"
+      },
+      {
+        "en": "White-collar openings were collapsing while blue-collar openings remained relatively stable (construction, healthcare, trades).",
+        "vi": "Các vị trí tuyển dụng cổ cồn trắng đang sụp đổ trong khi các vị trí cổ cồn xanh vẫn tương đối ổn định (xây dựng, chăm sóc sức khỏe, ngành nghề thủ công)."
+      },
+      {
+        "en": "The churn was in the jobs that write memos (we are, somehow, still in business), approve budgets, and keep the middle layers of the economy lubricated.",
+        "vi": "Sự thay đổi nằm ở những công việc viết bản ghi nhớ (chúng ta, bằng cách nào đó, vẫn đang kinh doanh), phê duyệt ngân sách và giữ cho các tầng lớp trung gian của nền kinh tế hoạt động trơn tru."
+      },
+      {
+        "en": "Real wage growth in both cohorts, however, had been negative for the majority of the year and kept declining.",
+        "vi": "Tuy nhiên, tăng trưởng tiền lương thực tế ở cả hai nhóm đã âm trong phần lớn thời gian của năm và tiếp tục giảm."
+      },
+      {
+        "en": "The equity market still cared less about JOLTS than it did the news that all of GE Vernova’s turbine capacity was now sold out until 2040, it ambled sideways in a tug of war between negative macro news with positive AI infrastructure headlines.",
+        "vi": "Thị trường chứng khoán vẫn ít quan tâm đến JOLTS hơn là tin tức rằng tất cả công suất tuabin của GE Vernova đã được bán hết cho đến năm 2040, nó đi ngang trong một cuộc giằng co giữa tin tức vĩ mô tiêu cực và các tiêu đề tích cực về cơ sở hạ tầng AI."
+      },
+      {
+        "en": "The bond market (always smarter than equities, or at least less romantic) began pricing the consumption hit, however.",
+        "vi": "Tuy nhiên, thị trường trái phiếu (luôn thông minh hơn thị trường chứng khoán, hoặc ít nhất là ít lãng mạn hơn) đã bắt đầu định giá tác động tiêu dùng."
+      },
+      {
+        "en": "The 10-year yield began a descent from 4.3% to 3.2% over the following four months.",
+        "vi": "Lợi suất trái phiếu 10 năm bắt đầu giảm từ 4.3% xuống 3.2% trong bốn tháng tiếp theo."
+      },
+      {
+        "en": "Still, the headline unemployment rate did not blow out, the composition nuance was still lost on some.",
+        "vi": "Tuy nhiên, tỷ lệ thất nghiệp chung không tăng vọt, sự khác biệt về thành phần vẫn còn bị bỏ qua bởi một số người."
+      },
+      {
+        "en": "In a normal recession, the cause eventually self-corrects.",
+        "vi": "Trong một cuộc suy thoái bình thường, nguyên nhân cuối cùng sẽ tự điều chỉnh."
+      },
+      {
+        "en": "Overbuilding leads to a construction slowdown, which leads to lower rates, which leads to new construction.",
+        "vi": "Xây dựng quá mức dẫn đến chậm lại trong xây dựng, điều này dẫn đến lãi suất thấp hơn, và sau đó dẫn đến các công trình xây dựng mới."
+      },
+      {
+        "en": "Inventory overshoot leads to destocking, which leads to restocking.",
+        "vi": "Tồn kho vượt mức dẫn đến việc giảm hàng tồn kho, sau đó dẫn đến việc bổ sung hàng tồn kho."
+      },
+      {
+        "en": "The cyclical mechanism contains within it its own seeds of recovery.",
+        "vi": "Cơ chế chu kỳ chứa đựng trong nó những mầm mống phục hồi của chính nó."
+      },
+      {
+        "en": "This cycle’s cause was not cyclical.",
+        "vi": "Nguyên nhân của chu kỳ này không phải là do chu kỳ."
+      },
+      {
+        "en": "AI got better and cheaper.",
+        "vi": "AI ngày càng tốt hơn và rẻ hơn."
+      },
+      {
+        "en": "Companies laid off workers, then used the savings to buy more AI capability, which let them lay off more workers.",
+        "vi": "Các công ty sa thải nhân viên, sau đó sử dụng số tiền tiết kiệm được để mua thêm khả năng AI, điều này cho phép họ sa thải thêm nhân viên."
+      },
+      {
+        "en": "Displaced workers spent less.",
+        "vi": "Những người lao động bị mất việc làm chi tiêu ít hơn."
+      },
+      {
+        "en": "Companies that sell things to consumers sold fewer of them, weakened, and invested more in AI to protect margins.",
+        "vi": "Các công ty bán hàng cho người tiêu dùng bán được ít hàng hơn, suy yếu và đầu tư nhiều hơn vào AI để bảo vệ lợi nhuận."
+      },
+      {
+        "en": "AI got better and cheaper.",
+        "vi": "AI ngày càng tốt hơn và rẻ hơn."
+      },
+      {
+        "en": "A feedback loop with no natural brake.",
+        "vi": "Một vòng lặp phản hồi không có phanh tự nhiên."
+      },
+      {
+        "en": "The intuitive expectation was that falling aggregate demand would slow the AI buildout.",
+        "vi": "Kỳ vọng trực quan là nhu cầu tổng thể giảm sẽ làm chậm quá trình phát triển AI."
+      },
+      {
+        "en": "It didn’t, because this wasn’t hyperscaler-style CapEx.",
+        "vi": "Điều đó đã không xảy ra, vì đây không phải là chi phí vốn (CapEx) theo kiểu siêu quy mô."
+      },
+      {
+        "en": "It was OpEx substitution.",
+        "vi": "Đó là sự thay thế chi phí hoạt động (OpEx)."
+      },
+      {
+        "en": "A company that had been spending $100M a year on employees and $5M on AI now spent $70M on employees and $20M on AI.",
+        "vi": "Một công ty từng chi 100 triệu đô la mỗi năm cho nhân viên và 5 triệu đô la cho AI, giờ đây chi 70 triệu đô la cho nhân viên và 20 triệu đô la cho AI."
+      },
+      {
+        "en": "AI investment increased by multiples, but it occurred as a reduction in total operating costs.",
+        "vi": "Đầu tư vào AI tăng lên nhiều lần, nhưng nó diễn ra dưới dạng giảm tổng chi phí hoạt động."
+      },
+      {
+        "en": "Every company’s AI budget grew while its overall spending shrank.",
+        "vi": "Ngân sách AI của mỗi công ty tăng lên trong khi tổng chi tiêu của họ lại giảm."
+      },
+      {
+        "en": "The irony of this was that the AI infrastructure complex kept performing even as the economy it was disrupting began deteriorating.",
+        "vi": "Điều trớ trêu là phức hợp hạ tầng AI vẫn tiếp tục hoạt động tốt ngay cả khi nền kinh tế mà nó đang phá vỡ bắt đầu suy thoái."
+      },
+      {
+        "en": "NVDA was still posting record revenues.",
+        "vi": "NVDA vẫn đạt doanh thu kỷ lục."
+      },
+      {
+        "en": "TSM was still running at 95%+ utilization.",
+        "vi": "TSM vẫn hoạt động với công suất sử dụng hơn 95%."
+      },
+      {
+        "en": "The hyperscalers were still spending $150-200 billion per quarter on data center capex.",
+        "vi": "Các nhà cung cấp dịch vụ siêu quy mô vẫn chi 150-200 tỷ đô la mỗi quý cho chi phí vốn trung tâm dữ liệu."
+      },
+      {
+        "en": "Economies that were purely convex to this trend, like Taiwan and Korea, outperformed massively.",
+        "vi": "Các nền kinh tế hoàn toàn thuận lợi với xu hướng này, như Đài Loan và Hàn Quốc, đã đạt hiệu suất vượt trội."
+      },
+      {
+        "en": "India was the inverse.",
+        "vi": "Ấn Độ thì ngược lại."
+      },
+      {
+        "en": "The country’s IT services sector exported over $200 billion annually, the single largest contributor to India’s current account surplus and the offset that financed its persistent goods trade deficit.",
+        "vi": "Ngành dịch vụ CNTT của quốc gia này xuất khẩu hơn 200 tỷ đô la hàng năm, là yếu tố đóng góp lớn nhất vào thặng dư tài khoản vãng lai của Ấn Độ và là khoản bù đắp tài trợ cho thâm hụt thương mại hàng hóa dai dẳng của nước này."
+      },
+      {
+        "en": "The entire model was built on one value proposition: Indian developers cost a fraction of their American counterparts.",
+        "vi": "Toàn bộ mô hình được xây dựng dựa trên một đề xuất giá trị: các nhà phát triển Ấn Độ có chi phí chỉ bằng một phần nhỏ so với các đối tác Mỹ của họ."
+      },
+      {
+        "en": "But the marginal cost of an AI coding agent had collapsed to, essentially, the cost of electricity.",
+        "vi": "Nhưng chi phí biên của một tác nhân mã hóa AI đã giảm xuống, về cơ bản, chỉ còn là chi phí điện năng."
+      },
+      {
+        "en": "TCS, Infosys and Wipro saw contract cancellations accelerate through 2027.",
+        "vi": "TCS, Infosys và Wipro chứng kiến các hợp đồng bị hủy bỏ tăng tốc đến năm 2027."
+      },
+      {
+        "en": "The rupee fell 18% against the dollar in four months as the services surplus that had anchored India’s external accounts evaporated.",
+        "vi": "Đồng rupee giảm 18% so với đô la trong bốn tháng khi thặng dư dịch vụ vốn là trụ cột cho các tài khoản đối ngoại của Ấn Độ bốc hơi."
+      },
+      {
+        "en": "By Q1 2028, the IMF had begun “preliminary discussions” with New Delhi.",
+        "vi": "Đến quý 1 năm 2028, IMF đã bắt đầu “các cuộc thảo luận sơ bộ” với New Delhi."
+      },
+      {
+        "en": "The engine that caused the disruption got better every quarter, which meant the disruption accelerated every quarter.",
+        "vi": "Động cơ gây ra sự gián đoạn ngày càng tốt hơn mỗi quý, điều đó có nghĩa là sự gián đoạn tăng tốc mỗi quý."
+      },
+      {
+        "en": "There was no natural floor to the labor market.",
+        "vi": "Không có giới hạn tự nhiên nào cho thị trường lao động."
+      },
+      {
+        "en": "In the US, we weren’t asking about how the bubble would burst in AI infrastructure anymore.",
+        "vi": "Ở Mỹ, chúng tôi không còn hỏi về việc bong bóng sẽ vỡ như thế nào trong hạ tầng AI nữa."
+      },
+      {
+        "en": "We were asking what happens to a consumer-credit economy when consumers are being replaced with machines.",
+        "vi": "Chúng tôi đang hỏi điều gì sẽ xảy ra với một nền kinh tế tín dụng tiêu dùng khi người tiêu dùng đang bị thay thế bằng máy móc."
+      },
+      {
+        "en": "2027 was when the macroeconomic story stopped being subtle.",
+        "vi": "Năm 2027 là khi câu chuyện kinh tế vĩ mô không còn tinh tế nữa."
+      },
+      {
+        "en": "The transmission mechanism from the previous twelve months of disjointed but clearly negative developments became obvious.",
+        "vi": "Cơ chế truyền dẫn từ mười hai tháng trước đó của những diễn biến rời rạc nhưng rõ ràng là tiêu cực đã trở nên hiển nhiên."
+      },
+      {
+        "en": "You didn’t need to go into the BLS data.",
+        "vi": "Bạn không cần phải xem xét dữ liệu của BLS."
+      },
+      {
+        "en": "Just attend a dinner party with friends.",
+        "vi": "Chỉ cần tham dự một bữa tiệc tối với bạn bè."
+      },
+      {
+        "en": "Displaced white-collar workers did not sit idle.",
+        "vi": "Những người lao động cổ cồn trắng bị mất việc không ngồi yên."
+      },
+      {
+        "en": "They downshifted.",
+        "vi": "Họ đã chuyển sang công việc thấp hơn."
+      },
+      {
+        "en": "Many took lower-paying service sector and gig economy jobs, which increased labor supply in those segments and compressed wages there too.",
+        "vi": "Nhiều người đã nhận các công việc trong lĩnh vực dịch vụ và kinh tế hợp đồng với mức lương thấp hơn, điều này làm tăng nguồn cung lao động trong các phân khúc đó và cũng làm giảm mức lương ở đó."
+      },
+      {
+        "en": "A friend of ours was a senior product manager at Salesforce in 2025.",
+        "vi": "Một người bạn của chúng tôi là quản lý sản phẩm cấp cao tại Salesforce vào năm 2025."
+      },
+      {
+        "en": "Title, health insurance, 401k, $180,000 a year.",
+        "vi": "Chức danh, bảo hiểm y tế, 401k, 180.000 đô la một năm."
+      },
+      {
+        "en": "She lost her job in the third round of layoffs.",
+        "vi": "Cô ấy mất việc trong đợt sa thải thứ ba."
+      },
+      {
+        "en": "After six months of searching, she started driving for Uber.",
+        "vi": "Sau sáu tháng tìm kiếm, cô ấy bắt đầu lái xe cho Uber."
+      },
+      {
+        "en": "Her earnings dropped to $45,000.",
+        "vi": "Thu nhập của cô ấy giảm xuống còn 45.000 đô la."
+      },
+      {
+        "en": "The point is less the individual story and more the second-order math.",
+        "vi": "Vấn đề không phải là câu chuyện cá nhân mà là phép toán bậc hai."
+      },
+      {
+        "en": "Multiply this dynamic by a few hundred thousand workers across every major metro.",
+        "vi": "Nhân động lực này với vài trăm nghìn công nhân trên khắp các thành phố lớn."
+      },
+      {
+        "en": "Overqualified labor flooding the service and gig economy pushed down wages for existing workers who were already struggling.",
+        "vi": "Lao động có trình độ cao tràn ngập vào ngành dịch vụ và kinh tế hợp đồng đã đẩy mức lương xuống thấp đối với những người lao động hiện có vốn đã gặp khó khăn."
+      },
+      {
+        "en": "Sector-specific disruption metastasized into economy-wide wage compression.",
+        "vi": "Sự gián đoạn đặc thù của từng ngành đã lan rộng thành sự nén lương trên toàn nền kinh tế."
+      },
+      {
+        "en": "The pool of remaining human-centric had another correction ahead of it, happening while we write this.",
+        "vi": "Số lượng công việc còn lại tập trung vào con người đang đối mặt với một đợt điều chỉnh khác, đang diễn ra ngay khi chúng tôi viết bài này."
+      },
+      {
+        "en": "As autonomous delivery and self-driving vehicles work their way through the gig economy that absorbed the first wave of displaced workers.",
+        "vi": "Khi giao hàng tự động và xe tự lái thâm nhập vào nền kinh tế hợp đồng đã hấp thụ làn sóng lao động bị mất việc đầu tiên."
+      },
+      {
+        "en": "By February 2027, it was clear that still employed professionals were spending like they might be next.",
+        "vi": "Đến tháng 2 năm 2027, rõ ràng là những chuyên gia vẫn còn việc làm đang chi tiêu như thể họ có thể là người tiếp theo bị sa thải."
+      },
+      {
+        "en": "They were working twice as hard (mostly with the help of AI) just to not get fired, hopes of promotion or raises were gone.",
+        "vi": "Họ làm việc chăm chỉ gấp đôi (chủ yếu với sự trợ giúp của AI) chỉ để không bị sa thải, hy vọng thăng chức hoặc tăng lương đã không còn."
+      },
+      {
+        "en": "Savings rates ticked higher and spending softened.",
+        "vi": "Tỷ lệ tiết kiệm tăng cao hơn và chi tiêu giảm bớt."
+      },
+      {
+        "en": "The most dangerous part was the lag.",
+        "vi": "Phần nguy hiểm nhất là độ trễ."
+      },
+      {
+        "en": "High earners used their higher-than-average savings to maintain the appearance of normalcy for two or three quarters.",
+        "vi": "Những người có thu nhập cao đã sử dụng khoản tiết kiệm cao hơn mức trung bình của họ để duy trì vẻ bình thường trong hai hoặc ba quý."
+      },
+      {
+        "en": "The hard data didn’t confirm the problem until it was already old news in the real economy.",
+        "vi": "Dữ liệu cứng không xác nhận vấn đề cho đến khi nó đã là tin cũ trong nền kinh tế thực."
+      },
+      {
+        "en": "Then came the print that broke the illusion.",
+        "vi": "Sau đó là bản in đã phá vỡ ảo ảnh."
+      },
+      {
+        "en": "U.S. INITIAL JOBLESS CLAIMS SURGE TO 487,000, HIGHEST SINCE APRIL 2020; Department of Labor, Q3 2027",
+        "vi": "SỐ ĐƠN XIN TRỢ CẤP THẤT NGHIỆP BAN ĐẦU CỦA MỸ TĂNG VỌT LÊN 487.000, CAO NHẤT KỂ TỪ THÁNG 4 NĂM 2020; Bộ Lao động, Q3 2027"
+      },
+      {
+        "en": "Initial claims surged to 487,000, the highest since April 2020.",
+        "vi": "Số đơn xin trợ cấp ban đầu tăng vọt lên 487.000, cao nhất kể từ tháng 4 năm 2020."
+      },
+      {
+        "en": "ADP and Equifax confirmed that the overwhelming majority of new filings were from white-collar professionals.",
+        "vi": "ADP và Equifax xác nhận rằng phần lớn các hồ sơ mới là từ các chuyên gia cổ cồn trắng."
+      },
+      {
+        "en": "The S&P dropped 6% over the following week.",
+        "vi": "Chỉ số S&P giảm 6% trong tuần tiếp theo."
+      },
+      {
+        "en": "Negative macro started winning the tug of war.",
+        "vi": "Kinh tế vĩ mô tiêu cực bắt đầu giành chiến thắng trong cuộc giằng co."
+      },
+      {
+        "en": "In a normal recession, job losses are broadly distributed.",
+        "vi": "Trong một cuộc suy thoái bình thường, mất việc làm được phân bổ rộng rãi."
+      },
+      {
+        "en": "Blue-collar and white-collar workers share the pain roughly in proportion to each segment’s share of employment.",
+        "vi": "Người lao động cổ xanh và cổ trắng chia sẻ nỗi đau gần như tương ứng với tỷ lệ việc làm của mỗi phân khúc."
+      },
+      {
+        "en": "The consumption hit is also broadly distributed, and it shows up quickly in the data because lower-income workers have higher marginal propensities to consume.",
+        "vi": "Tác động đến tiêu dùng cũng được phân bổ rộng rãi và nhanh chóng thể hiện trong dữ liệu vì người lao động có thu nhập thấp hơn có xu hướng tiêu dùng cận biên cao hơn."
+      },
+      {
+        "en": "In this cycle, the job losses have been concentrated in the upper deciles of the income distribution.",
+        "vi": "Trong chu kỳ này, tình trạng mất việc làm tập trung ở các nhóm thu nhập cao hơn trong phân phối thu nhập."
+      },
+      {
+        "en": "They are a relatively small share of total employment, but they drive a wildly disproportionate share of consumer spending.",
+        "vi": "Họ chiếm một tỷ lệ tương đối nhỏ trong tổng số việc làm, nhưng lại thúc đẩy một phần chi tiêu tiêu dùng không cân xứng một cách đáng kinh ngạc."
+      },
+      {
+        "en": "The top 10% of earners account for more than 50% of all consumer spending in the United States.",
+        "vi": "10% người có thu nhập cao nhất chiếm hơn 50% tổng chi tiêu tiêu dùng ở Hoa Kỳ."
+      },
+      {
+        "en": "The top 20% account for roughly 65%.",
+        "vi": "20% người có thu nhập cao nhất chiếm khoảng 65%."
+      },
+      {
+        "en": "These are the people who buy the houses, the cars, the vacations, the restaurant meals, the private school tuition, the home renovations.",
+        "vi": "Đây là những người mua nhà, ô tô, đi nghỉ dưỡng, ăn nhà hàng, đóng học phí trường tư, cải tạo nhà cửa."
+      },
+      {
+        "en": "They are the demand base for the entire consumer discretionary economy.",
+        "vi": "Họ là nền tảng nhu cầu cho toàn bộ nền kinh tế tiêu dùng tùy ý."
+      },
+      {
+        "en": "When these workers lost their jobs, or took 50% pay cuts to move into available roles, the consumption hit was enormous relative to the number of jobs lost.",
+        "vi": "Khi những người lao động này mất việc, hoặc bị cắt giảm 50% lương để chuyển sang các vai trò có sẵn, tác động đến tiêu dùng là rất lớn so với số lượng việc làm bị mất."
+      },
+      {
+        "en": "A 2% decline in white-collar employment translated to something like a 3-4% hit to discretionary consumer spending.",
+        "vi": "Mức giảm 2% việc làm của giới cổ cồn trắng đã dẫn đến tác động khoảng 3-4% đến chi tiêu tiêu dùng tùy ý."
+      },
+      {
+        "en": "Unlike blue-collar job losses, which tend to hit immediately (you get laid off from the factory, you stop spending next week), white-collar job losses have a lagged but deeper impact because these workers have savings buffers that allow them to maintain spending for a few months before the behavioral shift kicks in.",
+        "vi": "Không giống như việc mất việc làm của giới cổ cồn xanh, thường có tác động ngay lập tức (bạn bị sa thải khỏi nhà máy, bạn ngừng chi tiêu vào tuần tới), việc mất việc làm của giới cổ cồn trắng có tác động chậm hơn nhưng sâu sắc hơn vì những người lao động này có khoản tiết kiệm dự phòng cho phép họ duy trì chi tiêu trong vài tháng trước khi sự thay đổi hành vi diễn ra."
+      },
+      {
+        "en": "By Q2 2027, the economy was in recession.",
+        "vi": "Đến quý 2 năm 2027, nền kinh tế đã rơi vào suy thoái."
+      },
+      {
+        "en": "The NBER would not officially date the start until months later (they never do) but the data was unambiguous - we’d had two consecutive quarters of negative real GDP growth.",
+        "vi": "NBER sẽ không chính thức công bố thời điểm bắt đầu cho đến vài tháng sau (họ không bao giờ làm vậy) nhưng dữ liệu đã rõ ràng - chúng ta đã có hai quý liên tiếp tăng trưởng GDP thực âm."
+      },
+      {
+        "en": "But it wasn’t a “financial crisis”…yet.",
+        "vi": "Nhưng đó chưa phải là một “khủng hoảng tài chính”… chưa."
+      },
+      {
+        "en": "Private credit had grown from under $1 trillion in 2015 to over $2.5 trillion by 2026.",
+        "vi": "Tín dụng tư nhân đã tăng từ dưới 1 nghìn tỷ đô la vào năm 2015 lên hơn 2,5 nghìn tỷ đô la vào năm 2026."
+      },
+      {
+        "en": "A meaningful share of that capital had been deployed into software and technology deals, many of them leveraged buyouts of SaaS companies at valuations that assumed mid-teens revenue growth in perpetuity.",
+        "vi": "Một phần đáng kể số vốn đó đã được triển khai vào các giao dịch phần mềm và công nghệ, nhiều trong số đó là các thương vụ mua lại bằng đòn bẩy của các công ty SaaS với định giá giả định tăng trưởng doanh thu ở mức trung bình hai chữ số vĩnh viễn."
+      },
+      {
+        "en": "Those assumptions died somewhere between the first agentic coding demo and the Q1 2026 software crash, but the marks didn’t seem to realize they were dead.",
+        "vi": "Những giả định đó đã chết ở đâu đó giữa bản demo mã hóa tự động đầu tiên và sự sụp đổ phần mềm quý 1 năm 2026, nhưng các dấu hiệu dường như không nhận ra chúng đã chết."
+      },
+      {
+        "en": "As many public SaaS companies traded to 5-8x EBITDA, PE-backed software companies sat on balance sheets at marks reflecting acquisition valuations on multiples of revenue that didn’t exist anymore.",
+        "vi": "Khi nhiều công ty SaaS đại chúng giao dịch ở mức 5-8 lần EBITDA, các công ty phần mềm được PE hậu thuẫn vẫn nằm trên bảng cân đối kế toán với các dấu hiệu phản ánh định giá mua lại dựa trên bội số doanh thu không còn tồn tại nữa."
+      },
+      {
+        "en": "Managers eased the marks down gradually, 100 cents, 92, 85, all while public comps said 50.",
+        "vi": "Các nhà quản lý đã giảm dần các dấu hiệu, 100 cent, 92, 85, trong khi các công ty đại chúng tương đương chỉ ở mức 50."
+      },
+      {
+        "en": "MOODY’S DOWNGRADES $18B OF PE-BACKED SOFTWARE DEBT ACROSS 14 ISSUERS, CITING ‘SECULAR REVENUE HEADWINDS FROM AI-DRIVEN COMPETITIVE DISRUPTION’; LARGEST SINGLE-SECTOR ACTION SINCE ENERGY IN 2015 | Moody’s Investors Service, April 2027",
+        "vi": "MOODY’S HẠ CẤP 18 TỶ ĐÔ LA NỢ PHẦN MỀM ĐƯỢC PE HẬU THUẪN TRÊN 14 TỔ CHỨC PHÁT HÀNH, TRÍCH DẪN ‘NHỮNG KHÓ KHĂN VỀ DOANH THU DÀI HẠN TỪ SỰ GIÁN ĐOẠN CẠNH TRANH DO AI THÚC ĐẨY’; HÀNH ĐỘNG ĐƠN NGÀNH LỚN NHẤT KỂ TỪ NĂM 2015 TRONG LĨNH VỰC NĂNG LƯỢNG | Moody’s Investors Service, Tháng 4 năm 2027"
+      },
+      {
+        "en": "Everyone remembers what happened after the downgrade.",
+        "vi": "Mọi người đều nhớ những gì đã xảy ra sau khi bị hạ cấp."
+      },
+      {
+        "en": "Industry veterans had already seen the playbook following the 2015 energy downgrades.",
+        "vi": "Các cựu binh trong ngành đã thấy kịch bản sau các đợt hạ cấp năng lượng năm 2015."
+      },
+      {
+        "en": "Software-backed loans began defaulting in Q3 2027.",
+        "vi": "Các khoản vay được bảo đảm bằng phần mềm bắt đầu vỡ nợ vào quý 3 năm 2027."
+      },
+      {
+        "en": "PE portfolio companies in information services and consulting followed.",
+        "vi": "Các công ty danh mục đầu tư PE trong lĩnh vực dịch vụ thông tin và tư vấn cũng theo sau."
+      },
+      {
+        "en": "Several multi-billion dollar LBOs of well-known SaaS companies entered restructuring.",
+        "vi": "Một số thương vụ LBO trị giá hàng tỷ đô la của các công ty SaaS nổi tiếng đã bước vào giai đoạn tái cơ cấu."
+      },
+      {
+        "en": "Zendesk was the smoking gun.",
+        "vi": "Zendesk là bằng chứng rõ ràng."
+      },
+      {
+        "en": "ZENDESK MISSES DEBT COVENANTS AS AI-DRIVEN CUSTOMER SERVICE AUTOMATION ERODES ARR; $5B DIRECT LENDING FACILITY MARKED TO 58 CENTS; LARGEST PRIVATE CREDIT SOFTWARE DEFAULT ON RECORD | Financial Times, September 2027",
+        "vi": "ZENDESK VI PHẠM CÁC ĐIỀU KHOẢN NỢ KHI TỰ ĐỘNG HÓA DỊCH VỤ KHÁCH HÀNG DO AI THÚC ĐẨY LÀM XÓI MÒN ARR; KHOẢN VAY TRỰC TIẾP 5 TỶ ĐÔ LA ĐƯỢC ĐỊNH GIÁ Ở MỨC 58 CENT; VỠ NỢ PHẦN MỀM TÍN DỤNG TƯ NHÂN LỚN NHẤT TỪ TRƯỚC ĐẾN NAY | Financial Times, Tháng 9 năm 2027"
+      },
+      {
+        "en": "In 2022, Hellman & Friedman and Permira had taken Zendesk private for $10.2 billion.",
+        "vi": "Năm 2022, Hellman & Friedman và Permira đã mua lại Zendesk với giá 10,2 tỷ đô la."
+      },
+      {
+        "en": "The debt package was $5 billion in direct lending, the largest ARR-backed facility in history at the time, led by Blackstone with Apollo, Blue Owl and HPS all in the lending group.",
+        "vi": "Gói nợ là 5 tỷ đô la cho vay trực tiếp, cơ sở được hỗ trợ ARR lớn nhất trong lịch sử vào thời điểm đó, do Blackstone dẫn đầu với Apollo, Blue Owl và HPS đều nằm trong nhóm cho vay."
+      },
+      {
+        "en": "The loan was explicitly structured around the assumption that Zendesk’s annual recurring revenue would remain recurring.",
+        "vi": "Khoản vay được cấu trúc rõ ràng dựa trên giả định rằng doanh thu định kỳ hàng năm của Zendesk sẽ vẫn là định kỳ."
+      },
+      {
+        "en": "At roughly 25x EBITDA, the leverage only made sense if it did.",
+        "vi": "Với EBITDA khoảng 25 lần, đòn bẩy chỉ có ý nghĩa nếu điều đó xảy ra."
+      },
+      {
+        "en": "By mid-2027, it didn’t.",
+        "vi": "Đến giữa năm 2027, điều đó đã không xảy ra."
+      },
+      {
+        "en": "AI agents had been handling customer service autonomously for the better part of a year.",
+        "vi": "Các tác nhân AI đã xử lý dịch vụ khách hàng một cách tự động trong phần lớn thời gian một năm."
+      },
+      {
+        "en": "The category Zendesk had defined (ticketing, routing, managing human support interactions) was already replaced by systems that resolved issues without generating a ticket at all.",
+        "vi": "Danh mục mà Zendesk đã định nghĩa (tạo vé, định tuyến, quản lý tương tác hỗ trợ của con người) đã được thay thế bằng các hệ thống giải quyết vấn đề mà không cần tạo bất kỳ vé nào."
+      },
+      {
+        "en": "The Annualized Recurring Revenue the loan was underwritten against was no longer recurring, it was just revenue that hadn’t left yet.",
+        "vi": "Doanh thu định kỳ hàng năm mà khoản vay được bảo lãnh không còn là định kỳ nữa, đó chỉ là doanh thu chưa biến mất."
+      },
+      {
+        "en": "The largest ARR-backed loan in history became the largest private credit software default in history.",
+        "vi": "Khoản vay được hỗ trợ ARR lớn nhất trong lịch sử đã trở thành vụ vỡ nợ phần mềm tín dụng tư nhân lớn nhất trong lịch sử."
+      },
+      {
+        "en": "Every credit desk asked the same question at once: who else has a secular headwind disguised as a cyclical one?",
+        "vi": "Mọi bộ phận tín dụng đều đặt cùng một câu hỏi: ai khác đang gặp phải một khó khăn dài hạn được ngụy trang thành khó khăn chu kỳ?"
+      },
+      {
+        "en": "But here’s what the consensus got right, at least initially: this should have been survivable.",
+        "vi": "Nhưng đây là điều mà sự đồng thuận đã đúng, ít nhất là ban đầu: điều này lẽ ra phải có thể sống sót được."
+      },
+      {
+        "en": "Private credit is not 2008 banking.",
+        "vi": "Tín dụng tư nhân không phải là ngân hàng năm 2008."
+      },
+      {
+        "en": "The whole architecture was explicitly designed to avoid forced selling.",
+        "vi": "Toàn bộ kiến trúc được thiết kế rõ ràng để tránh bán tháo bắt buộc."
+      },
+      {
+        "en": "These are closed-end vehicles with locked-up capital.",
+        "vi": "Đây là các quỹ đóng với vốn bị khóa."
+      },
+      {
+        "en": "LPs committed for seven to ten years.",
+        "vi": "Các đối tác hữu hạn cam kết trong bảy đến mười năm."
+      },
+      {
+        "en": "There are no depositors to run, no repo lines to pull.",
+        "vi": "Không có người gửi tiền để rút, không có đường repo để kéo."
+      },
+      {
+        "en": "The managers could sit on impaired assets, work them out over time, and wait for recoveries.",
+        "vi": "Các nhà quản lý có thể giữ các tài sản bị suy giảm giá trị, xử lý chúng theo thời gian và chờ đợi sự phục hồi."
+      },
+      {
+        "en": "Painful, but manageable.",
+        "vi": "Đau đớn, nhưng có thể quản lý được."
+      },
+      {
+        "en": "The system was such that it was supposed to bend, not break.",
+        "vi": "Hệ thống được thiết kế để uốn cong, chứ không phải gãy đổ."
+      },
+      {
+        "en": "Executives at Blackstone, KKR and Apollo cited software exposure of 7-13% of assets.",
+        "vi": "Các giám đốc điều hành tại Blackstone, KKR và Apollo đã trích dẫn mức độ tiếp xúc với phần mềm là 7-13% tài sản."
+      },
+      {
+        "en": "Containable.",
+        "vi": "Có thể kiểm soát được."
+      },
+      {
+        "en": "Every sell-side note and fintwit credit account said the same thing: private credit has permanent capital.",
+        "vi": "Mọi ghi chú của bên bán và tài khoản tín dụng fintwit đều nói cùng một điều: tín dụng tư nhân có vốn vĩnh viễn."
+      },
+      {
+        "en": "They could absorb losses that would otherwise blow up a levered bank.",
+        "vi": "Họ có thể hấp thụ những khoản lỗ mà nếu không thì sẽ làm sụp đổ một ngân hàng có đòn bẩy."
+      },
+      {
+        "en": "Permanent capital. The phrase showed up in every earnings call and investor letter meant to reassure.",
+        "vi": "Vốn vĩnh viễn. Cụm từ này xuất hiện trong mọi cuộc họp công bố thu nhập và thư gửi nhà đầu tư nhằm trấn an."
+      },
+      {
+        "en": "It became a mantra. And like most mantras, nobody paid attention to the finer details.",
+        "vi": "Nó trở thành một câu thần chú. Và giống như hầu hết các câu thần chú, không ai chú ý đến những chi tiết nhỏ hơn."
+      },
+      {
+        "en": "Here’s what it actually meant…Over the prior decade, the large alternative asset managers had acquired life insurance companies and turned them into funding vehicles.",
+        "vi": "Đây là ý nghĩa thực sự của nó…Trong thập kỷ trước, các nhà quản lý tài sản thay thế lớn đã mua lại các công ty bảo hiểm nhân thọ và biến chúng thành các phương tiện tài trợ."
+      },
+      {
+        "en": "Apollo bought Athene. Brookfield bought American Equity. KKR took Global Atlantic.",
+        "vi": "Apollo mua Athene. Brookfield mua American Equity. KKR mua Global Atlantic."
+      },
+      {
+        "en": "The logic was elegant: annuity deposits provided a stable, long-duration liability base.",
+        "vi": "Lý do rất tinh tế: tiền gửi niên kim cung cấp một cơ sở nợ ổn định, có thời hạn dài."
+      },
+      {
+        "en": "The managers invested those deposits into the private credit they originated and got paid twice, earning spread over on the insurance side and management fees on the asset management side.",
+        "vi": "Các nhà quản lý đã đầu tư những khoản tiền gửi đó vào các khoản tín dụng tư nhân mà họ tạo ra và được trả tiền hai lần, kiếm được chênh lệch từ phía bảo hiểm và phí quản lý từ phía quản lý tài sản."
+      },
+      {
+        "en": "A fee-on-fee perpetual motion machine that worked beautifully under one condition.",
+        "vi": "Một cỗ máy chuyển động vĩnh cửu thu phí chồng phí hoạt động rất tốt dưới một điều kiện."
+      },
+      {
+        "en": "The private credit had to be money good.",
+        "vi": "Khoản tín dụng tư nhân phải có khả năng thanh toán."
+      },
+      {
+        "en": "The losses hit balance sheets built to hold illiquid assets against long-duration obligations.",
+        "vi": "Các khoản lỗ đã ảnh hưởng đến bảng cân đối kế toán được xây dựng để nắm giữ các tài sản kém thanh khoản so với các nghĩa vụ dài hạn."
+      },
+      {
+        "en": "The “permanent capital” that was supposed to make the system resilient was not some abstract pool of patient institutional money and sophisticated investors taking sophisticated risk.",
+        "vi": "Cái gọi là “vốn vĩnh viễn” được cho là làm cho hệ thống kiên cường không phải là một quỹ trừu tượng gồm tiền của các tổ chức kiên nhẫn và các nhà đầu tư tinh vi chấp nhận rủi ro tinh vi."
+      },
+      {
+        "en": "It was the savings of American households, “Main Street”, structured as annuities invested in the same PE-backed software and technology paper that was now defaulting.",
+        "vi": "Đó là tiền tiết kiệm của các hộ gia đình Mỹ, “Phố Chính”, được cấu trúc dưới dạng niên kim đầu tư vào cùng một loại giấy tờ phần mềm và công nghệ được hỗ trợ bởi PE hiện đang vỡ nợ."
+      },
+      {
+        "en": "The locked-up capital that couldn’t run was life insurance policyholder money, and the rules are a bit different there.",
+        "vi": "Vốn bị khóa không thể rút ra là tiền của người mua bảo hiểm nhân thọ, và các quy tắc ở đó hơi khác một chút."
+      },
+      {
+        "en": "Compared to the banking system, insurance regulators had been docile - even complacent - but this was the wake-up call.",
+        "vi": "So với hệ thống ngân hàng, các cơ quan quản lý bảo hiểm đã khá dễ dãi – thậm chí tự mãn – nhưng đây là lời cảnh tỉnh."
+      },
+      {
+        "en": "Already uneasy about private credit concentrations at life insurers, they began downgrading the risk-based capital treatment of these assets.",
+        "vi": "Vốn đã lo ngại về sự tập trung tín dụng tư nhân tại các công ty bảo hiểm nhân thọ, họ bắt đầu hạ cấp cách xử lý vốn dựa trên rủi ro của các tài sản này."
+      },
+      {
+        "en": "That forced the insurers to either raise capital or sell assets, neither of which was possible at attractive terms in a market already seizing up.",
+        "vi": "Điều đó buộc các công ty bảo hiểm phải tăng vốn hoặc bán tài sản, nhưng cả hai đều không thể thực hiện được với các điều khoản hấp dẫn trong một thị trường đã bị đình trệ."
+      },
+      {
+        "en": "NEW YORK, IOWA STATE REGULATORS MOVE TO TIGHTEN CAPITAL TREATMENT FOR CERTAIN PRIVATELY RATED CREDIT HELD BY LIFE INSURERS; NAIC GUIDANCE EXPECTED TO INCREASE RBC FACTORS AND TRIGGER ADDITIONAL SVO SCRUTINY | Reuters, Nov 2027",
+        "vi": "NEW YORK, CÁC CƠ QUAN QUẢN LÝ TIỂU BANG IOWA HÀNH ĐỘNG NHẰM THẮT CHẶT XỬ LÝ VỐN ĐỐI VỚI MỘT SỐ KHOẢN TÍN DỤNG ĐƯỢC XẾP HẠNG RIÊNG DO CÁC CÔNG TY BẢO HIỂM NHÂN THỌ NẮM GIỮ; HƯỚNG DẪN CỦA NAIC DỰ KIẾN SẼ TĂNG CÁC YẾU TỐ RBC VÀ KÍCH HOẠT VIỆC KIỂM TRA SVO BỔ SUNG | Reuters, tháng 11 năm 2027"
+      },
+      {
+        "en": "When Moody’s put Athene’s financial strength rating on negative outlook, Apollo’s stock dropped 22% in two sessions.",
+        "vi": "Khi Moody’s đặt xếp hạng sức mạnh tài chính của Athene vào triển vọng tiêu cực, cổ phiếu của Apollo đã giảm 22% trong hai phiên giao dịch."
+      },
+      {
+        "en": "Brookfield, KKR, and the others followed.",
+        "vi": "Brookfield, KKR và các công ty khác cũng theo sau."
+      },
+      {
+        "en": "It only got more complex from there. These firms hadn’t just created their insurer perpetual motion machine, they’d built an elaborate offshore architecture designed to maximize returns through regulatory arbitrage.",
+        "vi": "Mọi thứ chỉ trở nên phức tạp hơn từ đó. Các công ty này không chỉ tạo ra cỗ máy chuyển động vĩnh cửu của công ty bảo hiểm mà còn xây dựng một kiến trúc phức tạp ở nước ngoài được thiết kế để tối đa hóa lợi nhuận thông qua chênh lệch giá quy định."
+      },
+      {
+        "en": "The US insurer wrote the annuity, then ceded the risk to an affiliated Bermuda or Cayman reinsurer it also owned - set up to take advantage of more flexible regulation that permitted holding less capital against the same assets.",
+        "vi": "Công ty bảo hiểm Hoa Kỳ đã viết hợp đồng niên kim, sau đó chuyển rủi ro cho một công ty tái bảo hiểm liên kết ở Bermuda hoặc Cayman mà họ cũng sở hữu - được thành lập để tận dụng quy định linh hoạt hơn cho phép nắm giữ ít vốn hơn đối với cùng một tài sản."
+      },
+      {
+        "en": "That affiliate raised outside capital through offshore SPVs, a new layer of counterparties who invested alongside insurers into private credit originated by the same parent’s asset management arm.",
+        "vi": "Công ty liên kết đó đã huy động vốn bên ngoài thông qua các SPV ở nước ngoài, một lớp đối tác mới đã đầu tư cùng với các công ty bảo hiểm vào tín dụng tư nhân do chi nhánh quản lý tài sản của cùng một công ty mẹ tạo ra."
+      },
+      {
+        "en": "The ratings agencies, some of which were themselves PE-owned, had not been paragons of transparency (surprising to virtually) no one.",
+        "vi": "Các cơ quan xếp hạng, một số trong đó thuộc sở hữu của PE, đã không phải là hình mẫu về sự minh bạch (điều này hầu như không gây ngạc nhiên cho bất kỳ ai)."
+      },
+      {
+        "en": "The spider web of different firms linked to different balance sheets was stunning in its opacity.",
+        "vi": "Mạng lưới các công ty khác nhau liên kết với các bảng cân đối kế toán khác nhau thật đáng kinh ngạc về sự thiếu minh bạch của nó."
+      },
+      {
+        "en": "When the underlying loans defaulted, the question of who actually bore the loss was genuinely unanswerable in real time.",
+        "vi": "Khi các khoản vay cơ bản vỡ nợ, câu hỏi về việc ai thực sự chịu tổn thất là hoàn toàn không thể trả lời được trong thời gian thực."
+      },
+      {
+        "en": "The November 2027 crash marked the transition of perception from a potentially garden-variety cyclical drawdown to something much more uncomfortable.",
+        "vi": "Sự sụp đổ vào tháng 11 năm 2027 đánh dấu sự chuyển đổi nhận thức từ một đợt suy thoái chu kỳ thông thường sang một điều gì đó khó chịu hơn nhiều."
+      },
+      {
+        "en": "“A daisy chain of correlated bets on white collar productivity growth” was what Fed Chair Kevin Warsh called it during the FOMC’s emergency November meeting.",
+        "vi": "“Một chuỗi các cược tương quan vào tăng trưởng năng suất của giới cổ cồn trắng” là cách Chủ tịch Fed Kevin Warsh gọi nó trong cuộc họp khẩn cấp của FOMC vào tháng 11."
+      },
+      {
+        "en": "See, it is never the losses themselves that cause the crisis. It’s recognizing them.",
+        "vi": "Bạn thấy đấy, không bao giờ là chính những tổn thất gây ra khủng hoảng. Mà là việc nhận ra chúng."
+      },
+      {
+        "en": "And there is another, much larger, much much more important area of finance for which we have grown fearful of that recognition.",
+        "vi": "Và có một lĩnh vực tài chính khác, lớn hơn nhiều, quan trọng hơn nhiều mà chúng ta đã trở nên sợ hãi khi nhận ra điều đó."
+      },
+      {
+        "en": "The Mortgage Question",
+        "vi": "Vấn đề thế chấp"
+      },
+      {
+        "en": "ZILLOW HOME VALUE INDEX FALLS 11% YOY IN SAN FRANCISCO, 9% IN SEATTLE, 8% IN AUSTIN; FANNIE MAE FLAGS ‘ELEVATED EARLY-STAGE DELINQUENCIES’ IN ZIP CODES WITH >40% TECH/FINANCE EMPLOYMENT | Zillow / Fannie Mae, June 2028",
+        "vi": "CHỈ SỐ GIÁ TRỊ NHÀ CỦA ZILLOW GIẢM 11% SO VỚI CÙNG KỲ NĂM TRƯỚC TẠI SAN FRANCISCO, 9% TẠI SEATTLE, 8% TẠI AUSTIN; FANNIE MAE CẢNH BÁO ‘TỶ LỆ NỢ QUÁ HẠN GIAI ĐOẠN SỚM TĂNG CAO’ Ở CÁC MÃ BƯU ĐIỆN CÓ >40% VIỆC LÀM TRONG LĨNH VỰC CÔNG NGHỆ/TÀI CHÍNH | Zillow / Fannie Mae, tháng 6 năm 2028"
+      },
+      {
+        "en": "This month the Zillow Home Value Index fell 11% year-over-year in San Francisco, 9% in Seattle and 8% in Austin.",
+        "vi": "Tháng này, Chỉ số Giá trị Nhà của Zillow đã giảm 11% so với cùng kỳ năm trước tại San Francisco, 9% tại Seattle và 8% tại Austin."
+      },
+      {
+        "en": "This hasn’t been the only worrying headline. Last month, Fannie Mae flagged higher early-stage delinquency from jumbo-heavy ZIP codes - areas that are populated by 780+ credit score borrowers and typically “bulletproof”.",
+        "vi": "Đây không phải là tin tức đáng lo ngại duy nhất. Tháng trước, Fannie Mae đã cảnh báo về tỷ lệ nợ quá hạn giai đoạn đầu cao hơn từ các mã ZIP có nhiều khoản vay lớn – những khu vực có những người vay có điểm tín dụng từ 780 trở lên và thường được coi là “không thể bị tổn thương”."
+      },
+      {
+        "en": "The US residential mortgage market is approximately $13 trillion.",
+        "vi": "Thị trường thế chấp nhà ở Hoa Kỳ có giá trị xấp xỉ 13 nghìn tỷ đô la."
+      },
+      {
+        "en": "Mortgage underwriting is built on the fundamental assumption that the borrower will remain employed at roughly their current income level for the duration of the loan.",
+        "vi": "Việc bảo lãnh thế chấp được xây dựng trên giả định cơ bản rằng người vay sẽ duy trì việc làm với mức thu nhập hiện tại trong suốt thời gian vay."
+      },
+      {
+        "en": "For thirty years, in the case of most mortgages.",
+        "vi": "Trong ba mươi năm, đối với hầu hết các khoản thế chấp."
+      },
+      {
+        "en": "The white-collar employment crisis has threatened this assumption with a sustained shift in income expectations.",
+        "vi": "Cuộc khủng hoảng việc làm của giới cổ cồn trắng đã đe dọa giả định này với sự thay đổi bền vững trong kỳ vọng thu nhập."
+      },
+      {
+        "en": "We now have to ask a question that seemed absurd just 3 years ago - are prime mortgages money good?",
+        "vi": "Giờ đây, chúng ta phải đặt ra một câu hỏi tưởng chừng vô lý chỉ 3 năm trước – liệu các khoản vay thế chấp ưu tiên có còn tốt không?"
+      },
+      {
+        "en": "Every prior mortgage crisis in US history has been driven by one of three things: speculative excess (lending to people who couldn’t afford the homes, as in 2008), interest rate shocks (rising rates making adjustable-rate mortgages unaffordable, as in the early 1980s), or localized economic shocks (a single industry collapsing in a single region, like oil in Texas in the 1980s or auto in Michigan in 2009).",
+        "vi": "Mọi cuộc khủng hoảng thế chấp trước đây trong lịch sử Hoa Kỳ đều do một trong ba nguyên nhân: đầu cơ quá mức (cho vay những người không đủ khả năng mua nhà, như năm 2008), cú sốc lãi suất (lãi suất tăng khiến các khoản vay thế chấp lãi suất thả nổi trở nên không thể chi trả, như đầu những năm 1980), hoặc cú sốc kinh tế cục bộ (một ngành công nghiệp duy nhất sụp đổ ở một khu vực duy nhất, như dầu mỏ ở Texas vào những năm 1980 hoặc ô tô ở Michigan vào năm 2009)."
+      },
+      {
+        "en": "None of these apply here. The borrowers in question are not subprime.",
+        "vi": "Không có điều nào trong số này áp dụng ở đây. Những người đi vay được đề cập không phải là dưới chuẩn."
+      },
+      {
+        "en": "They’re 780 FICO scores. They put 20% down. They have clean credit histories, stable employment records, and incomes that were verified and documented at origination.",
+        "vi": "Họ có điểm FICO 780. Họ đặt cọc 20%. Họ có lịch sử tín dụng sạch, hồ sơ việc làm ổn định và thu nhập đã được xác minh và ghi lại khi vay."
+      },
+      {
+        "en": "They were the borrowers that every risk model in the financial system treats as the bedrock of credit quality.",
+        "vi": "Họ là những người đi vay mà mọi mô hình rủi ro trong hệ thống tài chính đều coi là nền tảng của chất lượng tín dụng."
+      },
+      {
+        "en": "In 2008, the loans were bad on day one. In 2028, the loans were good on day one.",
+        "vi": "Năm 2008, các khoản vay đã xấu ngay từ ngày đầu tiên. Năm 2028, các khoản vay đã tốt ngay từ ngày đầu tiên."
+      },
+      {
+        "en": "The world just…changed after the loans were written. People borrowed against a future they can no longer afford to believe in.",
+        "vi": "Thế giới chỉ… thay đổi sau khi các khoản vay được thực hiện. Mọi người đã vay mượn dựa trên một tương lai mà họ không còn đủ khả năng để tin tưởng."
+      },
+      {
+        "en": "In 2027, we flagged early signs of invisible stress: HELOC draws, 401(k) withdrawals, and credit card debt spiking while mortgage payments remained current.",
+        "vi": "Năm 2027, chúng tôi đã ghi nhận những dấu hiệu sớm của căng thẳng vô hình: rút tiền từ HELOC, rút tiền từ 401(k) và nợ thẻ tín dụng tăng vọt trong khi các khoản thanh toán thế chấp vẫn được duy trì."
+      },
+      {
+        "en": "As jobs were lost, hiring was frozen and bonuses cut, these prime households saw their debt-to-income ratios double.",
+        "vi": "Khi việc làm bị mất, tuyển dụng bị đóng băng và tiền thưởng bị cắt, các hộ gia đình ưu tiên này đã chứng kiến tỷ lệ nợ trên thu nhập của họ tăng gấp đôi."
+      },
+      {
+        "en": "They could still make the mortgage payment, but only by stopping all discretionary spending, draining savings, and deferring any home maintenance or improvement.",
+        "vi": "Họ vẫn có thể thanh toán khoản vay thế chấp, nhưng chỉ bằng cách ngừng tất cả các khoản chi tiêu tùy ý, rút cạn tiền tiết kiệm và hoãn mọi việc bảo trì hoặc cải thiện nhà cửa."
+      },
+      {
+        "en": "They were technically current on their mortgage, but just one more shock away from distress, and the trajectory of AI capabilities suggested that shock is coming.",
+        "vi": "Về mặt kỹ thuật, họ vẫn đang trả nợ thế chấp đúng hạn, nhưng chỉ còn một cú sốc nữa là đến tình trạng khó khăn, và quỹ đạo phát triển của khả năng AI cho thấy cú sốc đó đang đến."
+      },
+      {
+        "en": "Then we saw delinquencies begin to spike in San Francisco, Seattle, Manhattan and Austin, even as the national average stayed within historical norms.",
+        "vi": "Sau đó, chúng tôi thấy các khoản nợ quá hạn bắt đầu tăng vọt ở San Francisco, Seattle, Manhattan và Austin, ngay cả khi mức trung bình toàn quốc vẫn nằm trong giới hạn lịch sử."
+      },
+      {
+        "en": "We’re now in the most acute stage. Falling home prices are manageable when the marginal buyer is healthy.",
+        "vi": "Chúng ta hiện đang ở giai đoạn cấp tính nhất. Giá nhà giảm có thể kiểm soát được khi người mua cận biên khỏe mạnh."
+      },
+      {
+        "en": "Here, the marginal buyer is dealing with the same income impairment.",
+        "vi": "Ở đây, người mua cận biên đang phải đối mặt với tình trạng suy giảm thu nhập tương tự."
+      },
+      {
+        "en": "While concerns are building, we are not yet in a full-blown mortgage crisis. Delinquencies have risen but remain well below 2008 levels.",
+        "vi": "Mặc dù những lo ngại đang gia tăng, chúng ta vẫn chưa ở trong một cuộc khủng hoảng thế chấp toàn diện. Các khoản nợ quá hạn đã tăng nhưng vẫn thấp hơn nhiều so với mức năm 2008."
+      },
+      {
+        "en": "It is the trajectory that’s the real threat.",
+        "vi": "Chính quỹ đạo mới là mối đe dọa thực sự."
+      },
+      {
+        "en": "The Intelligence Displacement Spiral now has two financial accelerants to the real economy’s decline.",
+        "vi": "Vòng xoáy dịch chuyển trí tuệ hiện có hai yếu tố tài chính thúc đẩy sự suy thoái của nền kinh tế thực."
+      },
+      {
+        "en": "Labor displacement, mortgage concerns, private market turmoil. Each reinforces the other.",
+        "vi": "Dịch chuyển lao động, lo ngại về thế chấp, hỗn loạn thị trường tư nhân. Mỗi yếu tố củng cố lẫn nhau."
+      },
+      {
+        "en": "And the traditional policy toolkit (rate cuts, QE) can address the financial engine but cannot address the real economy engine, because the real economy engine is not driven by tight financial conditions.",
+        "vi": "Và bộ công cụ chính sách truyền thống (cắt giảm lãi suất, QE) có thể giải quyết động cơ tài chính nhưng không thể giải quyết động cơ kinh tế thực, bởi vì động cơ kinh tế thực không bị thúc đẩy bởi các điều kiện tài chính thắt chặt."
+      },
+      {
+        "en": "It’s driven by AI making human intelligence less scarce and less valuable.",
+        "vi": "Nó được thúc đẩy bởi AI làm cho trí tuệ con người trở nên ít khan hiếm và ít giá trị hơn."
+      },
+      {
+        "en": "You can cut rates to zero and buy every MBS and all the defaulted software LBO debt in the market…It won’t change the fact that a Claude agent can do the work of a $180,000 product manager for $200/month.",
+        "vi": "Bạn có thể cắt giảm lãi suất xuống 0 và mua mọi MBS cùng tất cả các khoản nợ LBO phần mềm vỡ nợ trên thị trường… Điều đó sẽ không thay đổi sự thật rằng một tác nhân Claude có thể làm công việc của một quản lý sản phẩm trị giá 180.000 đô la với giá 200 đô la/tháng."
+      },
+      {
+        "en": "If these fears manifest, the mortgage market cracks in the back half of this year.",
+        "vi": "Nếu những lo ngại này trở thành hiện thực, thị trường thế chấp sẽ rạn nứt vào nửa cuối năm nay."
+      },
+      {
+        "en": "In that scenario, we’d expect the current drawdown in equities to ultimately rival that of the GFC (57% peak-to-trough).",
+        "vi": "Trong kịch bản đó, chúng ta có thể kỳ vọng sự sụt giảm hiện tại của thị trường chứng khoán cuối cùng sẽ ngang bằng với cuộc khủng hoảng tài chính toàn cầu (57% từ đỉnh đến đáy)."
+      },
+      {
+        "en": "This would bring the S&P500 to ~3500 - levels we haven’t seen since the month before the ChatGPT moment in November 2022.",
+        "vi": "Điều này sẽ đưa S&P500 xuống khoảng 3500 điểm – mức mà chúng ta chưa từng thấy kể từ tháng trước thời điểm ChatGPT xuất hiện vào tháng 11 năm 2022."
+      },
+      {
+        "en": "What’s clear is that the income assumptions underlying $13 trillion in residential mortgages are structurally impaired.",
+        "vi": "Điều rõ ràng là các giả định về thu nhập làm nền tảng cho 13 nghìn tỷ đô la thế chấp nhà ở đang bị suy yếu về cấu trúc."
+      },
+      {
+        "en": "What isn’t is whether policy can intervene before the mortgage market fully processes what this means. We’re hopeful, but we can’t deny the reasons not to be.",
+        "vi": "Điều không rõ ràng là liệu chính sách có thể can thiệp trước khi thị trường thế chấp hoàn toàn hiểu được ý nghĩa của điều này hay không. Chúng tôi hy vọng, nhưng chúng tôi không thể phủ nhận những lý do để không hy vọng."
+      },
+      {
+        "en": "The first negative feedback loop was in the real economy: AI capability improves, payroll shrinks, spending softens, margins tighten, companies buy more capability, capability improves.",
+        "vi": "Vòng phản hồi tiêu cực đầu tiên nằm trong nền kinh tế thực: khả năng AI cải thiện, bảng lương thu hẹp, chi tiêu giảm, biên lợi nhuận thắt chặt, các công ty mua thêm khả năng, khả năng cải thiện."
+      },
+      {
+        "en": "Then it turned financial: income impairment hit mortgages, bank losses tightened credit, the wealth effect cracked, and the feedback loop sped up.",
+        "vi": "Sau đó, nó chuyển sang tài chính: suy giảm thu nhập ảnh hưởng đến các khoản thế chấp, thua lỗ ngân hàng thắt chặt tín dụng, hiệu ứng tài sản rạn nứt, và vòng phản hồi tăng tốc."
+      },
+      {
+        "en": "And both of these have been exacerbated by an insufficient policy response from a government that seems, quite frankly, confused.",
+        "vi": "Và cả hai điều này đều bị trầm trọng hơn bởi phản ứng chính sách không đủ từ một chính phủ mà, thẳng thắn mà nói, dường như đang bối rối."
+      },
+      {
+        "en": "The system wasn’t designed for a crisis like this. The federal government’s revenue base is essentially a tax on human time.",
+        "vi": "Hệ thống không được thiết kế cho một cuộc khủng hoảng như thế này. Nguồn thu của chính phủ liên bang về cơ bản là thuế đánh vào thời gian của con người."
+      },
+      {
+        "en": "People work, firms pay them, the government takes a cut. Individual income and payroll taxes are the spine of receipts in normal years.",
+        "vi": "Mọi người làm việc, các công ty trả lương cho họ, chính phủ thu một phần. Thuế thu nhập cá nhân và thuế lương là xương sống của nguồn thu trong những năm bình thường."
+      },
+      {
+        "en": "Through Q1 of this year, federal receipts were running 12% below CBO baseline projections. Payroll receipts are falling because fewer people are employed at prior compensation levels.",
+        "vi": "Trong quý 1 năm nay, nguồn thu của liên bang thấp hơn 12% so với dự báo cơ sở của CBO. Nguồn thu từ lương đang giảm vì ít người được tuyển dụng ở mức lương trước đây."
+      },
+      {
+        "en": "Income tax receipts are falling because the incomes being earned are structurally lower. Productivity is surging, but the gains are flowing to capital and compute, not labor.",
+        "vi": "Nguồn thu thuế thu nhập đang giảm vì thu nhập kiếm được thấp hơn về mặt cấu trúc. Năng suất đang tăng vọt, nhưng lợi nhuận đang chảy vào vốn và điện toán, chứ không phải lao động."
+      },
+      {
+        "en": "Labor’s share of GDP declined from 64% in 1974 to 56% in 2024, a four-decade grind lower driven by globalization, automation, and the steady erosion of worker bargaining power.",
+        "vi": "Tỷ trọng của lao động trong GDP đã giảm từ 64% vào năm 1974 xuống 56% vào năm 2024, một quá trình giảm kéo dài bốn thập kỷ do toàn cầu hóa, tự động hóa và sự xói mòn dần dần sức mạnh thương lượng của người lao động."
+      },
+      {
+        "en": "In the four years since AI began its exponential improvement, that has dropped to 46%. The sharpest decline on record.",
+        "vi": "Trong bốn năm kể từ khi AI bắt đầu cải thiện theo cấp số nhân, con số đó đã giảm xuống còn 46%. Đây là mức giảm mạnh nhất được ghi nhận."
+      },
+      {
+        "en": "The output is still there. But it’s no longer routing through households on the way back to firms, which means it’s no longer routing through the IRS either.",
+        "vi": "Sản lượng vẫn còn đó. Nhưng nó không còn đi qua các hộ gia đình trên đường trở lại các công ty, điều đó có nghĩa là nó cũng không còn đi qua IRS nữa."
+      },
+      {
+        "en": "The circular flow is breaking, and the government is expected to step in to fix that.",
+        "vi": "Dòng chảy kinh tế tuần hoàn đang bị phá vỡ, và chính phủ được kỳ vọng sẽ can thiệp để khắc phục điều đó."
+      },
+      {
+        "en": "As in every downturn, outlays rise just as receipts fall.",
+        "vi": "Như mọi cuộc suy thoái, chi tiêu tăng trong khi thu nhập giảm."
+      },
+      {
+        "en": "The difference this time is that the spending pressure is not cyclical.",
+        "vi": "Sự khác biệt lần này là áp lực chi tiêu không mang tính chu kỳ."
+      },
+      {
+        "en": "Automatic stabilizers were built for temporary job losses, not structural displacement.",
+        "vi": "Các cơ chế ổn định tự động được tạo ra cho tình trạng mất việc làm tạm thời, chứ không phải sự dịch chuyển cơ cấu."
+      },
+      {
+        "en": "The system is paying benefits that assume workers will be reabsorbed.",
+        "vi": "Hệ thống đang chi trả các khoản trợ cấp với giả định rằng người lao động sẽ được tái hòa nhập."
+      },
+      {
+        "en": "Many will not, at least not at anything like their prior wage.",
+        "vi": "Nhiều người sẽ không, ít nhất là không với mức lương tương tự như trước đây."
+      },
+      {
+        "en": "During COVID, the government freely embraced 15% deficits, but it was understood to be temporary.",
+        "vi": "Trong thời kỳ COVID, chính phủ đã chấp nhận mức thâm hụt 15% một cách tự do, nhưng điều đó được hiểu là tạm thời."
+      },
+      {
+        "en": "The people who need government support today were not hit by a pandemic they’ll recover from.",
+        "vi": "Những người cần sự hỗ trợ của chính phủ ngày nay không phải bị ảnh hưởng bởi một đại dịch mà họ sẽ hồi phục."
+      },
+      {
+        "en": "They were replaced by a technology that continues to improve.",
+        "vi": "Họ đã bị thay thế bởi một công nghệ không ngừng cải tiến."
+      },
+      {
+        "en": "The government needs to transfer more money to households at precisely the moment it is collecting less money from them in taxes.",
+        "vi": "Chính phủ cần chuyển nhiều tiền hơn cho các hộ gia đình đúng vào thời điểm họ đang thu ít tiền thuế hơn từ họ."
+      },
+      {
+        "en": "The U.S. won’t default. It prints the currency it spends, the same currency it uses to pay back borrowers.",
+        "vi": "Mỹ sẽ không vỡ nợ. Nước này in tiền mà họ chi tiêu, cùng loại tiền mà họ dùng để trả nợ cho người vay."
+      },
+      {
+        "en": "But this stress has shown up elsewhere.",
+        "vi": "Nhưng áp lực này đã xuất hiện ở những nơi khác."
+      },
+      {
+        "en": "Municipal bonds are showing worrying signs of dispersion in year-to-date performance.",
+        "vi": "Trái phiếu đô thị đang cho thấy những dấu hiệu đáng lo ngại về sự phân tán trong hiệu suất từ đầu năm đến nay."
+      },
+      {
+        "en": "States without income tax have been okay, but general obligation munis issued by states dependent on income tax (majority blue states) began to price in some default risk.",
+        "vi": "Các bang không có thuế thu nhập vẫn ổn, nhưng trái phiếu nghĩa vụ chung do các bang phụ thuộc vào thuế thu nhập (đa số là các bang xanh) phát hành bắt đầu định giá một số rủi ro vỡ nợ."
+      },
+      {
+        "en": "Politicos caught on quickly, and the debate over who gets bailed out has fallen along partisan lines.",
+        "vi": "Các chính trị gia đã nhanh chóng nhận ra, và cuộc tranh luận về việc ai được giải cứu đã đi theo các đường lối đảng phái."
+      },
+      {
+        "en": "The administration, to its credit, recognized the structural nature of the crisis early and began entertaining bipartisan proposals for what they’re calling the “Transition Economy Act”: a framework for direct transfers to displaced workers funded by a combination of deficit spending and a proposed tax on AI inference compute.",
+        "vi": "Chính quyền, đáng khen ngợi, đã nhận ra bản chất cơ cấu của cuộc khủng hoảng từ sớm và bắt đầu xem xét các đề xuất lưỡng đảng cho cái mà họ gọi là “Đạo luật Kinh tế Chuyển đổi”: một khuôn khổ cho các khoản chuyển giao trực tiếp cho người lao động bị mất việc, được tài trợ bởi sự kết hợp giữa chi tiêu thâm hụt và một đề xuất thuế đối với tính toán suy luận AI."
+      },
+      {
+        "en": "The most radical proposal on the table goes further.",
+        "vi": "Đề xuất cấp tiến nhất đang được xem xét còn đi xa hơn."
+      },
+      {
+        "en": "The “Shared AI Prosperity Act” would establish a public claim on the returns of the intelligence infrastructure itself, something between a sovereign wealth fund and a royalty on AI-generated output, with dividends funding household transfers.",
+        "vi": "“Đạo luật Thịnh vượng AI Chia sẻ” sẽ thiết lập một yêu cầu công khai đối với lợi nhuận của chính cơ sở hạ tầng trí tuệ, một cái gì đó nằm giữa quỹ tài sản có chủ quyền và tiền bản quyền đối với đầu ra do AI tạo ra, với cổ tức tài trợ cho các khoản chuyển giao hộ gia đình."
+      },
+      {
+        "en": "Private sector lobbyists have flooded the media with warnings about the slippery slope.",
+        "vi": "Các nhà vận động hành lang khu vực tư nhân đã tràn ngập truyền thông với những cảnh báo về con dốc trượt."
+      },
+      {
+        "en": "The politics behind the discussions have been grimly predictable, exacerbated by grandstanding and brinksmanship.",
+        "vi": "Chính trị đằng sau các cuộc thảo luận đã có thể dự đoán được một cách ảm đạm, bị làm trầm trọng thêm bởi sự phô trương và hành động liều lĩnh."
+      },
+      {
+        "en": "The right calls transfers and redistribution Marxism and warns that taxing compute hands the lead to China.",
+        "vi": "Phe cánh hữu gọi các khoản chuyển giao và tái phân phối là chủ nghĩa Marx và cảnh báo rằng việc đánh thuế tính toán sẽ trao lợi thế cho Trung Quốc."
+      },
+      {
+        "en": "The left warns that a tax drafted with the help of incumbents becomes regulatory capture by another name.",
+        "vi": "Phe cánh tả cảnh báo rằng một loại thuế được soạn thảo với sự giúp đỡ của các đương nhiệm sẽ trở thành sự thâu tóm quy định dưới một tên gọi khác."
+      },
+      {
+        "en": "Fiscal hawks point to unsustainable deficits.",
+        "vi": "Những người theo chủ nghĩa thắt chặt tài khóa chỉ ra thâm hụt không bền vững."
+      },
+      {
+        "en": "Doves point to the premature austerity imposed after the GFC as a cautionary tale.",
+        "vi": "Những người theo chủ nghĩa ôn hòa chỉ ra chính sách thắt lưng buộc bụng quá sớm được áp đặt sau cuộc khủng hoảng tài chính toàn cầu (GFC) như một câu chuyện cảnh báo."
+      },
+      {
+        "en": "The divide is only magnifying in the run up to this year’s presidential election.",
+        "vi": "Sự chia rẽ chỉ càng lớn hơn trong thời gian chuẩn bị cho cuộc bầu cử tổng thống năm nay."
+      },
+      {
+        "en": "While the politicians bicker, the social fabric is fraying faster than the legislative process can move.",
+        "vi": "Trong khi các chính trị gia tranh cãi, cấu trúc xã hội đang bị xói mòn nhanh hơn tốc độ của quá trình lập pháp."
+      },
+      {
+        "en": "The Occupy Silicon Valley movement has been emblematic of wider dissatisfaction.",
+        "vi": "Phong trào Chiếm đóng Thung lũng Silicon đã trở thành biểu tượng của sự bất mãn rộng lớn hơn."
+      },
+      {
+        "en": "Last month, demonstrators blockaded the entrances to Anthropic and OpenAI’s San Francisco offices for three weeks straight.",
+        "vi": "Tháng trước, những người biểu tình đã phong tỏa lối vào các văn phòng của Anthropic và OpenAI ở San Francisco trong ba tuần liên tiếp."
+      },
+      {
+        "en": "Their numbers are growing, and the demonstrations have drawn more media coverage than the unemployment data that prompted them.",
+        "vi": "Số lượng của họ đang tăng lên, và các cuộc biểu tình đã thu hút nhiều sự chú ý của truyền thông hơn dữ liệu thất nghiệp đã thúc đẩy họ."
+      },
+      {
+        "en": "It’s hard to imagine the public hating anyone more than the bankers in the fallout of the GFC, but the AI labs are making a run at it.",
+        "vi": "Thật khó để tưởng tượng công chúng ghét ai hơn các chủ ngân hàng sau cuộc khủng hoảng tài chính toàn cầu, nhưng các phòng thí nghiệm AI đang cố gắng đạt được điều đó."
+      },
+      {
+        "en": "And, from the perspective of the masses, for good reason.",
+        "vi": "Và, từ góc độ của quần chúng, có lý do chính đáng."
+      },
+      {
+        "en": "Their founders and early investors have accumulated wealth at a pace that makes the Gilded Age look tame.",
+        "vi": "Những người sáng lập và nhà đầu tư ban đầu của họ đã tích lũy tài sản với tốc độ khiến Thời kỳ Hoàng kim trông có vẻ hiền lành."
+      },
+      {
+        "en": "The gains from the productivity boom accruing almost entirely to the owners of compute and the shareholders of the labs that ran on it has magnified US inequality to unprecedented levels.",
+        "vi": "Lợi ích từ sự bùng nổ năng suất gần như hoàn toàn thuộc về các chủ sở hữu máy tính và các cổ đông của các phòng thí nghiệm chạy trên đó đã làm gia tăng bất bình đẳng ở Mỹ lên mức chưa từng có."
+      },
+      {
+        "en": "Every side has their own villain, but the real villain is time.",
+        "vi": "Mỗi bên đều có kẻ phản diện của riêng mình, nhưng kẻ phản diện thực sự là thời gian."
+      },
+      {
+        "en": "AI capability is evolving faster than institutions can adapt.",
+        "vi": "Khả năng của AI đang phát triển nhanh hơn khả năng thích ứng của các thể chế."
+      },
+      {
+        "en": "The policy response is moving at the pace of ideology, not reality.",
+        "vi": "Phản ứng chính sách đang diễn ra theo tốc độ của ý thức hệ, chứ không phải thực tế."
+      },
+      {
+        "en": "If the government doesn’t agree on what the problem is soon, the feedback loop will write the next chapter for them.",
+        "vi": "Nếu chính phủ không sớm thống nhất về vấn đề là gì, vòng lặp phản hồi sẽ viết chương tiếp theo cho họ."
+      },
+      {
+        "en": "For the entirety of modern economic history, human intelligence has been the scarce input.",
+        "vi": "Trong toàn bộ lịch sử kinh tế hiện đại, trí tuệ con người là yếu tố đầu vào khan hiếm."
+      },
+      {
+        "en": "Capital was abundant (or at least, replicable).",
+        "vi": "Vốn dồi dào (hoặc ít nhất là có thể tái tạo)."
+      },
+      {
+        "en": "Natural resources were finite but substitutable.",
+        "vi": "Tài nguyên thiên nhiên hữu hạn nhưng có thể thay thế được."
+      },
+      {
+        "en": "Technology improved slowly enough that humans could adapt.",
+        "vi": "Công nghệ cải thiện đủ chậm để con người có thể thích nghi."
+      },
+      {
+        "en": "Intelligence, the ability to analyze, decide, create, persuade, and coordinate, was the thing that could not be replicated at scale.",
+        "vi": "Trí tuệ, khả năng phân tích, quyết định, sáng tạo, thuyết phục và phối hợp, là thứ không thể nhân rộng ở quy mô lớn."
+      },
+      {
+        "en": "Human intelligence derived its inherent premium from its scarcity.",
+        "vi": "Trí tuệ con người có được giá trị vốn có từ sự khan hiếm của nó."
+      },
+      {
+        "en": "Every institution in our economy, from the labor market to the mortgage market to the tax code, was designed for a world in which that assumption held.",
+        "vi": "Mọi thể chế trong nền kinh tế của chúng ta, từ thị trường lao động đến thị trường thế chấp đến luật thuế, đều được thiết kế cho một thế giới mà giả định đó vẫn đúng."
+      },
+      {
+        "en": "We are now experiencing the unwind of that premium.",
+        "vi": "Chúng ta hiện đang trải qua sự suy giảm của giá trị đó."
+      },
+      {
+        "en": "Machine intelligence is now a competent and rapidly improving substitute for human intelligence across a growing range of tasks.",
+        "vi": "Trí tuệ máy móc hiện là một sự thay thế có năng lực và đang cải thiện nhanh chóng cho trí tuệ con người trên một loạt các nhiệm vụ ngày càng tăng."
+      },
+      {
+        "en": "The financial system, optimized over decades for a world of scarce human minds, is repricing.",
+        "vi": "Hệ thống tài chính, được tối ưu hóa trong nhiều thập kỷ cho một thế giới của những bộ óc con người khan hiếm, đang định giá lại."
+      },
+      {
+        "en": "That repricing is painful, disorderly, and far from complete.",
+        "vi": "Việc định giá lại đó rất đau đớn, hỗn loạn và còn lâu mới hoàn thành."
+      },
+      {
+        "en": "But repricing is not the same as collapse.",
+        "vi": "Nhưng việc định giá lại không giống như sự sụp đổ."
+      },
+      {
+        "en": "The economy can find a new equilibrium.",
+        "vi": "Nền kinh tế có thể tìm thấy một trạng thái cân bằng mới."
+      },
+      {
+        "en": "Getting there is one of the few tasks left that only humans can do.",
+        "vi": "Đạt được điều đó là một trong số ít nhiệm vụ còn lại mà chỉ con người mới có thể làm được."
+      },
+      {
+        "en": "We need to do it correctly.",
+        "vi": "Chúng ta cần thực hiện đúng cách."
+      },
+      {
+        "en": "This is the first time in history the most productive asset in the economy has produced fewer, not more, jobs.",
+        "vi": "Đây là lần đầu tiên trong lịch sử, tài sản năng suất nhất trong nền kinh tế lại tạo ra ít việc làm hơn, chứ không phải nhiều hơn."
+      },
+      {
+        "en": "Nobody’s framework fits, because none were designed for a world where the scarce input became abundant.",
+        "vi": "Không có khuôn khổ nào phù hợp, vì không có khuôn khổ nào được thiết kế cho một thế giới mà yếu tố đầu vào khan hiếm lại trở nên dồi dào."
+      },
+      {
+        "en": "So we have to make new frameworks.",
+        "vi": "Vì vậy, chúng ta phải tạo ra những khuôn khổ mới."
+      },
+      {
+        "en": "Whether we build them in time is the only question that matters.",
+        "vi": "Liệu chúng ta có xây dựng chúng kịp thời hay không là câu hỏi duy nhất quan trọng."
+      },
+      {
+        "en": "But you’re not reading this in June 2028. You’re reading it in February 2026.",
+        "vi": "Nhưng bạn không đọc bài này vào tháng 6 năm 2028. Bạn đang đọc nó vào tháng 2 năm 2026."
+      },
+      {
+        "en": "The S&P is near all-time highs. The negative feedback loops have not begun.",
+        "vi": "Chỉ số S&P đang ở gần mức cao nhất mọi thời đại. Các vòng lặp phản hồi tiêu cực vẫn chưa bắt đầu."
+      },
+      {
+        "en": "We are certain some of these scenarios won’t materialize. We’re equally certain that machine intelligence will continue to accelerate.",
+        "vi": "Chúng tôi chắc chắn một số kịch bản này sẽ không xảy ra. Chúng tôi cũng chắc chắn rằng trí tuệ máy móc sẽ tiếp tục tăng tốc."
+      },
+      {
+        "en": "The premium on human intelligence will narrow.",
+        "vi": "Giá trị của trí tuệ con người sẽ thu hẹp lại."
+      },
+      {
+        "en": "As investors, we still have time to assess how much of our portfolios are built upon assumptions that won’t survive the decade.",
+        "vi": "Với tư cách là nhà đầu tư, chúng ta vẫn còn thời gian để đánh giá xem bao nhiêu phần trong danh mục đầu tư của mình được xây dựng dựa trên những giả định sẽ không tồn tại được trong thập kỷ này."
+      },
+      {
+        "en": "As a society, we still have time to be proactive. The canary is still alive.",
+        "vi": "Với tư cách là một xã hội, chúng ta vẫn còn thời gian để chủ động. Con chim hoàng yến vẫn còn sống."
+      },
+      {
+        "en": "Acknowledgements: Thanks to Sam Koppelman of Hunterbrook for his help with proofreading.",
+        "vi": "Lời cảm ơn: Cảm ơn Sam Koppelman của Hunterbrook đã giúp đỡ trong việc đọc soát."
+      },
+      {
+        "en": "Our co-author, Alap Shah of LOTUS, contributed the idea for this piece - CitriniResearch wrote this party, but he has written others in a series called the Intelligence Explosion, we highly recommend reading it.",
+        "vi": "Đồng tác giả của chúng tôi, Alap Shah của LOTUS, đã đóng góp ý tưởng cho bài viết này - CitriniResearch đã viết phần này, nhưng anh ấy đã viết những bài khác trong một loạt bài có tên là Intelligence Explosion, chúng tôi rất khuyến khích bạn đọc nó."
+      },
+      {
+        "en": "You can find it here. No posts",
+        "vi": "Bạn có thể tìm thấy nó ở đây. Không có bài đăng"
+      }
+    ],
+    "rejectionReason": null,
+    "createdAt": "2026-03-06T09:48:28.981Z",
+    "updatedAt": "2026-03-06T09:48:57.057Z"
   }
 ]

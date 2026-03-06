@@ -1,4 +1,4 @@
-export type ArticleStatus = "DRAFT" | "PENDING" | "PUBLISHED" | "REJECTED";
+export type ArticleStatus = "DRAFT" | "APPLIED" | "APPROVED" | "REJECTED" | "DELETED";
 
 export interface BilingualSentence {
   en: string;
@@ -14,7 +14,7 @@ export interface Article {
   status: ArticleStatus;
   coverImageUrl?: string;
   content: BilingualSentence[];
-  rejectReason?: string | null;
+  rejectionReason?: string | null;
   createdAt: string;
   updatedAt: string;
 }

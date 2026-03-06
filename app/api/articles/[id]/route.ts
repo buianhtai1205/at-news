@@ -1,8 +1,8 @@
 import { handleApiError } from "@/src/core/errors/AppError";
 import { UpdateArticleDTO } from "@/src/core/dtos/article.dto";
-import { VALIDATION_ERROR } from "@/src/core/errors/errorCodes";
+import { VALIDATION_ERROR, FORBIDDEN } from "@/src/core/errors/errorCodes";
 import { getArticleService } from "@/src/infrastructure/container";
-import { requireAuth, requireRole } from "@/src/infrastructure/auth/middleware";
+import { requireAuth, requireRole, getAuthUser } from "@/src/infrastructure/auth/middleware";
 
 // GET /api/articles/[id]
 export async function GET(
@@ -13,6 +13,15 @@ export async function GET(
     const { id } = await params;
     const service = getArticleService();
     const article = await service.getArticleById(id);
+
+    // Non-approved articles are private — only author or admin can view them
+    if (article.status !== "APPROVED") {
+      const user = await getAuthUser();
+      if (!user || (user.sub !== article.authorId && user.role !== "ADMIN")) {
+        throw FORBIDDEN();
+      }
+    }
+
     return Response.json({ article });
   } catch (error) {
     return handleApiError(error);

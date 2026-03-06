@@ -43,6 +43,9 @@ export const ARTICLE_ALREADY_PUBLISHED = () =>
 export const ARTICLE_NOT_PENDING = () =>
   new AppError("E00032", "Article must be in PENDING status for this action", 400);
 
+export const ARTICLE_NOT_APPLIED = () =>
+  new AppError("E00035", "Article must be in APPLIED status for this action", 400);
+
 export const CANNOT_EDIT_PUBLISHED = () =>
   new AppError("E00033", "Cannot edit a published article", 400);
 

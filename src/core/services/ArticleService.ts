@@ -7,7 +7,7 @@ import { Article } from "@/src/core/entities/Article";
 import { JwtPayload } from "@/src/infrastructure/auth/jwt";
 import {
   ARTICLE_NOT_FOUND,
-  ARTICLE_NOT_PENDING,
+  ARTICLE_NOT_APPLIED,
   CANNOT_EDIT_PUBLISHED,
   CATEGORY_NOT_FOUND,
   FORBIDDEN,
@@ -31,7 +31,7 @@ export class ArticleService {
   ) {}
 
   async getPublishedArticles() {
-    const articles = await this.articleRepo.findByStatus("PUBLISHED");
+    const articles = await this.articleRepo.findByStatus("APPROVED");
     return this.enrichArticles(articles);
   }
 
@@ -72,10 +72,10 @@ export class ArticleService {
       title: input.title,
       authorId: user.sub,
       categoryId: input.categoryId,
-      status: "PENDING",
+      status: input.status ?? "DRAFT",
       coverImageUrl: input.coverImageUrl || undefined,
       content: input.content,
-      rejectReason: null,
+      rejectionReason: null,
       createdAt: now,
       updatedAt: now,
     };
@@ -89,7 +89,7 @@ export class ArticleService {
 
     // Only author can edit, unless admin
     if (article.authorId !== user.sub && user.role !== "ADMIN") throw FORBIDDEN();
-    if (article.status === "PUBLISHED") throw CANNOT_EDIT_PUBLISHED();
+    if (article.status === "APPROVED") throw CANNOT_EDIT_PUBLISHED();
 
     if (input.categoryId) {
       const category = await this.categoryRepo.findById(input.categoryId);
@@ -98,8 +98,8 @@ export class ArticleService {
 
     const updated = await this.articleRepo.update(id, {
       ...input,
-      status: "PENDING", // re-submit for review on edit
-      rejectReason: null,
+      status: input.status ?? "APPLIED", // re-submit for review on edit
+      rejectionReason: null,
       updatedAt: new Date().toISOString(),
     });
 
@@ -109,11 +109,11 @@ export class ArticleService {
   async approveArticle(id: string): Promise<Article> {
     const article = await this.articleRepo.findById(id);
     if (!article) throw ARTICLE_NOT_FOUND();
-    if (article.status !== "PENDING") throw ARTICLE_NOT_PENDING();
+    if (article.status !== "APPLIED") throw ARTICLE_NOT_APPLIED();
 
     const updated = await this.articleRepo.update(id, {
-      status: "PUBLISHED",
-      rejectReason: null,
+      status: "APPROVED",
+      rejectionReason: null,
       updatedAt: new Date().toISOString(),
     });
 
@@ -125,11 +125,11 @@ export class ArticleService {
 
     const article = await this.articleRepo.findById(id);
     if (!article) throw ARTICLE_NOT_FOUND();
-    if (article.status !== "PENDING") throw ARTICLE_NOT_PENDING();
+    if (article.status !== "APPLIED") throw ARTICLE_NOT_APPLIED();
 
     const updated = await this.articleRepo.update(id, {
       status: "REJECTED",
-      rejectReason: reason,
+      rejectionReason: reason,
       updatedAt: new Date().toISOString(),
     });
 

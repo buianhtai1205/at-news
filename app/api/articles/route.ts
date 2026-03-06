@@ -21,9 +21,11 @@ export async function GET(request: Request) {
       articles = await service.getAllArticles();
       articles = articles.filter((a) => a.status === status);
     } else if (user && authorId === user.sub) {
+      // Return own articles (all statuses, excluding DELETED)
       articles = await service.getArticlesByAuthor(user.sub);
+      articles = articles.filter((a) => a.status !== "DELETED");
     } else {
-      articles = await service.getPublishedArticles();
+      articles = await service.getPublishedArticles(); // returns APPROVED only
     }
 
     if (categoryId) {
