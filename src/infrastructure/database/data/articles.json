@@ -410,5 +410,30 @@
     "rejectReason": null,
     "createdAt": "2026-03-05T09:28:31.434Z",
     "updatedAt": "2026-03-05T09:29:02.786Z"
+  },
+  {
+    "id": "art_12f6673e",
+    "slug": "global-inflation-2e4d1d",
+    "title": "Global inflation",
+    "authorId": "user_admin",
+    "categoryId": "cat_econ",
+    "status": "PUBLISHED",
+    "content": [
+      {
+        "en": "Global inflation is expected to fall to 5.8 percent in 2024 and 4.4 percent in 2025.",
+        "vi": "Lạm phát toàn cầu dự kiến sẽ giảm xuống 5,8% vào năm 2024 và 4,4% vào năm 2025."
+      },
+      {
+        "en": "This downward trend is driven by the continued effects of tight monetary policy and a gradual stabilization of energy prices.",
+        "vi": "Xu hướng giảm này được thúc đẩy bởi những tác động liên tục của chính sách tiền tệ thắt chặt và sự ổn định dần dần của giá năng lượng."
+      },
+      {
+        "en": "Most central banks remain cautious, keeping interest rates high to ensure a soft landing for their respective economies.",
+        "vi": "Hầu hết các ngân hàng trung ương vẫn thận trọng, duy trì lãi suất cao để đảm bảo hạ cánh mềm cho các nền kinh tế của họ."
+      }
+    ],
+    "rejectReason": null,
+    "createdAt": "2026-03-06T09:01:25.724Z",
+    "updatedAt": "2026-03-06T09:01:34.253Z"
   }
 ]

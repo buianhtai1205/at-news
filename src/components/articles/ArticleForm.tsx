@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Plus, Trash2, Save, Loader2, Link, Sparkles } from "lucide-react";
+import { Plus, Trash2, Save, Loader2, Link, Sparkles, FileUp } from "lucide-react";
 import { useAuth } from "@/src/components/auth/AuthProvider";
+import { ImportContentModal } from "./ImportContentModal";
 
 interface BilingualPair {
   en: string;
@@ -43,6 +44,9 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
   const [sourceUrl, setSourceUrl] = useState("");
   const [generating, setGenerating] = useState(false);
   const [generateError, setGenerateError] = useState("");
+
+  // ─── Import Content Modal ─────────────────────────────────
+  const [showImportModal, setShowImportModal] = useState(false);
 
   const handleGenerate = async () => {
     if (!sourceUrl.trim()) return;
@@ -226,6 +230,23 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
             Scraping article &amp; translating with AI — this may take 10-30 seconds...
           </p>
         )}
+
+        {/* Divider */}
+        <div className="flex items-center gap-3">
+          <hr className="flex-1 border-indigo-200 dark:border-indigo-800" />
+          <span className="text-xs text-indigo-400 dark:text-indigo-600 font-medium">OR</span>
+          <hr className="flex-1 border-indigo-200 dark:border-indigo-800" />
+        </div>
+
+        {/* Import Content Button */}
+        <button
+          type="button"
+          onClick={() => setShowImportModal(true)}
+          className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-lg border border-indigo-300 dark:border-indigo-700 text-indigo-700 dark:text-indigo-300 text-sm font-medium hover:bg-indigo-50 dark:hover:bg-indigo-950/40 transition-colors"
+        >
+          <FileUp className="w-4 h-4" />
+          Import from Text / File (PDF, DOCX, TXT)
+        </button>
       </div>
 
       {/* Bilingual Content */}
@@ -295,6 +316,17 @@ export function ArticleForm({ mode, initialData }: ArticleFormProps) {
           {mode === "create" ? "Submit for Review" : "Update Article"}
         </button>
       </div>
+
+      {/* Import Content Modal */}
+      {showImportModal && (
+        <ImportContentModal
+          onClose={() => setShowImportModal(false)}
+          onImport={(pairs) => {
+            setContent(pairs);
+            setShowImportModal(false);
+          }}
+        />
+      )}
     </form>
   );
 }

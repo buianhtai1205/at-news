@@ -111,19 +111,24 @@ export async function POST(request: Request) {
     await requireAuth();
 
     const body = await request.json();
-    const { url } = body as { url?: string };
+    const { url, text: inputText } = body as { url?: string; text?: string };
 
-    if (!isValidUrl(url)) {
-      throw INVALID_URL("Please provide a valid HTTP/HTTPS URL");
-    }
-
-    // 1. Scrape
+    // 1. Get text — either by scraping a URL or using provided raw text
     let text: string;
-    try {
-      text = await scrapeArticle(url.trim());
-    } catch (err) {
-      console.error("[generate-bilingual] Scrape error:", err);
-      throw err;
+
+    if (typeof inputText === "string" && inputText.trim().length > 0) {
+      // Raw text path (paste or file upload)
+      text = inputText.replace(/\s+/g, " ").trim();
+    } else if (isValidUrl(url)) {
+      // URL scraping path
+      try {
+        text = await scrapeArticle(url!.trim());
+      } catch (err) {
+        console.error("[generate-bilingual] Scrape error:", err);
+        throw err;
+      }
+    } else {
+      throw INVALID_URL("Please provide either a valid URL or raw text");
     }
 
     if (text.length < MIN_CONTENT_LENGTH) {
@@ -132,7 +137,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // 2. Truncate to avoid exceeding token limits (~30 000 chars ≈ 8k tokens)
+    // 2. Truncate to avoid exceeding token limits (~30 000 chars ≈ 8 k tokens)
     const truncated = text.slice(0, 30_000);
 
     // 3. Call Gemini
