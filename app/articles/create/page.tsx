@@ -3,7 +3,7 @@
 import { useAuth } from "@/src/components/auth/AuthProvider";
 import { ArticleForm } from "@/src/components/articles/ArticleForm";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { Loader2 } from "lucide-react";
 
 interface ArticleData {
@@ -15,7 +15,7 @@ interface ArticleData {
   status: string;
 }
 
-export default function CreateArticlePage() {
+function CreateArticleContent() {
   const { user, loading } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -99,6 +99,20 @@ export default function CreateArticlePage() {
 
       <ArticleForm mode={isEdit ? "edit" : "create"} initialData={articleData ?? undefined} />
     </div>
+  );
+}
+
+export default function CreateArticlePage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="flex items-center justify-center min-h-[60vh]">
+          <Loader2 className="w-8 h-8 animate-spin text-zinc-400" />
+        </div>
+      }
+    >
+      <CreateArticleContent />
+    </Suspense>
   );
 }
 
