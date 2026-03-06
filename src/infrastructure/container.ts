@@ -1,14 +1,14 @@
-import { JsonArticleRepository } from "@/src/infrastructure/repositories/JsonArticleRepository";
-import { JsonUserRepository } from "@/src/infrastructure/repositories/JsonUserRepository";
-import { JsonCategoryRepository } from "@/src/infrastructure/repositories/JsonCategoryRepository";
+import { SupabaseArticleRepository } from "@/src/infrastructure/repositories/SupabaseArticleRepository";
+import { SupabaseUserRepository } from "@/src/infrastructure/repositories/SupabaseUserRepository";
+import { SupabaseCategoryRepository } from "@/src/infrastructure/repositories/SupabaseCategoryRepository";
 import { AuthService } from "@/src/core/services/AuthService";
 import { ArticleService } from "@/src/core/services/ArticleService";
 import { CategoryService } from "@/src/core/services/CategoryService";
 
-// Repository singletons
-const userRepo = new JsonUserRepository();
-const articleRepo = new JsonArticleRepository();
-const categoryRepo = new JsonCategoryRepository();
+// Repository singletons (Supabase)
+const userRepo = new SupabaseUserRepository();
+const articleRepo = new SupabaseArticleRepository();
+const categoryRepo = new SupabaseCategoryRepository();
 
 // Service singletons
 const authService = new AuthService(userRepo);
