@@ -24,30 +24,44 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     notFound();
   }
 
-  if (!article || article.status !== "APPROVED") {
+  if (!article) {
     notFound();
   }
 
-  // ─── Server-side paywall check ─────────────────────────────
+  // ─── Server-side auth & role check ─────────────────────────
   const authUser = await getAuthUser();
-  let isSubscribed = false;
+  const profileRepo = getProfileRepo();
+  let profile = null;
 
   if (authUser) {
-    const profileRepo = getProfileRepo();
-    const profile = await profileRepo.findByUserId(authUser.sub);
-    isSubscribed = profile?.isSubscribed ?? false;
+    profile = await profileRepo.findByUserId(authUser.sub);
+  }
 
-    // Record premium view & credit creator (only for subscribed users)
-    if (isSubscribed && article.isPremium) {
-      try {
-        await profileRepo.recordPremiumView(article.id, authUser.sub);
-      } catch {
-        // Non-critical — don't block page render
-      }
+  const isAdmin = authUser?.role === "ADMIN";
+  const isAuthor = !!authUser && authUser.sub === article.authorId;
+  const isSubscribed = profile?.isSubscribed ?? false;
+
+  // ─── Visibility gate (status check) ───────────────────────
+  // Non-APPROVED articles are only visible to Admins and the Author
+  if (article.status !== "APPROVED" && !isAdmin && !isAuthor) {
+    notFound();
+  }
+
+  // ─── Premium content access (Bypass Paywall) ──────────────
+  // Full content is accessible if user is Admin, Author, or Subscribed
+  const canAccessFullContent =
+    !article.isPremium || isAdmin || isAuthor || isSubscribed;
+
+  // Record premium view & credit creator (only for subscribed, non-author, non-admin users)
+  if (authUser && isSubscribed && article.isPremium && !isAdmin && !isAuthor) {
+    try {
+      await profileRepo.recordPremiumView(article.id, authUser.sub);
+    } catch {
+      // Non-critical — don't block page render
     }
   }
 
-  const showPaywall = article.isPremium && !isSubscribed;
+  const showPaywall = !canAccessFullContent;
   const freeContentLimit = article.premiumStartIndex ?? 3;
   const visibleContent = showPaywall
     ? article.content.slice(0, freeContentLimit)

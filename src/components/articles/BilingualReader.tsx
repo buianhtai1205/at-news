@@ -167,12 +167,12 @@ export function BilingualReader({ content }: BilingualReaderProps) {
             key={idx} 
             className={`group p-4 rounded-xl transition-colors hover:bg-indigo-50/50 dark:hover:bg-indigo-950/30 ${
               layout === "side-by-side" 
-                ? "md:grid md:grid-cols-2 md:gap-8 flex flex-col gap-4" 
+                ? "md:grid md:grid-cols-[1fr_1fr] md:gap-8 flex flex-col gap-4" 
                 : "flex flex-col gap-4"
             }`}
           >
             {/* English Side */}
-            <div className="text-zinc-900 dark:text-zinc-100">
+            <div className="text-zinc-900 dark:text-zinc-100 min-w-0" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
               <span className="inline-block w-6 text-xs text-zinc-300 dark:text-zinc-600 font-mono shrink-0 select-none mr-1">
                 {idx + 1}
               </span>
@@ -180,7 +180,7 @@ export function BilingualReader({ content }: BilingualReaderProps) {
             </div>
             
             {/* Vietnamese Side */}
-            <div className="text-zinc-500 dark:text-zinc-400 border-t border-zinc-100 dark:border-zinc-800 pt-4 md:border-t-0 md:pt-0 md:border-l md:border-zinc-200 dark:md:border-zinc-800 md:pl-8">
+            <div className="text-zinc-500 dark:text-zinc-400 border-t border-zinc-100 dark:border-zinc-800 pt-4 md:border-t-0 md:pt-0 md:border-l md:border-zinc-200 dark:md:border-zinc-800 md:pl-8 min-w-0" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
               {sentence.vi}
             </div>
           </div>
