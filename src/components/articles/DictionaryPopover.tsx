@@ -37,6 +37,7 @@ export function DictionaryPopover() {
     setError("");
     setLoading(false);
     abortRef.current?.abort();
+    window.getSelection()?.removeAllRanges();
   }, []);
 
   // Listen for text selection on English text elements
@@ -64,7 +65,7 @@ export function DictionaryPopover() {
 
         const rect = range.getBoundingClientRect();
         const x = rect.left + rect.width / 2;
-        const y = rect.top - 8;
+        const y = rect.bottom + 8;
 
         setSelectedWord(text);
         setPosition({ x, y });
@@ -144,7 +145,7 @@ export function DictionaryPopover() {
     8,
     Math.min(position.x - popoverWidth / 2, window.innerWidth - popoverWidth - 8)
   );
-  const top = position.y + window.scrollY;
+  const top = position.y;
 
   return (
     <div
@@ -153,7 +154,6 @@ export function DictionaryPopover() {
       style={{
         left: `${left}px`,
         top: `${top}px`,
-        transform: "translateY(-100%)",
         width: `${popoverWidth}px`,
       }}
     >
@@ -234,12 +234,12 @@ export function DictionaryPopover() {
         </div>
       </div>
 
-      {/* Arrow pointing down to selection */}
+      {/* Arrow pointing up to selection */}
       <div
-        className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-full"
+        className="absolute top-0 -translate-y-full"
         style={{ left: `${Math.max(16, Math.min(position.x - left, popoverWidth - 16))}px` }}
       >
-        <div className="w-3 h-3 rotate-45 bg-white dark:bg-zinc-900 border-r border-b border-zinc-200 dark:border-zinc-700 -translate-y-1.5" />
+        <div className="w-3 h-3 rotate-45 bg-white dark:bg-zinc-900 border-l border-t border-zinc-200 dark:border-zinc-700 translate-y-1.5" />
       </div>
     </div>
   );

@@ -176,7 +176,7 @@ export function BilingualReader({ content }: BilingualReaderProps) {
             }`}
           >
             {/* English Side */}
-            <div className="text-zinc-900 dark:text-zinc-100" data-lang="en min-w-0" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+            <div className="text-zinc-900 dark:text-zinc-100 min-w-0" data-lang="en" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
               <span className="inline-block w-6 text-xs text-zinc-300 dark:text-zinc-600 font-mono shrink-0 select-none mr-1">
                 {idx + 1}
               </span>
