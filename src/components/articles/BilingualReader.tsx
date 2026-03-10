@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Settings2, LayoutGrid, Rows, AlignLeft, AlignCenter, AlignJustify } from "lucide-react";
 import { BilingualSentence } from "@/src/core/entities/Article";
+import { DictionaryPopover } from "./DictionaryPopover";
 
 interface BilingualReaderProps {
   content: BilingualSentence[];
@@ -49,6 +50,9 @@ export function BilingualReader({ content }: BilingualReaderProps) {
 
   return (
     <div className="w-full max-w-5xl mx-auto relative">
+      {/* Dictionary Popover — triggered by selecting English text */}
+      <DictionaryPopover />
+
       {/* Settings Toolbar */}
       <div className="sticky top-16 z-40 bg-white/90 dark:bg-zinc-950/90 backdrop-blur border-b border-zinc-200 dark:border-zinc-800 py-3 px-4 mb-8 flex items-center justify-between rounded-b-2xl shadow-sm">
         <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
@@ -172,7 +176,7 @@ export function BilingualReader({ content }: BilingualReaderProps) {
             }`}
           >
             {/* English Side */}
-            <div className="text-zinc-900 dark:text-zinc-100 min-w-0" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+            <div className="text-zinc-900 dark:text-zinc-100" data-lang="en min-w-0" style={{ wordBreak: 'break-all', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
               <span className="inline-block w-6 text-xs text-zinc-300 dark:text-zinc-600 font-mono shrink-0 select-none mr-1">
                 {idx + 1}
               </span>
