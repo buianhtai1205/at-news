@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
-import { Globe, Menu, X, PenSquare, LayoutDashboard, Crown } from "lucide-react";
+import { Menu, X, PenSquare, LayoutDashboard, Crown } from "lucide-react";
 import { ThemeToggle } from "@/src/components/ui/ThemeToggle";
 import { useAuth } from "@/src/components/auth/AuthProvider";
 
@@ -12,11 +13,17 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-zinc-200 dark:border-zinc-800 bg-white/80 dark:bg-zinc-950/80 backdrop-blur-lg">
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl tracking-tight">
-          <Globe className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
-          <span>AT-News</span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-at-news2.png"
+            alt="AT-News"
+            width={180}
+            height={48}
+            className="h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Nav */}

@@ -1,5 +1,5 @@
-import { Globe } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -9,8 +9,13 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 font-bold text-lg mb-3">
-              <Globe className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
-              <span>AT-News</span>
+              <Image
+                src="/images/logo-at-news2.png"
+                alt="AT-News"
+                width={140}
+                height={36}
+                className="h-9 w-auto"
+              />
             </div>
             <p className="text-sm text-zinc-500 dark:text-zinc-400 max-w-sm">
               A bilingual news platform helping you learn English naturally through side-by-side
